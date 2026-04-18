@@ -1,0 +1,3001 @@
+consultation_id,patient_id,doctor_id,patient_age,consultation_date,reason,appointment_type
+1,PT0813,DOC012,12,2025-02-10,Abdominal pain,Private
+2,PT2032,DOC005,28,2025-04-25,Skin rash,Insurance
+3,PT0780,DOC012,67,2025-08-30,Skin rash,Private
+4,PT1908,DOC002,81,2025-05-10,Diabetes monitoring,Private
+5,PT1322,DOC006,59,2025-02-19,Cough,Insurance
+6,PT0666,DOC011,86,2025-01-20,Injury,Private
+7,PT2672,DOC010,54,2025-05-01,Allergy symptoms,Private
+8,PT2213,DOC003,5,2025-09-19,Anxiety,Insurance
+9,PT0100,DOC011,79,2025-03-19,Abdominal pain,Insurance
+10,PT0491,DOC005,13,2025-10-13,Cough,Insurance
+11,PT0171,DOC010,66,2025-02-26,Allergy symptoms,Private
+12,PT1859,DOC007,68,2025-12-15,Allergy symptoms,Insurance
+13,PT1204,DOC006,62,2025-12-06,Diabetes monitoring,Insurance
+14,PT2033,DOC004,73,2025-07-20,Hypertension follow-up,Insurance
+15,PT1327,DOC003,3,2025-06-10,Skin rash,Private
+16,PT1328,DOC009,75,2025-10-20,Abdominal pain,Insurance
+17,PT2047,DOC010,40,2025-12-29,Prescription renewal,Private
+18,PT0646,DOC005,79,2025-04-06,Vaccination,Insurance
+19,PT2162,DOC006,2,2025-11-25,Vaccination,Insurance
+20,PT1138,DOC002,84,2025-09-30,Cough,Private
+21,PT0021,DOC011,80,2025-05-14,Prescription renewal,Insurance
+22,PT0706,DOC004,67,2025-02-15,Injury,Insurance
+23,PT0182,DOC009,81,2025-02-09,Vaccination,Private
+24,PT2087,DOC006,63,2025-02-13,Fatigue,Private
+25,PT1816,DOC007,44,2025-06-01,Fatigue,Private
+26,PT2544,DOC012,45,2025-06-16,Anxiety,Private
+27,PT1438,DOC005,72,2025-11-29,Injury,Private
+28,PT1339,DOC009,90,2025-12-17,Vaccination,Private
+29,PT2138,DOC005,58,2025-05-01,Injury,Private
+30,PT2031,DOC001,82,2025-09-22,Diabetes monitoring,Insurance
+31,PT2464,DOC002,38,2025-03-09,Injury,Private
+32,PT0187,DOC009,52,2025-02-17,Prescription renewal,Private
+33,PT0527,DOC006,9,2025-01-10,Hypertension follow-up,Insurance
+34,PT2602,DOC007,65,2025-12-31,Fever,Insurance
+35,PT1211,DOC012,18,2025-06-04,Allergy symptoms,Insurance
+36,PT0912,DOC001,9,2025-01-19,Fatigue,Private
+37,PT2391,DOC005,32,2025-07-10,Back pain,Insurance
+38,PT1266,DOC011,13,2025-06-26,Injury,Private
+39,PT2961,DOC003,74,2025-11-23,Prescription renewal,Private
+40,PT2948,DOC009,49,2025-04-04,Skin rash,Private
+41,PT2693,DOC011,67,2025-12-04,Fatigue,Insurance
+42,PT1112,DOC012,11,2025-03-20,Allergy symptoms,Insurance
+43,PT0210,DOC006,72,2025-09-08,Routine check-up,Private
+44,PT2772,DOC012,61,2025-04-08,Prescription renewal,Private
+45,PT2710,DOC011,68,2025-03-11,Diabetes monitoring,Private
+46,PT0019,DOC011,1,2025-04-27,Skin rash,Private
+47,PT1754,DOC001,69,2025-06-01,Cough,Private
+48,PT0827,DOC003,16,2025-07-20,Allergy symptoms,Private
+49,PT2842,DOC002,54,2025-11-28,Stomach issues,Insurance
+50,PT2480,DOC011,68,2025-06-05,Hypertension follow-up,Insurance
+51,PT1305,DOC011,76,2025-03-22,Fatigue,Private
+52,PT1696,DOC005,18,2025-06-02,Vaccination,Private
+53,PT2050,DOC012,27,2025-02-04,Routine check-up,Private
+54,PT2886,DOC012,9,2025-11-30,Cough,Private
+55,PT1567,DOC010,38,2025-11-19,Prescription renewal,Insurance
+56,PT1560,DOC004,84,2025-10-09,Stomach issues,Insurance
+57,PT0397,DOC007,40,2025-06-05,Prescription renewal,Insurance
+58,PT0645,DOC008,28,2025-12-24,Allergy symptoms,Private
+59,PT1136,DOC006,41,2025-04-01,Anxiety,Insurance
+60,PT1525,DOC012,31,2025-12-14,Headache,Insurance
+61,PT0592,DOC006,2,2025-05-22,Fatigue,Private
+62,PT1061,DOC011,19,2025-01-30,Abdominal pain,Private
+63,PT2561,DOC003,64,2025-06-13,Fatigue,Insurance
+64,PT1140,DOC005,83,2025-01-05,Hypertension follow-up,Insurance
+65,PT1449,DOC004,12,2025-02-17,Back pain,Private
+66,PT1175,DOC012,50,2025-02-09,Hypertension follow-up,Insurance
+67,PT0513,DOC006,14,2025-03-07,Fever,Insurance
+68,PT0067,DOC005,13,2025-03-11,Vaccination,Private
+69,PT1384,DOC009,7,2025-10-16,Headache,Insurance
+70,PT0708,DOC003,30,2025-02-07,Allergy symptoms,Insurance
+71,PT0290,DOC004,77,2025-12-12,Injury,Insurance
+72,PT1590,DOC010,16,2025-02-24,Headache,Private
+73,PT1389,DOC006,90,2025-04-08,Headache,Insurance
+74,PT2850,DOC005,81,2025-07-12,Vaccination,Insurance
+75,PT0103,DOC005,26,2025-03-29,Routine check-up,Insurance
+76,PT0119,DOC006,85,2025-01-30,Skin rash,Private
+77,PT1001,DOC003,48,2025-11-25,Vaccination,Insurance
+78,PT2404,DOC012,30,2025-01-19,Allergy symptoms,Insurance
+79,PT2531,DOC004,63,2025-11-25,Routine check-up,Insurance
+80,PT0339,DOC001,50,2025-01-02,Vaccination,Private
+81,PT2833,DOC009,47,2025-09-25,Cough,Insurance
+82,PT2740,DOC007,71,2025-05-03,Fever,Insurance
+83,PT0156,DOC004,80,2025-04-09,Fever,Insurance
+84,PT0080,DOC006,77,2025-12-24,Fatigue,Private
+85,PT0169,DOC007,57,2025-05-14,Diabetes monitoring,Insurance
+86,PT1094,DOC009,26,2025-11-21,Abdominal pain,Private
+87,PT1423,DOC007,72,2025-10-12,Allergy symptoms,Private
+88,PT1190,DOC007,85,2025-07-28,Routine check-up,Private
+89,PT1485,DOC005,78,2025-03-04,Allergy symptoms,Private
+90,PT0777,DOC002,12,2025-07-05,Routine check-up,Private
+91,PT1385,DOC012,12,2025-03-06,Cough,Private
+92,PT0844,DOC004,21,2025-06-20,Prescription renewal,Insurance
+93,PT0718,DOC006,87,2025-09-26,Diabetes monitoring,Private
+94,PT2600,DOC012,79,2025-11-13,Diabetes monitoring,Insurance
+95,PT0123,DOC002,82,2025-10-22,Fever,Private
+96,PT2251,DOC001,5,2025-06-29,Cough,Private
+97,PT2993,DOC012,37,2025-08-19,Cough,Insurance
+98,PT2791,DOC011,70,2025-02-06,Fever,Insurance
+99,PT2394,DOC005,64,2025-05-29,Fever,Insurance
+100,PT1911,DOC012,5,2025-02-26,Injury,Private
+101,PT1279,DOC005,52,2025-09-17,Fever,Private
+102,PT0952,DOC009,69,2025-05-24,Routine check-up,Private
+103,PT2660,DOC007,79,2025-01-31,Fatigue,Private
+104,PT0398,DOC007,65,2025-10-17,Skin rash,Insurance
+105,PT0560,DOC002,78,2025-08-01,Prescription renewal,Private
+106,PT2025,DOC011,21,2025-08-10,Back pain,Private
+107,PT1315,DOC012,70,2025-05-21,Prescription renewal,Private
+108,PT0716,DOC004,58,2025-09-18,Stomach issues,Private
+109,PT1361,DOC004,12,2025-05-01,Routine check-up,Insurance
+110,PT1577,DOC007,36,2025-07-04,Headache,Private
+111,PT2265,DOC001,33,2025-01-31,Fever,Insurance
+112,PT2129,DOC008,46,2025-09-30,Abdominal pain,Insurance
+113,PT0399,DOC011,45,2025-03-11,Cough,Insurance
+114,PT2707,DOC004,83,2025-07-13,Cough,Insurance
+115,PT1930,DOC007,86,2025-12-30,Fatigue,Private
+116,PT1987,DOC009,68,2025-02-02,Headache,Private
+117,PT0667,DOC011,21,2025-06-03,Vaccination,Insurance
+118,PT2923,DOC004,89,2025-01-27,Routine check-up,Insurance
+119,PT2410,DOC001,66,2025-12-18,Fatigue,Insurance
+120,PT0151,DOC005,20,2025-01-30,Injury,Private
+121,PT2522,DOC011,48,2025-12-31,Stomach issues,Private
+122,PT1091,DOC001,68,2025-02-16,Prescription renewal,Private
+123,PT2294,DOC003,16,2025-10-06,Fatigue,Private
+124,PT0857,DOC004,56,2025-03-09,Fever,Private
+125,PT1173,DOC004,35,2025-08-24,Allergy symptoms,Insurance
+126,PT2328,DOC010,25,2025-12-28,Injury,Private
+127,PT0723,DOC010,87,2025-12-29,Vaccination,Insurance
+128,PT2738,DOC012,8,2025-03-06,Anxiety,Private
+129,PT2111,DOC002,81,2025-12-30,Headache,Private
+130,PT0254,DOC002,14,2025-09-28,Fever,Insurance
+131,PT2520,DOC006,80,2025-02-28,Skin rash,Insurance
+132,PT2702,DOC010,25,2025-09-16,Stomach issues,Insurance
+133,PT2840,DOC009,34,2025-05-06,Anxiety,Private
+134,PT1275,DOC008,74,2025-05-23,Cough,Private
+135,PT0564,DOC004,21,2025-11-25,Back pain,Insurance
+136,PT0183,DOC003,87,2025-12-22,Prescription renewal,Private
+137,PT2193,DOC012,79,2025-04-19,Headache,Private
+138,PT0289,DOC003,22,2025-08-14,Fatigue,Insurance
+139,PT2506,DOC004,60,2025-02-25,Cough,Insurance
+140,PT1664,DOC010,70,2025-07-27,Back pain,Insurance
+141,PT0079,DOC012,61,2025-04-21,Cough,Insurance
+142,PT1058,DOC007,73,2025-04-12,Allergy symptoms,Insurance
+143,PT2785,DOC006,62,2025-08-29,Headache,Insurance
+144,PT1085,DOC003,71,2025-12-19,Vaccination,Private
+145,PT1233,DOC008,14,2025-02-25,Skin rash,Private
+146,PT2459,DOC012,33,2025-09-27,Injury,Insurance
+147,PT2796,DOC003,53,2025-12-25,Cough,Private
+148,PT2035,DOC004,21,2025-10-24,Abdominal pain,Insurance
+149,PT2128,DOC012,84,2025-12-29,Hypertension follow-up,Private
+150,PT1827,DOC012,11,2025-01-03,Hypertension follow-up,Private
+151,PT2186,DOC009,79,2025-09-15,Anxiety,Private
+152,PT0170,DOC004,14,2025-08-04,Vaccination,Private
+153,PT1220,DOC010,26,2025-06-28,Diabetes monitoring,Private
+154,PT1886,DOC010,13,2025-10-26,Abdominal pain,Private
+155,PT0676,DOC010,85,2025-02-03,Prescription renewal,Insurance
+156,PT1507,DOC001,48,2025-11-30,Fatigue,Insurance
+157,PT1045,DOC003,51,2025-03-16,Diabetes monitoring,Insurance
+158,PT0842,DOC001,27,2025-07-06,Allergy symptoms,Insurance
+159,PT0214,DOC005,89,2025-04-24,Fever,Private
+160,PT1522,DOC011,4,2025-07-17,Stomach issues,Private
+161,PT2086,DOC001,72,2025-09-22,Routine check-up,Insurance
+162,PT0830,DOC008,86,2025-03-22,Hypertension follow-up,Insurance
+163,PT1644,DOC011,12,2025-02-25,Cough,Insurance
+164,PT1344,DOC008,10,2025-07-24,Skin rash,Private
+165,PT0096,DOC004,9,2025-05-16,Fatigue,Insurance
+166,PT2903,DOC007,90,2025-12-16,Fever,Insurance
+167,PT0754,DOC006,86,2025-06-12,Anxiety,Insurance
+168,PT0846,DOC008,22,2025-03-15,Prescription renewal,Insurance
+169,PT2022,DOC012,12,2025-05-17,Skin rash,Private
+170,PT1647,DOC008,52,2025-04-21,Hypertension follow-up,Insurance
+171,PT1765,DOC011,16,2025-12-26,Fatigue,Private
+172,PT1572,DOC004,89,2025-12-21,Allergy symptoms,Private
+173,PT0559,DOC001,7,2025-10-07,Stomach issues,Insurance
+174,PT2724,DOC005,68,2025-10-15,Allergy symptoms,Private
+175,PT0656,DOC002,21,2025-03-21,Diabetes monitoring,Private
+176,PT1400,DOC004,1,2025-08-05,Skin rash,Private
+177,PT0269,DOC010,60,2025-01-16,Anxiety,Insurance
+178,PT1131,DOC010,14,2025-04-21,Injury,Private
+179,PT2798,DOC005,42,2025-04-19,Cough,Insurance
+180,PT2260,DOC010,12,2025-04-02,Diabetes monitoring,Insurance
+181,PT1262,DOC009,87,2025-03-30,Vaccination,Insurance
+182,PT1744,DOC002,74,2025-10-25,Skin rash,Insurance
+183,PT2816,DOC011,60,2025-04-17,Abdominal pain,Private
+184,PT2322,DOC005,75,2025-10-31,Diabetes monitoring,Private
+185,PT0365,DOC008,88,2025-11-02,Routine check-up,Private
+186,PT1967,DOC007,70,2025-02-21,Cough,Insurance
+187,PT1054,DOC004,85,2025-10-17,Fatigue,Private
+188,PT2972,DOC007,69,2025-09-09,Prescription renewal,Insurance
+189,PT2387,DOC012,23,2025-05-29,Routine check-up,Insurance
+190,PT0395,DOC002,19,2025-10-14,Fever,Insurance
+191,PT2024,DOC005,25,2025-02-19,Fatigue,Private
+192,PT1544,DOC001,70,2025-12-01,Diabetes monitoring,Insurance
+193,PT1931,DOC011,53,2025-03-28,Stomach issues,Insurance
+194,PT0447,DOC002,85,2025-12-08,Stomach issues,Insurance
+195,PT1574,DOC005,80,2025-09-14,Fever,Insurance
+196,PT1528,DOC007,31,2025-08-01,Allergy symptoms,Private
+197,PT1398,DOC005,69,2025-02-15,Abdominal pain,Private
+198,PT1775,DOC004,83,2025-08-17,Prescription renewal,Private
+199,PT0802,DOC003,61,2025-01-03,Fever,Insurance
+200,PT2447,DOC001,80,2025-07-26,Prescription renewal,Insurance
+201,PT2708,DOC007,65,2025-03-22,Routine check-up,Private
+202,PT2122,DOC010,20,2025-04-09,Injury,Insurance
+203,PT0394,DOC006,25,2025-03-30,Injury,Private
+204,PT2223,DOC006,88,2025-11-15,Hypertension follow-up,Private
+205,PT0916,DOC011,84,2025-10-19,Stomach issues,Private
+206,PT2368,DOC012,12,2025-09-25,Routine check-up,Insurance
+207,PT1358,DOC005,70,2025-10-24,Routine check-up,Insurance
+208,PT1403,DOC009,10,2025-11-10,Stomach issues,Private
+209,PT2956,DOC005,6,2025-09-10,Back pain,Insurance
+210,PT0489,DOC002,64,2025-04-28,Hypertension follow-up,Private
+211,PT2689,DOC004,18,2025-03-17,Prescription renewal,Insurance
+212,PT0538,DOC012,27,2025-07-18,Anxiety,Private
+213,PT0141,DOC008,77,2025-12-13,Routine check-up,Private
+214,PT2003,DOC012,9,2025-07-26,Allergy symptoms,Private
+215,PT0575,DOC005,66,2025-10-01,Headache,Private
+216,PT0138,DOC008,12,2025-08-26,Hypertension follow-up,Insurance
+217,PT0631,DOC012,6,2025-11-28,Cough,Insurance
+218,PT2669,DOC004,44,2025-10-22,Prescription renewal,Insurance
+219,PT1090,DOC006,86,2025-02-18,Back pain,Insurance
+220,PT0305,DOC004,13,2025-01-21,Allergy symptoms,Private
+221,PT0763,DOC007,10,2025-05-01,Headache,Insurance
+222,PT1591,DOC004,73,2025-05-01,Fatigue,Private
+223,PT2376,DOC009,70,2025-07-21,Stomach issues,Private
+224,PT2256,DOC010,11,2025-01-09,Prescription renewal,Private
+225,PT2292,DOC001,6,2025-07-04,Abdominal pain,Private
+226,PT1414,DOC009,13,2025-08-22,Fatigue,Private
+227,PT2051,DOC011,15,2025-02-14,Routine check-up,Private
+228,PT2357,DOC001,74,2025-12-23,Diabetes monitoring,Insurance
+229,PT0117,DOC005,51,2025-02-23,Skin rash,Insurance
+230,PT1360,DOC009,49,2025-07-27,Hypertension follow-up,Private
+231,PT2043,DOC012,66,2025-04-27,Headache,Private
+232,PT2983,DOC007,88,2025-10-29,Fever,Private
+233,PT0734,DOC002,76,2025-07-30,Vaccination,Private
+234,PT2208,DOC011,62,2025-10-29,Injury,Private
+235,PT1230,DOC008,39,2025-02-19,Injury,Private
+236,PT2270,DOC005,22,2025-12-26,Injury,Insurance
+237,PT2698,DOC012,86,2025-05-26,Anxiety,Insurance
+238,PT2946,DOC003,18,2025-11-02,Stomach issues,Private
+239,PT0576,DOC012,35,2025-09-29,Fatigue,Private
+240,PT1202,DOC006,49,2025-05-17,Back pain,Insurance
+241,PT0553,DOC007,86,2025-09-09,Routine check-up,Insurance
+242,PT0497,DOC005,45,2025-12-16,Hypertension follow-up,Insurance
+243,PT0941,DOC007,61,2025-01-06,Vaccination,Private
+244,PT1167,DOC009,63,2025-08-20,Fever,Private
+245,PT1012,DOC009,46,2025-03-14,Headache,Private
+246,PT2350,DOC002,87,2025-02-13,Abdominal pain,Private
+247,PT1188,DOC004,51,2025-03-15,Allergy symptoms,Insurance
+248,PT2546,DOC003,83,2025-02-25,Abdominal pain,Private
+249,PT1494,DOC009,47,2025-11-07,Abdominal pain,Insurance
+250,PT1155,DOC007,2,2025-03-23,Fever,Insurance
+251,PT2263,DOC007,69,2025-07-15,Stomach issues,Insurance
+252,PT1014,DOC012,19,2025-01-24,Cough,Private
+253,PT2096,DOC007,63,2025-04-02,Abdominal pain,Insurance
+254,PT1937,DOC006,70,2025-01-04,Hypertension follow-up,Private
+255,PT0892,DOC006,26,2025-03-07,Cough,Private
+256,PT0354,DOC004,60,2025-05-17,Fever,Insurance
+257,PT1902,DOC001,51,2025-05-14,Fever,Insurance
+258,PT1780,DOC012,26,2025-05-03,Prescription renewal,Insurance
+259,PT0687,DOC011,79,2025-02-04,Cough,Insurance
+260,PT1135,DOC004,83,2025-01-21,Headache,Insurance
+261,PT1404,DOC010,73,2025-05-15,Injury,Private
+262,PT2817,DOC002,41,2025-06-07,Cough,Private
+263,PT0241,DOC009,70,2025-11-24,Cough,Private
+264,PT1512,DOC010,34,2025-09-05,Hypertension follow-up,Private
+265,PT0331,DOC007,17,2025-11-13,Allergy symptoms,Insurance
+266,PT0423,DOC011,23,2025-11-29,Anxiety,Insurance
+267,PT2536,DOC012,67,2025-11-17,Hypertension follow-up,Insurance
+268,PT1371,DOC003,71,2025-02-06,Prescription renewal,Insurance
+269,PT0737,DOC003,28,2025-09-12,Vaccination,Insurance
+270,PT0938,DOC011,86,2025-04-21,Allergy symptoms,Insurance
+271,PT0866,DOC003,71,2025-12-21,Prescription renewal,Private
+272,PT2533,DOC012,73,2025-11-20,Hypertension follow-up,Insurance
+273,PT1557,DOC001,75,2025-05-09,Fatigue,Private
+274,PT0685,DOC012,45,2025-11-28,Stomach issues,Private
+275,PT0130,DOC012,66,2025-10-17,Fatigue,Private
+276,PT0888,DOC010,32,2025-02-07,Injury,Insurance
+277,PT2646,DOC008,4,2025-06-28,Stomach issues,Insurance
+278,PT2383,DOC011,88,2025-08-04,Skin rash,Insurance
+279,PT2389,DOC011,71,2025-08-10,Hypertension follow-up,Private
+280,PT2280,DOC010,9,2025-03-31,Cough,Insurance
+281,PT1606,DOC008,82,2025-09-02,Back pain,Insurance
+282,PT0711,DOC010,85,2025-11-21,Fatigue,Insurance
+283,PT2537,DOC008,8,2025-10-26,Hypertension follow-up,Private
+284,PT1030,DOC004,22,2025-03-05,Anxiety,Insurance
+285,PT2717,DOC011,73,2025-05-03,Abdominal pain,Insurance
+286,PT2207,DOC002,57,2025-11-01,Anxiety,Insurance
+287,PT1604,DOC005,60,2025-04-17,Prescription renewal,Insurance
+288,PT0052,DOC011,69,2025-02-28,Stomach issues,Private
+289,PT2700,DOC004,21,2025-08-19,Back pain,Private
+290,PT0717,DOC002,72,2025-02-14,Vaccination,Insurance
+291,PT2036,DOC008,79,2025-05-28,Fever,Insurance
+292,PT2611,DOC011,65,2025-05-21,Diabetes monitoring,Insurance
+293,PT1417,DOC004,61,2025-05-15,Skin rash,Insurance
+294,PT2558,DOC010,5,2025-10-06,Allergy symptoms,Insurance
+295,PT1314,DOC004,72,2025-09-07,Hypertension follow-up,Insurance
+296,PT2887,DOC007,70,2025-01-22,Diabetes monitoring,Private
+297,PT2985,DOC002,48,2025-01-19,Allergy symptoms,Insurance
+298,PT1077,DOC012,46,2025-02-07,Skin rash,Private
+299,PT1071,DOC001,82,2025-11-13,Abdominal pain,Insurance
+300,PT1943,DOC006,84,2025-06-01,Anxiety,Insurance
+301,PT1828,DOC007,53,2025-02-05,Allergy symptoms,Private
+302,PT2621,DOC005,21,2025-02-01,Cough,Insurance
+303,PT0413,DOC002,20,2025-06-26,Allergy symptoms,Private
+304,PT0349,DOC003,70,2025-06-01,Fatigue,Insurance
+305,PT0094,DOC005,17,2025-01-08,Routine check-up,Private
+306,PT1999,DOC003,33,2025-12-19,Cough,Private
+307,PT2594,DOC001,64,2025-03-28,Fatigue,Insurance
+308,PT0424,DOC008,2,2025-12-25,Fever,Insurance
+309,PT1946,DOC010,11,2025-04-25,Hypertension follow-up,Private
+310,PT1878,DOC007,83,2025-04-12,Skin rash,Private
+311,PT1088,DOC007,88,2025-09-30,Anxiety,Insurance
+312,PT0121,DOC009,31,2025-03-12,Injury,Insurance
+313,PT1306,DOC010,18,2025-05-10,Routine check-up,Private
+314,PT1794,DOC006,10,2025-11-02,Vaccination,Private
+315,PT1503,DOC011,67,2025-08-28,Headache,Insurance
+316,PT2287,DOC001,36,2025-12-03,Abdominal pain,Private
+317,PT2435,DOC005,81,2025-10-02,Headache,Insurance
+318,PT0946,DOC009,70,2025-03-27,Fever,Insurance
+319,PT2101,DOC011,66,2025-01-28,Routine check-up,Private
+320,PT1851,DOC007,57,2025-03-18,Routine check-up,Private
+321,PT2226,DOC011,56,2025-05-16,Anxiety,Private
+322,PT2933,DOC008,68,2025-06-08,Hypertension follow-up,Private
+323,PT0781,DOC003,68,2025-02-27,Prescription renewal,Private
+324,PT1933,DOC003,34,2025-08-10,Prescription renewal,Insurance
+325,PT2650,DOC010,11,2025-11-01,Hypertension follow-up,Insurance
+326,PT1111,DOC009,2,2025-06-11,Anxiety,Private
+327,PT1153,DOC007,38,2025-05-01,Fever,Private
+328,PT0630,DOC010,11,2025-03-14,Routine check-up,Private
+329,PT2259,DOC011,69,2025-05-02,Anxiety,Private
+330,PT1688,DOC009,77,2025-12-15,Prescription renewal,Private
+331,PT0058,DOC001,89,2025-02-11,Anxiety,Insurance
+332,PT0224,DOC001,40,2025-12-26,Stomach issues,Private
+333,PT1751,DOC002,81,2025-06-28,Back pain,Insurance
+334,PT2419,DOC012,61,2025-07-30,Hypertension follow-up,Private
+335,PT0985,DOC006,87,2025-03-23,Skin rash,Insurance
+336,PT0362,DOC007,31,2025-02-10,Abdominal pain,Insurance
+337,PT2835,DOC007,75,2025-01-09,Diabetes monitoring,Insurance
+338,PT0321,DOC005,89,2025-05-28,Anxiety,Insurance
+339,PT0638,DOC009,71,2025-02-11,Anxiety,Private
+340,PT2599,DOC008,66,2025-08-03,Diabetes monitoring,Private
+341,PT0514,DOC010,29,2025-08-07,Routine check-up,Insurance
+342,PT2344,DOC002,70,2025-07-23,Skin rash,Private
+343,PT1678,DOC003,45,2025-03-24,Vaccination,Private
+344,PT2160,DOC002,4,2025-03-15,Routine check-up,Insurance
+345,PT2909,DOC009,30,2025-03-22,Stomach issues,Private
+346,PT0620,DOC012,44,2025-12-08,Fatigue,Insurance
+347,PT1123,DOC005,42,2025-05-02,Vaccination,Insurance
+348,PT0436,DOC001,34,2025-09-26,Fatigue,Private
+349,PT2490,DOC010,33,2025-05-01,Skin rash,Private
+350,PT0116,DOC007,82,2025-09-20,Skin rash,Private
+351,PT1208,DOC005,63,2025-11-14,Anxiety,Insurance
+352,PT2468,DOC006,7,2025-01-21,Routine check-up,Private
+353,PT1319,DOC010,80,2025-06-09,Prescription renewal,Private
+354,PT2949,DOC006,38,2025-04-17,Stomach issues,Insurance
+355,PT0337,DOC012,1,2025-11-01,Vaccination,Private
+356,PT2617,DOC012,7,2025-07-20,Injury,Private
+357,PT2278,DOC003,8,2025-05-28,Fever,Insurance
+358,PT1844,DOC005,30,2025-01-05,Prescription renewal,Insurance
+359,PT2379,DOC001,70,2025-10-30,Fatigue,Insurance
+360,PT1890,DOC011,50,2025-02-12,Abdominal pain,Insurance
+361,PT0382,DOC011,33,2025-04-24,Skin rash,Private
+362,PT2756,DOC009,13,2025-12-12,Routine check-up,Insurance
+363,PT2757,DOC007,28,2025-02-23,Prescription renewal,Private
+364,PT1185,DOC004,64,2025-01-31,Back pain,Insurance
+365,PT0455,DOC007,78,2025-09-20,Cough,Insurance
+366,PT2408,DOC007,56,2025-01-10,Cough,Private
+367,PT2730,DOC012,17,2025-08-06,Allergy symptoms,Private
+368,PT2640,DOC004,8,2025-10-23,Allergy symptoms,Insurance
+369,PT0981,DOC002,64,2025-12-03,Headache,Private
+370,PT0440,DOC006,61,2025-11-24,Hypertension follow-up,Private
+371,PT1889,DOC010,27,2025-05-13,Allergy symptoms,Insurance
+372,PT0208,DOC006,69,2025-08-21,Hypertension follow-up,Insurance
+373,PT2491,DOC006,86,2025-04-12,Routine check-up,Insurance
+374,PT1869,DOC009,10,2025-05-26,Fatigue,Private
+375,PT2868,DOC004,86,2025-01-08,Fatigue,Insurance
+376,PT2976,DOC008,89,2025-11-10,Back pain,Private
+377,PT0541,DOC003,23,2025-11-17,Fever,Insurance
+378,PT0181,DOC008,83,2025-06-30,Cough,Private
+379,PT0204,DOC005,55,2025-01-23,Diabetes monitoring,Insurance
+380,PT2269,DOC011,20,2025-09-23,Skin rash,Insurance
+381,PT2649,DOC012,84,2025-03-21,Anxiety,Private
+382,PT1617,DOC011,55,2025-03-09,Cough,Private
+383,PT2454,DOC003,68,2025-01-11,Routine check-up,Insurance
+384,PT2567,DOC009,5,2025-09-08,Skin rash,Insurance
+385,PT1290,DOC006,27,2025-11-21,Fever,Private
+386,PT0391,DOC003,11,2025-07-16,Diabetes monitoring,Private
+387,PT1883,DOC010,3,2025-01-03,Prescription renewal,Private
+388,PT1817,DOC011,34,2025-01-19,Fatigue,Private
+389,PT1808,DOC003,14,2025-04-24,Skin rash,Private
+390,PT0668,DOC010,54,2025-03-27,Routine check-up,Insurance
+391,PT1186,DOC004,29,2025-10-17,Allergy symptoms,Insurance
+392,PT2788,DOC012,45,2025-01-23,Vaccination,Private
+393,PT0940,DOC009,18,2025-09-09,Headache,Private
+394,PT0625,DOC006,71,2025-08-01,Allergy symptoms,Private
+395,PT0233,DOC003,86,2025-06-22,Vaccination,Private
+396,PT1193,DOC006,89,2025-08-15,Stomach issues,Insurance
+397,PT1595,DOC001,62,2025-08-25,Back pain,Private
+398,PT0017,DOC004,46,2025-03-14,Injury,Private
+399,PT2249,DOC003,6,2025-06-27,Fever,Private
+400,PT2814,DOC010,78,2025-06-22,Back pain,Insurance
+401,PT0864,DOC002,27,2025-12-17,Back pain,Insurance
+402,PT1960,DOC008,70,2025-10-31,Prescription renewal,Private
+403,PT1308,DOC011,78,2025-05-29,Fever,Private
+404,PT0814,DOC011,23,2025-05-20,Diabetes monitoring,Insurance
+405,PT0767,DOC009,64,2025-01-30,Hypertension follow-up,Insurance
+406,PT2844,DOC007,61,2025-02-02,Anxiety,Insurance
+407,PT0353,DOC007,83,2025-09-14,Allergy symptoms,Insurance
+408,PT2451,DOC006,11,2025-09-07,Diabetes monitoring,Insurance
+409,PT0069,DOC010,77,2025-01-20,Allergy symptoms,Insurance
+410,PT1240,DOC003,89,2025-12-14,Back pain,Insurance
+411,PT2231,DOC009,28,2025-08-09,Fatigue,Insurance
+412,PT2136,DOC009,15,2025-11-20,Cough,Insurance
+413,PT1137,DOC009,87,2025-11-20,Prescription renewal,Insurance
+414,PT0085,DOC002,4,2025-06-21,Allergy symptoms,Insurance
+415,PT0689,DOC003,22,2025-12-22,Prescription renewal,Insurance
+416,PT0490,DOC009,85,2025-06-30,Abdominal pain,Insurance
+417,PT1207,DOC005,26,2025-05-26,Headache,Insurance
+418,PT2876,DOC005,13,2025-10-15,Cough,Private
+419,PT2980,DOC006,15,2025-09-13,Skin rash,Private
+420,PT1848,DOC011,5,2025-02-03,Allergy symptoms,Private
+421,PT2330,DOC012,70,2025-05-08,Routine check-up,Private
+422,PT0920,DOC006,6,2025-09-19,Hypertension follow-up,Insurance
+423,PT2123,DOC004,6,2025-05-07,Abdominal pain,Private
+424,PT2806,DOC007,85,2025-03-16,Vaccination,Insurance
+425,PT0225,DOC002,62,2025-08-25,Hypertension follow-up,Private
+426,PT1484,DOC012,22,2025-07-18,Hypertension follow-up,Private
+427,PT1679,DOC005,17,2025-09-10,Diabetes monitoring,Insurance
+428,PT2795,DOC005,17,2025-12-02,Skin rash,Insurance
+429,PT0351,DOC002,68,2025-10-14,Prescription renewal,Insurance
+430,PT1102,DOC006,87,2025-06-30,Diabetes monitoring,Insurance
+431,PT1810,DOC012,76,2025-11-23,Abdominal pain,Insurance
+432,PT2727,DOC007,41,2025-11-22,Abdominal pain,Private
+433,PT1436,DOC012,67,2025-05-29,Injury,Private
+434,PT0044,DOC002,31,2025-08-24,Hypertension follow-up,Insurance
+435,PT2659,DOC008,25,2025-09-11,Anxiety,Insurance
+436,PT2890,DOC006,85,2025-12-11,Stomach issues,Insurance
+437,PT2020,DOC003,13,2025-01-16,Diabetes monitoring,Insurance
+438,PT1745,DOC009,11,2025-10-17,Stomach issues,Insurance
+439,PT1719,DOC011,34,2025-07-24,Abdominal pain,Private
+440,PT0142,DOC003,18,2025-02-01,Diabetes monitoring,Private
+441,PT0988,DOC004,50,2025-12-15,Skin rash,Insurance
+442,PT0766,DOC010,1,2025-09-29,Vaccination,Private
+443,PT2622,DOC007,33,2025-10-19,Cough,Private
+444,PT2519,DOC002,70,2025-07-24,Fever,Private
+445,PT0949,DOC011,7,2025-06-17,Fatigue,Insurance
+446,PT0153,DOC005,41,2025-01-24,Injury,Private
+447,PT1642,DOC009,4,2025-06-07,Allergy symptoms,Private
+448,PT2225,DOC001,65,2025-09-07,Routine check-up,Insurance
+449,PT0456,DOC006,1,2025-11-29,Diabetes monitoring,Insurance
+450,PT0023,DOC008,64,2025-09-10,Stomach issues,Private
+451,PT0024,DOC011,44,2025-02-03,Anxiety,Private
+452,PT0249,DOC005,37,2025-05-06,Diabetes monitoring,Insurance
+453,PT1781,DOC009,37,2025-07-15,Anxiety,Insurance
+454,PT2315,DOC008,73,2025-11-24,Hypertension follow-up,Private
+455,PT0053,DOC003,88,2025-11-04,Stomach issues,Private
+456,PT0750,DOC001,76,2025-05-11,Hypertension follow-up,Private
+457,PT1469,DOC012,8,2025-04-08,Skin rash,Insurance
+458,PT1301,DOC007,17,2025-06-03,Injury,Private
+459,PT2563,DOC010,90,2025-07-31,Vaccination,Private
+460,PT0106,DOC010,85,2025-03-13,Prescription renewal,Insurance
+461,PT2327,DOC002,74,2025-12-28,Fever,Private
+462,PT1504,DOC003,11,2025-02-07,Diabetes monitoring,Private
+463,PT2401,DOC005,73,2025-07-04,Headache,Insurance
+464,PT2579,DOC008,53,2025-04-15,Back pain,Insurance
+465,PT1321,DOC005,37,2025-04-12,Anxiety,Insurance
+466,PT1820,DOC006,75,2025-01-19,Fever,Private
+467,PT1263,DOC004,75,2025-01-02,Abdominal pain,Insurance
+468,PT0835,DOC007,50,2025-01-11,Cough,Insurance
+469,PT1784,DOC005,74,2025-08-25,Back pain,Insurance
+470,PT0707,DOC011,53,2025-02-24,Fatigue,Private
+471,PT0849,DOC011,32,2025-06-27,Skin rash,Insurance
+472,PT1364,DOC004,16,2025-04-14,Anxiety,Private
+473,PT2055,DOC004,12,2025-05-31,Back pain,Insurance
+474,PT0428,DOC001,87,2025-09-04,Back pain,Private
+475,PT1458,DOC009,69,2025-03-28,Fever,Insurance
+476,PT2455,DOC008,34,2025-07-05,Stomach issues,Private
+477,PT0800,DOC003,42,2025-04-16,Injury,Insurance
+478,PT0355,DOC010,73,2025-05-23,Fatigue,Insurance
+479,PT2463,DOC007,88,2025-01-21,Injury,Private
+480,PT2169,DOC009,14,2025-09-22,Cough,Insurance
+481,PT1445,DOC011,73,2025-08-25,Diabetes monitoring,Insurance
+482,PT2655,DOC012,39,2025-07-29,Hypertension follow-up,Insurance
+483,PT1539,DOC003,62,2025-06-07,Cough,Insurance
+484,PT1355,DOC003,86,2025-08-22,Allergy symptoms,Private
+485,PT1292,DOC007,88,2025-02-07,Abdominal pain,Insurance
+486,PT1168,DOC010,52,2025-01-07,Headache,Insurance
+487,PT0959,DOC012,90,2025-07-18,Vaccination,Private
+488,PT0062,DOC007,25,2025-11-21,Hypertension follow-up,Private
+489,PT0275,DOC011,9,2025-12-27,Fever,Private
+490,PT2067,DOC001,67,2025-05-23,Diabetes monitoring,Insurance
+491,PT2164,DOC003,77,2025-12-13,Headache,Private
+492,PT0796,DOC001,70,2025-06-04,Stomach issues,Insurance
+493,PT2674,DOC011,8,2025-05-11,Vaccination,Private
+494,PT0756,DOC007,12,2025-05-30,Cough,Private
+495,PT0624,DOC007,10,2025-10-03,Fatigue,Insurance
+496,PT1651,DOC012,28,2025-11-07,Diabetes monitoring,Private
+497,PT2300,DOC005,42,2025-04-26,Fever,Private
+498,PT1406,DOC008,50,2025-04-12,Hypertension follow-up,Private
+499,PT0046,DOC002,6,2025-05-18,Diabetes monitoring,Insurance
+500,PT1519,DOC003,74,2025-03-12,Cough,Insurance
+501,PT1553,DOC002,70,2025-10-16,Hypertension follow-up,Private
+502,PT1161,DOC003,80,2025-07-11,Vaccination,Private
+503,PT2504,DOC001,39,2025-10-07,Prescription renewal,Private
+504,PT1668,DOC012,7,2025-02-27,Allergy symptoms,Insurance
+505,PT0309,DOC004,36,2025-04-07,Fatigue,Private
+506,PT1025,DOC005,44,2025-07-30,Allergy symptoms,Insurance
+507,PT2039,DOC002,12,2025-07-05,Diabetes monitoring,Insurance
+508,PT0090,DOC011,37,2025-12-11,Vaccination,Private
+509,PT2793,DOC002,49,2025-05-29,Hypertension follow-up,Private
+510,PT1690,DOC006,29,2025-03-06,Fatigue,Private
+511,PT0682,DOC004,43,2025-09-14,Fever,Private
+512,PT2478,DOC007,1,2025-09-20,Routine check-up,Private
+513,PT1549,DOC011,27,2025-08-07,Allergy symptoms,Insurance
+514,PT1409,DOC003,32,2025-03-02,Routine check-up,Insurance
+515,PT1383,DOC004,21,2025-02-17,Skin rash,Insurance
+516,PT1675,DOC008,50,2025-11-02,Vaccination,Private
+517,PT2425,DOC006,15,2025-10-25,Back pain,Private
+518,PT1293,DOC006,46,2025-09-26,Allergy symptoms,Insurance
+519,PT2130,DOC001,60,2025-08-02,Prescription renewal,Insurance
+520,PT2282,DOC005,9,2025-06-28,Stomach issues,Private
+521,PT2954,DOC010,5,2025-11-03,Abdominal pain,Private
+522,PT1072,DOC007,81,2025-06-24,Anxiety,Private
+523,PT1747,DOC011,30,2025-01-18,Anxiety,Insurance
+524,PT2333,DOC005,19,2025-08-30,Hypertension follow-up,Insurance
+525,PT1871,DOC010,61,2025-04-05,Stomach issues,Private
+526,PT1213,DOC009,22,2025-10-18,Skin rash,Private
+527,PT0523,DOC012,7,2025-03-04,Back pain,Private
+528,PT1759,DOC012,65,2025-03-28,Fatigue,Insurance
+529,PT0217,DOC011,66,2025-07-29,Stomach issues,Private
+530,PT2448,DOC005,24,2025-07-25,Anxiety,Private
+531,PT0068,DOC002,12,2025-08-23,Stomach issues,Private
+532,PT0530,DOC010,36,2025-08-20,Fever,Insurance
+533,PT0048,DOC008,64,2025-12-21,Vaccination,Private
+534,PT1850,DOC007,80,2025-09-09,Abdominal pain,Private
+535,PT1732,DOC009,61,2025-11-19,Stomach issues,Insurance
+536,PT1717,DOC006,45,2025-03-12,Fever,Private
+537,PT1815,DOC002,71,2025-05-20,Injury,Insurance
+538,PT1998,DOC005,56,2025-04-21,Vaccination,Private
+539,PT2099,DOC004,71,2025-05-21,Skin rash,Private
+540,PT1278,DOC011,67,2025-08-28,Skin rash,Insurance
+541,PT1920,DOC008,89,2025-11-30,Skin rash,Insurance
+542,PT1742,DOC008,89,2025-01-14,Back pain,Insurance
+543,PT1605,DOC005,52,2025-03-20,Headache,Insurance
+544,PT1336,DOC006,60,2025-06-28,Vaccination,Insurance
+545,PT2335,DOC005,69,2025-12-04,Fever,Private
+546,PT0164,DOC005,14,2025-02-27,Fever,Insurance
+547,PT0504,DOC010,74,2025-03-20,Stomach issues,Private
+548,PT2045,DOC004,67,2025-10-02,Abdominal pain,Private
+549,PT2812,DOC005,79,2025-03-16,Back pain,Insurance
+550,PT0900,DOC003,25,2025-03-01,Hypertension follow-up,Private
+551,PT0867,DOC005,1,2025-12-05,Back pain,Private
+552,PT1023,DOC012,83,2025-07-19,Injury,Insurance
+553,PT1113,DOC005,39,2025-07-29,Anxiety,Private
+554,PT2377,DOC007,44,2025-12-29,Prescription renewal,Insurance
+555,PT1942,DOC001,87,2025-04-30,Stomach issues,Private
+556,PT1646,DOC001,9,2025-11-21,Stomach issues,Private
+557,PT0065,DOC009,22,2025-04-19,Stomach issues,Insurance
+558,PT0984,DOC002,11,2025-12-21,Hypertension follow-up,Private
+559,PT1872,DOC005,88,2025-01-09,Routine check-up,Private
+560,PT2971,DOC008,37,2025-01-03,Routine check-up,Private
+561,PT0794,DOC005,37,2025-05-18,Allergy symptoms,Private
+562,PT0335,DOC007,57,2025-02-24,Prescription renewal,Private
+563,PT0747,DOC002,9,2025-12-10,Diabetes monitoring,Private
+564,PT1614,DOC001,1,2025-05-19,Vaccination,Insurance
+565,PT0248,DOC012,28,2025-03-25,Allergy symptoms,Private
+566,PT1116,DOC007,27,2025-03-07,Diabetes monitoring,Insurance
+567,PT0903,DOC005,22,2025-07-01,Fatigue,Insurance
+568,PT0435,DOC012,4,2025-11-09,Allergy symptoms,Insurance
+569,PT2266,DOC008,7,2025-04-08,Abdominal pain,Private
+570,PT2969,DOC011,51,2025-02-18,Injury,Insurance
+571,PT1632,DOC001,38,2025-09-14,Back pain,Private
+572,PT2166,DOC006,71,2025-11-16,Fatigue,Insurance
+573,PT1170,DOC006,65,2025-04-18,Diabetes monitoring,Insurance
+574,PT1096,DOC008,26,2025-04-25,Cough,Private
+575,PT1325,DOC010,2,2025-06-16,Stomach issues,Insurance
+576,PT1956,DOC010,45,2025-12-10,Vaccination,Private
+577,PT0879,DOC001,19,2025-02-20,Anxiety,Insurance
+578,PT0692,DOC001,71,2025-12-01,Hypertension follow-up,Private
+579,PT2074,DOC004,86,2025-02-26,Back pain,Private
+580,PT1239,DOC001,90,2025-12-26,Fever,Private
+581,PT2352,DOC003,3,2025-06-30,Diabetes monitoring,Private
+582,PT0969,DOC007,38,2025-08-04,Allergy symptoms,Insurance
+583,PT2402,DOC009,16,2025-10-02,Fatigue,Insurance
+584,PT2967,DOC003,77,2025-10-03,Cough,Private
+585,PT2628,DOC003,15,2025-09-01,Back pain,Insurance
+586,PT0235,DOC004,65,2025-08-21,Abdominal pain,Insurance
+587,PT0278,DOC011,73,2025-10-03,Abdominal pain,Private
+588,PT0724,DOC011,10,2025-07-01,Fatigue,Private
+589,PT1588,DOC007,68,2025-12-18,Routine check-up,Private
+590,PT0218,DOC007,64,2025-09-19,Fatigue,Insurance
+591,PT2016,DOC008,78,2025-04-24,Skin rash,Private
+592,PT0063,DOC009,30,2025-11-06,Allergy symptoms,Private
+593,PT1160,DOC012,14,2025-03-03,Back pain,Insurance
+594,PT2608,DOC004,12,2025-08-26,Anxiety,Insurance
+595,PT0786,DOC002,4,2025-11-11,Prescription renewal,Insurance
+596,PT2787,DOC002,90,2025-08-30,Diabetes monitoring,Private
+597,PT0040,DOC002,40,2025-03-03,Allergy symptoms,Insurance
+598,PT2826,DOC011,9,2025-08-10,Cough,Insurance
+599,PT2388,DOC005,66,2025-02-21,Prescription renewal,Private
+600,PT1154,DOC009,63,2025-05-01,Hypertension follow-up,Private
+601,PT0770,DOC008,57,2025-06-16,Abdominal pain,Private
+602,PT0856,DOC007,27,2025-09-20,Routine check-up,Private
+603,PT2910,DOC002,84,2025-03-02,Cough,Insurance
+604,PT1296,DOC004,36,2025-12-17,Routine check-up,Insurance
+605,PT2487,DOC005,84,2025-10-29,Allergy symptoms,Insurance
+606,PT1601,DOC007,71,2025-01-05,Back pain,Insurance
+607,PT2888,DOC005,80,2025-09-29,Cough,Private
+608,PT2365,DOC009,11,2025-01-05,Anxiety,Insurance
+609,PT2187,DOC003,70,2025-10-21,Prescription renewal,Private
+610,PT0145,DOC002,64,2025-04-30,Vaccination,Insurance
+611,PT0037,DOC002,35,2025-02-02,Diabetes monitoring,Insurance
+612,PT1013,DOC006,46,2025-05-12,Skin rash,Private
+613,PT1332,DOC009,47,2025-08-01,Anxiety,Private
+614,PT1569,DOC006,10,2025-03-08,Anxiety,Insurance
+615,PT1393,DOC012,77,2025-11-25,Back pain,Insurance
+616,PT2190,DOC003,8,2025-09-09,Anxiety,Insurance
+617,PT1573,DOC003,72,2025-02-08,Anxiety,Private
+618,PT2831,DOC002,80,2025-06-29,Skin rash,Private
+619,PT0375,DOC005,10,2025-01-22,Routine check-up,Insurance
+620,PT1261,DOC002,15,2025-05-20,Vaccination,Insurance
+621,PT1925,DOC009,83,2025-10-28,Routine check-up,Private
+622,PT1080,DOC002,67,2025-10-02,Routine check-up,Private
+623,PT0168,DOC005,40,2025-09-06,Hypertension follow-up,Private
+624,PT0584,DOC008,41,2025-12-30,Vaccination,Insurance
+625,PT0157,DOC008,67,2025-07-22,Headache,Private
+626,PT2508,DOC012,87,2025-07-14,Injury,Private
+627,PT1568,DOC012,36,2025-08-20,Diabetes monitoring,Private
+628,PT1197,DOC008,2,2025-01-28,Headache,Private
+629,PT1151,DOC008,90,2025-11-23,Routine check-up,Insurance
+630,PT0712,DOC006,33,2025-09-13,Vaccination,Private
+631,PT0884,DOC008,83,2025-01-01,Routine check-up,Insurance
+632,PT0955,DOC012,74,2025-07-19,Stomach issues,Private
+633,PT2232,DOC011,76,2025-05-24,Diabetes monitoring,Insurance
+634,PT0982,DOC012,15,2025-10-05,Headache,Insurance
+635,PT1331,DOC011,7,2025-03-06,Abdominal pain,Private
+636,PT2170,DOC010,51,2025-11-29,Routine check-up,Private
+637,PT0371,DOC005,80,2025-06-28,Injury,Private
+638,PT0287,DOC001,76,2025-06-03,Injury,Private
+639,PT0148,DOC008,21,2025-03-08,Abdominal pain,Private
+640,PT2191,DOC005,79,2025-02-21,Back pain,Private
+641,PT2505,DOC010,78,2025-05-27,Abdominal pain,Private
+642,PT2995,DOC001,49,2025-11-10,Diabetes monitoring,Insurance
+643,PT0531,DOC003,83,2025-04-01,Allergy symptoms,Insurance
+644,PT1029,DOC011,89,2025-03-17,Prescription renewal,Private
+645,PT2028,DOC001,90,2025-08-18,Prescription renewal,Insurance
+646,PT0307,DOC010,38,2025-07-29,Skin rash,Private
+647,PT1163,DOC002,66,2025-09-26,Skin rash,Insurance
+648,PT0843,DOC011,84,2025-11-29,Fever,Insurance
+649,PT2743,DOC006,85,2025-08-18,Cough,Insurance
+650,PT0964,DOC010,19,2025-01-31,Allergy symptoms,Private
+651,PT1758,DOC012,81,2025-11-06,Headache,Insurance
+652,PT1748,DOC006,49,2025-03-26,Anxiety,Insurance
+653,PT2541,DOC002,66,2025-07-21,Prescription renewal,Insurance
+654,PT0057,DOC006,15,2025-10-29,Injury,Private
+655,PT1634,DOC001,90,2025-01-09,Cough,Insurance
+656,PT2564,DOC005,85,2025-03-03,Cough,Insurance
+657,PT2079,DOC001,52,2025-01-05,Back pain,Insurance
+658,PT1482,DOC004,39,2025-11-09,Hypertension follow-up,Private
+659,PT1607,DOC002,82,2025-01-19,Routine check-up,Private
+660,PT2692,DOC011,48,2025-11-05,Fatigue,Insurance
+661,PT1940,DOC007,70,2025-10-30,Skin rash,Insurance
+662,PT1616,DOC012,65,2025-06-25,Vaccination,Insurance
+663,PT2927,DOC009,70,2025-05-18,Injury,Insurance
+664,PT0555,DOC008,44,2025-11-05,Allergy symptoms,Insurance
+665,PT1420,DOC007,65,2025-05-12,Back pain,Private
+666,PT1534,DOC012,68,2025-12-15,Skin rash,Private
+667,PT2893,DOC002,43,2025-04-11,Routine check-up,Insurance
+668,PT0186,DOC006,63,2025-04-10,Stomach issues,Insurance
+669,PT1333,DOC009,82,2025-08-31,Stomach issues,Private
+670,PT2530,DOC010,66,2025-11-20,Anxiety,Private
+671,PT2641,DOC002,73,2025-09-09,Hypertension follow-up,Insurance
+672,PT2935,DOC009,74,2025-07-01,Hypertension follow-up,Insurance
+673,PT2011,DOC006,55,2025-07-17,Diabetes monitoring,Insurance
+674,PT0820,DOC010,88,2025-07-26,Abdominal pain,Private
+675,PT1895,DOC008,16,2025-06-28,Fatigue,Private
+676,PT1709,DOC009,73,2025-12-02,Fever,Insurance
+677,PT1639,DOC004,37,2025-06-05,Vaccination,Insurance
+678,PT2718,DOC006,65,2025-01-22,Routine check-up,Insurance
+679,PT0722,DOC002,29,2025-01-12,Prescription renewal,Insurance
+680,PT1894,DOC007,47,2025-10-23,Back pain,Insurance
+681,PT0419,DOC002,73,2025-02-12,Injury,Private
+682,PT2580,DOC011,54,2025-03-15,Skin rash,Private
+683,PT1124,DOC004,8,2025-03-18,Injury,Private
+684,PT2761,DOC004,58,2025-10-24,Vaccination,Private
+685,PT0038,DOC010,14,2025-02-02,Hypertension follow-up,Insurance
+686,PT2318,DOC003,23,2025-02-15,Back pain,Insurance
+687,PT0379,DOC003,27,2025-07-10,Routine check-up,Private
+688,PT1435,DOC007,17,2025-06-23,Skin rash,Private
+689,PT0974,DOC005,62,2025-04-12,Stomach issues,Insurance
+690,PT0487,DOC007,60,2025-03-01,Fever,Insurance
+691,PT2908,DOC011,45,2025-04-16,Injury,Insurance
+692,PT2296,DOC007,74,2025-01-08,Back pain,Private
+693,PT1979,DOC001,21,2025-02-15,Abdominal pain,Insurance
+694,PT1108,DOC001,20,2025-01-14,Cough,Private
+695,PT0032,DOC006,84,2025-05-08,Vaccination,Insurance
+696,PT2157,DOC005,4,2025-08-30,Cough,Private
+697,PT1790,DOC002,79,2025-07-16,Fatigue,Private
+698,PT0476,DOC012,61,2025-09-22,Diabetes monitoring,Private
+699,PT2220,DOC001,21,2025-01-29,Diabetes monitoring,Private
+700,PT0097,DOC002,7,2025-03-12,Injury,Insurance
+701,PT2254,DOC003,66,2025-07-06,Vaccination,Insurance
+702,PT0990,DOC006,31,2025-03-22,Fatigue,Private
+703,PT0841,DOC006,79,2025-06-07,Abdominal pain,Private
+704,PT1350,DOC002,74,2025-08-26,Headache,Private
+705,PT1026,DOC004,44,2025-11-25,Anxiety,Private
+706,PT1035,DOC011,37,2025-02-09,Anxiety,Insurance
+707,PT1300,DOC003,62,2025-08-23,Routine check-up,Insurance
+708,PT1464,DOC009,79,2025-07-24,Diabetes monitoring,Private
+709,PT2317,DOC007,73,2025-10-18,Allergy symptoms,Private
+710,PT1957,DOC006,7,2025-05-14,Allergy symptoms,Private
+711,PT0629,DOC002,71,2025-11-25,Fever,Private
+712,PT2786,DOC004,56,2025-03-08,Cough,Insurance
+713,PT2239,DOC005,28,2025-08-27,Fever,Insurance
+714,PT1731,DOC007,6,2025-12-05,Skin rash,Private
+715,PT1910,DOC010,44,2025-02-08,Cough,Private
+716,PT0986,DOC008,76,2025-05-10,Vaccination,Insurance
+717,PT1302,DOC012,47,2025-11-22,Allergy symptoms,Private
+718,PT0572,DOC012,90,2025-04-21,Routine check-up,Private
+719,PT2779,DOC008,58,2025-10-04,Vaccination,Insurance
+720,PT2605,DOC011,20,2025-11-06,Hypertension follow-up,Private
+721,PT0369,DOC008,13,2025-02-06,Diabetes monitoring,Private
+722,PT1874,DOC010,17,2025-12-31,Stomach issues,Insurance
+723,PT0129,DOC004,9,2025-01-19,Allergy symptoms,Private
+724,PT1799,DOC006,3,2025-01-16,Routine check-up,Insurance
+725,PT2643,DOC012,67,2025-06-01,Fever,Private
+726,PT1917,DOC001,70,2025-10-25,Diabetes monitoring,Private
+727,PT1227,DOC003,86,2025-06-01,Hypertension follow-up,Insurance
+728,PT2477,DOC003,29,2025-08-19,Abdominal pain,Insurance
+729,PT1259,DOC004,52,2025-01-04,Hypertension follow-up,Insurance
+730,PT1912,DOC008,69,2025-03-20,Routine check-up,Private
+731,PT1365,DOC003,14,2025-11-29,Prescription renewal,Private
+732,PT0015,DOC007,43,2025-02-26,Fatigue,Private
+733,PT1064,DOC006,10,2025-10-21,Prescription renewal,Insurance
+734,PT0073,DOC003,60,2025-03-11,Back pain,Insurance
+735,PT1447,DOC012,12,2025-04-21,Abdominal pain,Insurance
+736,PT0934,DOC008,18,2025-12-30,Vaccination,Private
+737,PT0785,DOC007,79,2025-12-22,Fatigue,Private
+738,PT1695,DOC011,36,2025-09-12,Anxiety,Insurance
+739,PT1298,DOC001,16,2025-11-20,Headache,Private
+740,PT2986,DOC006,16,2025-12-28,Routine check-up,Insurance
+741,PT0310,DOC001,33,2025-05-30,Diabetes monitoring,Private
+742,PT1712,DOC001,59,2025-07-12,Abdominal pain,Private
+743,PT2526,DOC001,33,2025-11-21,Injury,Private
+744,PT1915,DOC004,22,2025-12-14,Hypertension follow-up,Private
+745,PT2823,DOC002,26,2025-05-18,Anxiety,Insurance
+746,PT0199,DOC012,3,2025-10-14,Back pain,Insurance
+747,PT2883,DOC011,71,2025-09-05,Diabetes monitoring,Private
+748,PT1394,DOC001,3,2025-12-08,Skin rash,Private
+749,PT2942,DOC010,90,2025-01-08,Hypertension follow-up,Private
+750,PT1977,DOC009,36,2025-04-19,Injury,Private
+751,PT1141,DOC010,80,2025-09-11,Skin rash,Private
+752,PT2535,DOC005,7,2025-03-27,Prescription renewal,Private
+753,PT0464,DOC008,11,2025-08-14,Prescription renewal,Insurance
+754,PT0552,DOC004,12,2025-07-06,Skin rash,Insurance
+755,PT0577,DOC006,88,2025-09-28,Anxiety,Private
+756,PT0246,DOC010,79,2025-10-10,Headache,Insurance
+757,PT0344,DOC005,41,2025-09-16,Fatigue,Insurance
+758,PT1868,DOC006,41,2025-06-10,Skin rash,Private
+759,PT2735,DOC001,13,2025-04-07,Hypertension follow-up,Private
+760,PT1471,DOC009,64,2025-01-13,Allergy symptoms,Private
+761,PT1764,DOC003,18,2025-07-08,Back pain,Insurance
+762,PT1939,DOC010,88,2025-01-24,Fever,Private
+763,PT0759,DOC004,74,2025-09-23,Headache,Insurance
+764,PT1377,DOC012,9,2025-07-23,Hypertension follow-up,Private
+765,PT2276,DOC012,85,2025-03-21,Anxiety,Private
+766,PT2153,DOC011,49,2025-02-22,Routine check-up,Insurance
+767,PT2184,DOC004,25,2025-06-30,Allergy symptoms,Private
+768,PT0184,DOC010,12,2025-07-19,Hypertension follow-up,Private
+769,PT0797,DOC009,63,2025-03-31,Back pain,Private
+770,PT2359,DOC001,3,2025-01-27,Prescription renewal,Insurance
+771,PT2189,DOC008,8,2025-09-15,Cough,Insurance
+772,PT0417,DOC004,84,2025-12-27,Cough,Private
+773,PT1901,DOC008,73,2025-05-21,Cough,Insurance
+774,PT2121,DOC002,88,2025-06-30,Stomach issues,Insurance
+775,PT1041,DOC010,68,2025-05-11,Back pain,Insurance
+776,PT2853,DOC006,6,2025-05-29,Back pain,Insurance
+777,PT2146,DOC002,26,2025-05-15,Diabetes monitoring,Insurance
+778,PT0472,DOC004,46,2025-12-31,Stomach issues,Insurance
+779,PT1620,DOC007,1,2025-05-29,Headache,Private
+780,PT2373,DOC007,22,2025-04-15,Diabetes monitoring,Insurance
+781,PT2556,DOC002,44,2025-12-14,Allergy symptoms,Private
+782,PT0715,DOC010,30,2025-03-05,Skin rash,Insurance
+783,PT1335,DOC005,8,2025-05-09,Anxiety,Private
+784,PT1453,DOC003,72,2025-11-01,Skin rash,Insurance
+785,PT2704,DOC009,62,2025-07-20,Skin rash,Private
+786,PT1431,DOC006,77,2025-10-25,Cough,Insurance
+787,PT0889,DOC002,90,2025-02-05,Headache,Private
+788,PT0972,DOC007,9,2025-12-25,Routine check-up,Insurance
+789,PT0231,DOC002,29,2025-06-12,Back pain,Private
+790,PT1533,DOC005,50,2025-02-15,Prescription renewal,Private
+791,PT0232,DOC004,31,2025-10-05,Fatigue,Insurance
+792,PT0642,DOC009,1,2025-11-12,Fatigue,Insurance
+793,PT2104,DOC012,34,2025-07-20,Back pain,Private
+794,PT2466,DOC001,44,2025-10-06,Stomach issues,Insurance
+795,PT0194,DOC005,81,2025-04-25,Allergy symptoms,Private
+796,PT0565,DOC010,72,2025-10-16,Diabetes monitoring,Insurance
+797,PT0653,DOC002,23,2025-04-30,Skin rash,Private
+798,PT1150,DOC003,66,2025-05-19,Fatigue,Insurance
+799,PT2904,DOC004,15,2025-03-28,Allergy symptoms,Private
+800,PT1629,DOC003,7,2025-05-10,Anxiety,Private
+801,PT2554,DOC004,58,2025-03-24,Cough,Insurance
+802,PT2110,DOC002,65,2025-11-22,Prescription renewal,Insurance
+803,PT0915,DOC011,49,2025-02-01,Cough,Private
+804,PT1203,DOC004,36,2025-09-23,Fatigue,Insurance
+805,PT0118,DOC012,89,2025-03-20,Abdominal pain,Private
+806,PT1702,DOC009,25,2025-07-30,Abdominal pain,Insurance
+807,PT2586,DOC004,82,2025-06-29,Fever,Private
+808,PT0272,DOC004,82,2025-08-20,Skin rash,Insurance
+809,PT1913,DOC005,15,2025-08-02,Abdominal pain,Insurance
+810,PT2236,DOC011,89,2025-11-21,Stomach issues,Insurance
+811,PT1074,DOC012,27,2025-03-03,Fatigue,Insurance
+812,PT2331,DOC010,45,2025-12-04,Headache,Private
+813,PT0091,DOC004,84,2025-08-16,Fatigue,Private
+814,PT1201,DOC010,77,2025-06-14,Allergy symptoms,Insurance
+815,PT1791,DOC006,78,2025-09-25,Routine check-up,Private
+816,PT1057,DOC004,32,2025-07-02,Back pain,Private
+817,PT2906,DOC008,20,2025-07-09,Diabetes monitoring,Insurance
+818,PT2080,DOC007,12,2025-10-14,Abdominal pain,Private
+819,PT0817,DOC009,59,2025-06-29,Skin rash,Insurance
+820,PT2262,DOC008,45,2025-04-14,Cough,Insurance
+821,PT1434,DOC011,8,2025-01-11,Routine check-up,Private
+822,PT2197,DOC002,23,2025-09-25,Hypertension follow-up,Insurance
+823,PT1655,DOC011,55,2025-09-21,Vaccination,Private
+824,PT0018,DOC003,8,2025-06-25,Headache,Insurance
+825,PT1517,DOC003,63,2025-02-01,Headache,Private
+826,PT0479,DOC007,7,2025-01-11,Prescription renewal,Private
+827,PT2839,DOC002,5,2025-12-12,Injury,Private
+828,PT0473,DOC005,90,2025-11-12,Back pain,Private
+829,PT1416,DOC002,17,2025-10-23,Skin rash,Insurance
+830,PT0482,DOC001,77,2025-07-11,Anxiety,Insurance
+831,PT0223,DOC004,78,2025-06-27,Back pain,Insurance
+832,PT1585,DOC006,62,2025-05-07,Fever,Insurance
+833,PT1065,DOC003,17,2025-09-23,Headache,Private
+834,PT1982,DOC012,37,2025-03-22,Allergy symptoms,Insurance
+835,PT0302,DOC010,48,2025-02-28,Anxiety,Private
+836,PT0760,DOC005,41,2025-04-02,Injury,Insurance
+837,PT0343,DOC008,65,2025-01-02,Diabetes monitoring,Insurance
+838,PT1206,DOC006,8,2025-06-08,Allergy symptoms,Insurance
+839,PT2071,DOC005,74,2025-10-10,Abdominal pain,Insurance
+840,PT0444,DOC002,1,2025-06-15,Allergy symptoms,Insurance
+841,PT1480,DOC001,55,2025-09-26,Diabetes monitoring,Private
+842,PT2343,DOC012,13,2025-07-31,Allergy symptoms,Private
+843,PT2706,DOC009,73,2025-12-21,Diabetes monitoring,Private
+844,PT2979,DOC011,16,2025-12-15,Hypertension follow-up,Insurance
+845,PT1907,DOC012,75,2025-06-11,Allergy symptoms,Insurance
+846,PT2311,DOC012,77,2025-12-10,Diabetes monitoring,Private
+847,PT1856,DOC002,74,2025-08-22,Headache,Insurance
+848,PT2974,DOC004,44,2025-05-18,Routine check-up,Insurance
+849,PT0185,DOC005,41,2025-07-16,Anxiety,Insurance
+850,PT1287,DOC002,44,2025-04-10,Fatigue,Private
+851,PT2152,DOC011,55,2025-02-18,Allergy symptoms,Insurance
+852,PT1119,DOC008,83,2025-08-14,Cough,Private
+853,PT1660,DOC008,40,2025-04-06,Abdominal pain,Private
+854,PT0865,DOC009,36,2025-05-19,Back pain,Private
+855,PT2092,DOC001,73,2025-10-01,Anxiety,Insurance
+856,PT2069,DOC001,43,2025-12-25,Vaccination,Private
+857,PT1777,DOC008,75,2025-11-29,Hypertension follow-up,Insurance
+858,PT0839,DOC004,71,2025-05-19,Injury,Private
+859,PT1118,DOC006,40,2025-06-29,Stomach issues,Insurance
+860,PT0022,DOC002,38,2025-01-29,Allergy symptoms,Private
+861,PT0014,DOC001,8,2025-10-30,Fatigue,Insurance
+862,PT2063,DOC009,7,2025-10-24,Hypertension follow-up,Insurance
+863,PT1380,DOC002,12,2025-03-12,Allergy symptoms,Private
+864,PT2342,DOC010,3,2025-04-27,Routine check-up,Private
+865,PT2678,DOC001,57,2025-06-06,Cough,Insurance
+866,PT2127,DOC010,16,2025-02-07,Hypertension follow-up,Private
+867,PT1228,DOC003,13,2025-09-02,Hypertension follow-up,Insurance
+868,PT0004,DOC008,30,2025-01-26,Fever,Insurance
+869,PT1918,DOC003,57,2025-08-04,Hypertension follow-up,Private
+870,PT0815,DOC003,3,2025-05-06,Stomach issues,Private
+871,PT1401,DOC003,28,2025-06-06,Diabetes monitoring,Insurance
+872,PT1513,DOC001,82,2025-08-13,Allergy symptoms,Insurance
+873,PT0681,DOC009,17,2025-05-29,Allergy symptoms,Private
+874,PT1530,DOC010,90,2025-10-10,Injury,Insurance
+875,PT1986,DOC009,68,2025-01-17,Stomach issues,Private
+876,PT1837,DOC011,51,2025-06-05,Diabetes monitoring,Insurance
+877,PT0175,DOC008,6,2025-05-01,Diabetes monitoring,Private
+878,PT2348,DOC001,38,2025-05-02,Routine check-up,Private
+879,PT1970,DOC003,16,2025-07-19,Diabetes monitoring,Insurance
+880,PT0320,DOC004,12,2025-04-13,Hypertension follow-up,Private
+881,PT1556,DOC007,10,2025-04-24,Headache,Insurance
+882,PT2436,DOC003,86,2025-04-15,Fever,Private
+883,PT2691,DOC001,62,2025-06-26,Headache,Insurance
+884,PT2529,DOC002,65,2025-07-19,Routine check-up,Private
+885,PT1162,DOC004,35,2025-10-01,Anxiety,Insurance
+886,PT1158,DOC011,74,2025-12-12,Anxiety,Private
+887,PT1487,DOC010,81,2025-10-22,Skin rash,Insurance
+888,PT2218,DOC001,8,2025-03-11,Hypertension follow-up,Insurance
+889,PT0597,DOC005,4,2025-04-12,Skin rash,Private
+890,PT1189,DOC004,14,2025-01-27,Skin rash,Insurance
+891,PT2405,DOC002,2,2025-09-28,Routine check-up,Insurance
+892,PT2870,DOC011,52,2025-06-28,Skin rash,Insurance
+893,PT1858,DOC004,90,2025-05-02,Diabetes monitoring,Private
+894,PT1546,DOC009,24,2025-10-08,Allergy symptoms,Insurance
+895,PT1989,DOC008,84,2025-03-24,Fatigue,Private
+896,PT0828,DOC007,17,2025-01-02,Allergy symptoms,Private
+897,PT2281,DOC004,71,2025-01-29,Cough,Private
+898,PT0746,DOC009,86,2025-10-08,Stomach issues,Private
+899,PT1735,DOC006,12,2025-09-18,Hypertension follow-up,Insurance
+900,PT2856,DOC010,61,2025-08-31,Abdominal pain,Insurance
+901,PT1508,DOC001,71,2025-12-02,Allergy symptoms,Insurance
+902,PT2139,DOC012,39,2025-07-18,Routine check-up,Private
+903,PT1927,DOC006,52,2025-02-27,Vaccination,Private
+904,PT2528,DOC010,25,2025-11-14,Anxiety,Insurance
+905,PT0202,DOC006,85,2025-05-24,Hypertension follow-up,Insurance
+906,PT0415,DOC012,49,2025-04-05,Vaccination,Private
+907,PT1641,DOC005,18,2025-02-26,Headache,Insurance
+908,PT0205,DOC002,84,2025-07-01,Allergy symptoms,Insurance
+909,PT1407,DOC005,43,2025-02-13,Diabetes monitoring,Insurance
+910,PT1631,DOC002,13,2025-01-02,Anxiety,Insurance
+911,PT0710,DOC002,77,2025-10-30,Anxiety,Insurance
+912,PT1082,DOC008,89,2025-10-22,Headache,Private
+913,PT1749,DOC011,80,2025-09-11,Vaccination,Insurance
+914,PT2243,DOC012,1,2025-07-28,Headache,Insurance
+915,PT0567,DOC007,40,2025-04-29,Cough,Insurance
+916,PT0654,DOC005,15,2025-07-29,Hypertension follow-up,Private
+917,PT1552,DOC008,18,2025-08-31,Fever,Private
+918,PT2892,DOC012,84,2025-06-27,Anxiety,Insurance
+919,PT0328,DOC003,74,2025-06-10,Back pain,Insurance
+920,PT1551,DOC011,80,2025-09-25,Abdominal pain,Insurance
+921,PT0405,DOC007,55,2025-12-03,Prescription renewal,Insurance
+922,PT2177,DOC003,78,2025-03-27,Diabetes monitoring,Insurance
+923,PT2952,DOC008,62,2025-12-10,Diabetes monitoring,Insurance
+924,PT1133,DOC003,81,2025-01-22,Injury,Insurance
+925,PT0803,DOC010,66,2025-11-06,Headache,Private
+926,PT0471,DOC009,15,2025-10-15,Anxiety,Private
+927,PT1348,DOC009,32,2025-10-04,Fever,Insurance
+928,PT2143,DOC007,76,2025-08-27,Headache,Private
+929,PT0904,DOC005,89,2025-11-22,Prescription renewal,Insurance
+930,PT0877,DOC010,75,2025-04-22,Headache,Private
+931,PT0883,DOC002,89,2025-04-30,Hypertension follow-up,Insurance
+932,PT2382,DOC001,44,2025-06-04,Stomach issues,Insurance
+933,PT1283,DOC007,14,2025-08-10,Stomach issues,Private
+934,PT0610,DOC001,75,2025-12-16,Skin rash,Private
+935,PT0373,DOC007,55,2025-07-05,Back pain,Insurance
+936,PT0403,DOC008,31,2025-04-01,Back pain,Insurance
+937,PT2375,DOC003,78,2025-03-12,Prescription renewal,Insurance
+938,PT1726,DOC003,9,2025-05-19,Diabetes monitoring,Insurance
+939,PT2607,DOC009,85,2025-06-15,Cough,Private
+940,PT1900,DOC006,23,2025-02-24,Injury,Private
+941,PT2634,DOC004,71,2025-02-04,Hypertension follow-up,Private
+942,PT0905,DOC006,89,2025-03-30,Injury,Private
+943,PT2613,DOC011,10,2025-08-10,Vaccination,Private
+944,PT2573,DOC009,68,2025-06-24,Stomach issues,Private
+945,PT2034,DOC003,74,2025-12-27,Back pain,Private
+946,PT2733,DOC005,77,2025-08-06,Allergy symptoms,Private
+947,PT0332,DOC005,66,2025-01-18,Fatigue,Private
+948,PT0012,DOC012,7,2025-10-29,Vaccination,Private
+949,PT0933,DOC001,68,2025-09-02,Allergy symptoms,Private
+950,PT0768,DOC012,36,2025-09-19,Skin rash,Insurance
+951,PT1643,DOC011,90,2025-12-04,Diabetes monitoring,Insurance
+952,PT0664,DOC011,89,2025-09-15,Fever,Insurance
+953,PT2360,DOC010,38,2025-10-15,Hypertension follow-up,Insurance
+954,PT0016,DOC004,77,2025-10-17,Diabetes monitoring,Private
+955,PT2275,DOC011,60,2025-06-01,Back pain,Private
+956,PT0352,DOC002,82,2025-01-31,Headache,Insurance
+957,PT2874,DOC003,63,2025-05-15,Routine check-up,Private
+958,PT2211,DOC003,80,2025-11-12,Back pain,Private
+959,PT2199,DOC001,31,2025-05-15,Back pain,Insurance
+960,PT0387,DOC006,15,2025-03-30,Anxiety,Private
+961,PT1395,DOC004,89,2025-04-13,Abdominal pain,Insurance
+962,PT1778,DOC005,87,2025-10-11,Vaccination,Private
+963,PT2880,DOC006,77,2025-02-10,Routine check-up,Private
+964,PT2588,DOC005,1,2025-05-04,Anxiety,Insurance
+965,PT1947,DOC004,56,2025-02-13,Hypertension follow-up,Insurance
+966,PT1027,DOC001,68,2025-02-25,Injury,Insurance
+967,PT0626,DOC005,81,2025-03-24,Anxiety,Insurance
+968,PT0437,DOC009,22,2025-08-16,Headache,Private
+969,PT2683,DOC006,14,2025-11-23,Cough,Insurance
+970,PT2981,DOC004,79,2025-10-21,Routine check-up,Insurance
+971,PT1638,DOC007,21,2025-04-07,Routine check-up,Insurance
+972,PT2950,DOC009,4,2025-08-24,Hypertension follow-up,Private
+973,PT2444,DOC007,31,2025-09-21,Anxiety,Private
+974,PT2364,DOC011,85,2025-02-23,Prescription renewal,Insurance
+975,PT1561,DOC010,64,2025-03-11,Prescription renewal,Private
+976,PT2598,DOC010,78,2025-10-05,Stomach issues,Insurance
+977,PT1975,DOC003,76,2025-09-03,Routine check-up,Insurance
+978,PT0285,DOC002,12,2025-05-15,Hypertension follow-up,Private
+979,PT2917,DOC007,7,2025-07-03,Injury,Insurance
+980,PT2824,DOC001,66,2025-11-10,Injury,Insurance
+981,PT0160,DOC005,3,2025-11-02,Back pain,Private
+982,PT1599,DOC004,23,2025-01-24,Fever,Private
+983,PT0481,DOC007,22,2025-10-11,Cough,Insurance
+984,PT1796,DOC012,88,2025-07-17,Allergy symptoms,Private
+985,PT2488,DOC011,90,2025-12-24,Fatigue,Private
+986,PT2271,DOC004,62,2025-08-31,Abdominal pain,Insurance
+987,PT1720,DOC007,74,2025-03-16,Headache,Insurance
+988,PT2919,DOC001,61,2025-12-13,Abdominal pain,Insurance
+989,PT2690,DOC008,66,2025-11-05,Anxiety,Insurance
+990,PT2808,DOC011,42,2025-02-09,Anxiety,Insurance
+991,PT1994,DOC001,17,2025-06-27,Fever,Private
+992,PT1037,DOC011,42,2025-02-12,Allergy symptoms,Private
+993,PT1498,DOC003,68,2025-03-09,Allergy symptoms,Private
+994,PT1486,DOC011,58,2025-03-27,Stomach issues,Private
+995,PT1852,DOC012,13,2025-03-23,Diabetes monitoring,Private
+996,PT2066,DOC003,72,2025-02-05,Injury,Private
+997,PT1547,DOC001,5,2025-08-07,Stomach issues,Insurance
+998,PT2560,DOC003,67,2025-07-12,Allergy symptoms,Insurance
+999,PT2171,DOC009,28,2025-01-17,Abdominal pain,Insurance
+1000,PT0258,DOC011,45,2025-06-20,Headache,Private
+1001,PT2414,DOC007,70,2025-03-31,Diabetes monitoring,Insurance
+1002,PT0929,DOC007,77,2025-12-20,Anxiety,Private
+1003,PT2864,DOC010,82,2025-11-28,Hypertension follow-up,Insurance
+1004,PT2615,DOC010,12,2025-10-26,Headache,Insurance
+1005,PT1084,DOC010,70,2025-10-29,Stomach issues,Insurance
+1006,PT1059,DOC006,71,2025-05-24,Anxiety,Insurance
+1007,PT1083,DOC006,80,2025-04-01,Injury,Private
+1008,PT2765,DOC004,44,2025-08-15,Injury,Insurance
+1009,PT0341,DOC009,2,2025-02-08,Allergy symptoms,Private
+1010,PT1440,DOC008,14,2025-06-09,Fever,Private
+1011,PT1916,DOC007,84,2025-11-14,Fatigue,Private
+1012,PT1906,DOC004,8,2025-09-25,Skin rash,Private
+1013,PT1270,DOC007,72,2025-07-30,Injury,Private
+1014,PT0480,DOC005,66,2025-01-05,Prescription renewal,Private
+1015,PT2347,DOC008,77,2025-05-29,Skin rash,Private
+1016,PT1570,DOC011,38,2025-02-13,Stomach issues,Insurance
+1017,PT2939,DOC008,11,2025-03-22,Injury,Private
+1018,PT1040,DOC009,70,2025-04-15,Abdominal pain,Private
+1019,PT2026,DOC011,81,2025-05-11,Prescription renewal,Insurance
+1020,PT1388,DOC006,10,2025-03-24,Vaccination,Insurance
+1021,PT1460,DOC010,17,2025-01-25,Injury,Insurance
+1022,PT1674,DOC011,46,2025-11-12,Routine check-up,Private
+1023,PT2006,DOC008,86,2025-08-01,Routine check-up,Insurance
+1024,PT1022,DOC001,87,2025-02-14,Prescription renewal,Insurance
+1025,PT2547,DOC011,81,2025-04-13,Diabetes monitoring,Insurance
+1026,PT1965,DOC003,64,2025-05-09,Prescription renewal,Private
+1027,PT0669,DOC002,52,2025-10-15,Injury,Private
+1028,PT0198,DOC002,63,2025-08-12,Back pain,Insurance
+1029,PT0006,DOC012,77,2025-05-22,Fever,Insurance
+1030,PT1657,DOC003,88,2025-06-01,Prescription renewal,Insurance
+1031,PT2353,DOC010,90,2025-11-13,Cough,Insurance
+1032,PT1183,DOC003,84,2025-11-19,Anxiety,Private
+1033,PT0238,DOC002,6,2025-11-05,Cough,Insurance
+1034,PT0291,DOC012,55,2025-05-30,Fatigue,Private
+1035,PT0131,DOC006,67,2025-01-06,Fever,Insurance
+1036,PT2324,DOC005,31,2025-05-29,Hypertension follow-up,Insurance
+1037,PT2834,DOC003,77,2025-05-20,Stomach issues,Insurance
+1038,PT2867,DOC011,89,2025-12-20,Injury,Insurance
+1039,PT0033,DOC009,44,2025-01-30,Diabetes monitoring,Insurance
+1040,PT2807,DOC007,24,2025-08-27,Vaccination,Private
+1041,PT1875,DOC005,77,2025-11-05,Prescription renewal,Private
+1042,PT1258,DOC011,20,2025-11-18,Stomach issues,Private
+1043,PT2188,DOC012,20,2025-02-27,Anxiety,Private
+1044,PT2943,DOC008,9,2025-12-27,Prescription renewal,Insurance
+1045,PT0744,DOC008,69,2025-03-14,Allergy symptoms,Insurance
+1046,PT2766,DOC012,73,2025-03-01,Injury,Insurance
+1047,PT1699,DOC009,19,2025-05-30,Diabetes monitoring,Insurance
+1048,PT2118,DOC008,81,2025-07-31,Skin rash,Private
+1049,PT0294,DOC005,61,2025-02-08,Fatigue,Private
+1050,PT2132,DOC012,74,2025-05-27,Headache,Private
+1051,PT0293,DOC010,30,2025-11-04,Anxiety,Insurance
+1052,PT2781,DOC001,42,2025-06-23,Prescription renewal,Private
+1053,PT0074,DOC010,67,2025-10-03,Anxiety,Private
+1054,PT1654,DOC011,89,2025-06-28,Hypertension follow-up,Private
+1055,PT0735,DOC002,64,2025-04-12,Allergy symptoms,Insurance
+1056,PT1241,DOC005,11,2025-10-20,Back pain,Insurance
+1057,PT1899,DOC003,86,2025-03-07,Skin rash,Private
+1058,PT0329,DOC010,38,2025-05-03,Injury,Insurance
+1059,PT1736,DOC001,56,2025-11-23,Prescription renewal,Private
+1060,PT2395,DOC006,40,2025-10-05,Fever,Insurance
+1061,PT1450,DOC004,27,2025-02-05,Anxiety,Insurance
+1062,PT2113,DOC012,42,2025-11-01,Abdominal pain,Private
+1063,PT0496,DOC001,46,2025-02-04,Skin rash,Private
+1064,PT2209,DOC012,79,2025-05-10,Allergy symptoms,Insurance
+1065,PT0098,DOC007,42,2025-07-11,Fever,Insurance
+1066,PT0396,DOC001,72,2025-03-04,Injury,Insurance
+1067,PT0304,DOC012,85,2025-09-15,Stomach issues,Private
+1068,PT1128,DOC010,57,2025-12-24,Back pain,Private
+1069,PT2799,DOC009,19,2025-02-22,Stomach issues,Insurance
+1070,PT2116,DOC004,82,2025-09-13,Cough,Private
+1071,PT1324,DOC005,41,2025-07-29,Vaccination,Private
+1072,PT2021,DOC009,75,2025-04-13,Allergy symptoms,Private
+1073,PT0077,DOC012,8,2025-04-26,Routine check-up,Private
+1074,PT2124,DOC007,48,2025-05-21,Vaccination,Insurance
+1075,PT0806,DOC010,33,2025-11-26,Anxiety,Insurance
+1076,PT2473,DOC005,52,2025-11-29,Hypertension follow-up,Private
+1077,PT0917,DOC005,43,2025-09-30,Abdominal pain,Private
+1078,PT2642,DOC011,63,2025-08-09,Fatigue,Private
+1079,PT2654,DOC011,83,2025-07-15,Back pain,Insurance
+1080,PT1756,DOC005,3,2025-08-17,Fatigue,Insurance
+1081,PT0680,DOC010,9,2025-11-10,Stomach issues,Private
+1082,PT2784,DOC005,24,2025-12-26,Routine check-up,Insurance
+1083,PT2503,DOC002,87,2025-05-02,Abdominal pain,Private
+1084,PT0773,DOC002,17,2025-12-16,Hypertension follow-up,Private
+1085,PT2562,DOC003,66,2025-11-27,Hypertension follow-up,Private
+1086,PT1863,DOC006,8,2025-09-22,Back pain,Insurance
+1087,PT2964,DOC003,81,2025-06-18,Back pain,Insurance
+1088,PT2499,DOC008,6,2025-11-13,Abdominal pain,Private
+1089,PT1963,DOC005,49,2025-07-06,Allergy symptoms,Private
+1090,PT1541,DOC003,75,2025-07-09,Back pain,Insurance
+1091,PT2065,DOC007,85,2025-04-18,Skin rash,Private
+1092,PT1318,DOC012,44,2025-05-07,Abdominal pain,Private
+1093,PT1613,DOC012,64,2025-08-28,Diabetes monitoring,Insurance
+1094,PT0547,DOC001,18,2025-11-28,Abdominal pain,Insurance
+1095,PT1548,DOC003,78,2025-07-04,Prescription renewal,Private
+1096,PT2748,DOC001,34,2025-11-10,Allergy symptoms,Insurance
+1097,PT1728,DOC005,23,2025-08-24,Hypertension follow-up,Private
+1098,PT1862,DOC006,75,2025-11-10,Vaccination,Insurance
+1099,PT1885,DOC007,90,2025-10-15,Back pain,Private
+1100,PT1996,DOC009,71,2025-09-29,Fever,Insurance
+1101,PT2438,DOC007,48,2025-06-27,Back pain,Private
+1102,PT0449,DOC003,83,2025-12-14,Hypertension follow-up,Insurance
+1103,PT1612,DOC002,55,2025-06-21,Cough,Insurance
+1104,PT1550,DOC004,63,2025-06-10,Anxiety,Private
+1105,PT0991,DOC001,62,2025-02-21,Diabetes monitoring,Insurance
+1106,PT0247,DOC010,44,2025-06-07,Cough,Private
+1107,PT0066,DOC009,27,2025-05-26,Anxiety,Insurance
+1108,PT2103,DOC006,16,2025-04-29,Diabetes monitoring,Private
+1109,PT2714,DOC003,87,2025-09-08,Back pain,Private
+1110,PT0950,DOC002,17,2025-11-27,Skin rash,Private
+1111,PT0346,DOC007,10,2025-09-25,Diabetes monitoring,Insurance
+1112,PT0475,DOC006,80,2025-10-21,Headache,Insurance
+1113,PT1079,DOC011,67,2025-12-08,Vaccination,Private
+1114,PT0366,DOC006,70,2025-05-05,Hypertension follow-up,Insurance
+1115,PT2623,DOC009,85,2025-10-14,Diabetes monitoring,Insurance
+1116,PT0212,DOC008,82,2025-06-30,Abdominal pain,Insurance
+1117,PT0641,DOC010,30,2025-01-30,Stomach issues,Private
+1118,PT2415,DOC004,5,2025-01-14,Fever,Private
+1119,PT2413,DOC010,12,2025-08-11,Routine check-up,Insurance
+1120,PT0477,DOC001,61,2025-12-29,Skin rash,Private
+1121,PT0003,DOC002,74,2025-02-10,Routine check-up,Insurance
+1122,PT2873,DOC009,48,2025-03-19,Allergy symptoms,Insurance
+1123,PT0203,DOC005,15,2025-03-11,Headache,Private
+1124,PT1805,DOC012,1,2025-01-21,Skin rash,Insurance
+1125,PT1164,DOC010,78,2025-04-08,Allergy symptoms,Private
+1126,PT2212,DOC003,90,2025-08-11,Back pain,Insurance
+1127,PT0438,DOC012,82,2025-11-18,Vaccination,Private
+1128,PT0493,DOC001,80,2025-08-11,Skin rash,Insurance
+1129,PT1103,DOC001,19,2025-08-20,Vaccination,Insurance
+1130,PT1231,DOC002,68,2025-07-15,Vaccination,Insurance
+1131,PT1833,DOC004,27,2025-04-12,Anxiety,Insurance
+1132,PT2044,DOC007,48,2025-04-26,Vaccination,Insurance
+1133,PT1219,DOC011,1,2025-10-27,Allergy symptoms,Private
+1134,PT2575,DOC010,80,2025-06-20,Stomach issues,Insurance
+1135,PT0034,DOC006,76,2025-06-02,Hypertension follow-up,Insurance
+1136,PT1087,DOC005,2,2025-09-18,Prescription renewal,Insurance
+1137,PT2837,DOC008,43,2025-06-27,Vaccination,Private
+1138,PT0590,DOC009,64,2025-03-27,Prescription renewal,Private
+1139,PT2857,DOC012,73,2025-03-04,Injury,Insurance
+1140,PT2596,DOC010,15,2025-04-24,Routine check-up,Private
+1141,PT0266,DOC005,8,2025-09-24,Anxiety,Private
+1142,PT2148,DOC006,3,2025-06-22,Hypertension follow-up,Insurance
+1143,PT1359,DOC010,72,2025-01-22,Fever,Private
+1144,PT2396,DOC001,67,2025-09-26,Allergy symptoms,Private
+1145,PT0995,DOC008,81,2025-08-19,Fever,Insurance
+1146,PT0956,DOC001,55,2025-01-23,Stomach issues,Insurance
+1147,PT0928,DOC008,11,2025-06-12,Diabetes monitoring,Private
+1148,PT2426,DOC012,59,2025-12-09,Skin rash,Insurance
+1149,PT1273,DOC008,70,2025-10-02,Diabetes monitoring,Insurance
+1150,PT1381,DOC011,84,2025-03-10,Cough,Private
+1151,PT2997,DOC007,1,2025-10-31,Fatigue,Private
+1152,PT1893,DOC006,4,2025-09-29,Routine check-up,Insurance
+1153,PT0548,DOC008,51,2025-11-13,Back pain,Private
+1154,PT1475,DOC006,74,2025-02-12,Routine check-up,Insurance
+1155,PT2911,DOC006,83,2025-06-15,Stomach issues,Insurance
+1156,PT0050,DOC002,36,2025-01-06,Stomach issues,Private
+1157,PT2366,DOC006,69,2025-02-26,Headache,Private
+1158,PT2734,DOC004,30,2025-07-31,Fever,Private
+1159,PT0608,DOC006,66,2025-05-04,Stomach issues,Insurance
+1160,PT0282,DOC010,40,2025-04-24,Routine check-up,Private
+1161,PT0935,DOC002,42,2025-07-17,Allergy symptoms,Private
+1162,PT1323,DOC010,67,2025-02-08,Stomach issues,Insurance
+1163,PT1180,DOC009,50,2025-10-28,Headache,Private
+1164,PT0613,DOC001,7,2025-07-05,Routine check-up,Private
+1165,PT1755,DOC011,82,2025-04-17,Allergy symptoms,Private
+1166,PT2061,DOC007,43,2025-07-24,Headache,Private
+1167,PT2801,DOC011,31,2025-07-12,Stomach issues,Insurance
+1168,PT1739,DOC004,35,2025-01-05,Routine check-up,Insurance
+1169,PT2645,DOC011,49,2025-11-20,Hypertension follow-up,Private
+1170,PT1693,DOC001,68,2025-06-17,Diabetes monitoring,Private
+1171,PT1451,DOC005,41,2025-11-26,Injury,Private
+1172,PT2244,DOC011,74,2025-12-13,Back pain,Private
+1173,PT2073,DOC006,5,2025-11-10,Headache,Private
+1174,PT1743,DOC003,73,2025-09-19,Diabetes monitoring,Insurance
+1175,PT2084,DOC002,38,2025-02-14,Fatigue,Insurance
+1176,PT2991,DOC009,88,2025-05-19,Stomach issues,Private
+1177,PT0047,DOC012,6,2025-08-30,Skin rash,Private
+1178,PT2582,DOC012,21,2025-11-10,Fatigue,Private
+1179,PT1418,DOC008,16,2025-09-28,Abdominal pain,Private
+1180,PT1861,DOC012,86,2025-09-13,Allergy symptoms,Insurance
+1181,PT1205,DOC003,87,2025-05-06,Back pain,Private
+1182,PT1010,DOC001,85,2025-01-30,Fatigue,Insurance
+1183,PT0364,DOC003,81,2025-08-27,Allergy symptoms,Insurance
+1184,PT0143,DOC009,83,2025-05-07,Abdominal pain,Insurance
+1185,PT1063,DOC001,23,2025-12-05,Fever,Private
+1186,PT2443,DOC007,72,2025-04-20,Hypertension follow-up,Private
+1187,PT2758,DOC010,11,2025-01-30,Fatigue,Private
+1188,PT1374,DOC008,71,2025-11-09,Skin rash,Insurance
+1189,PT1006,DOC006,47,2025-02-19,Cough,Insurance
+1190,PT1892,DOC011,28,2025-11-23,Hypertension follow-up,Insurance
+1191,PT1343,DOC005,65,2025-02-13,Fever,Insurance
+1192,PT1760,DOC002,14,2025-10-20,Headache,Insurance
+1193,PT1860,DOC006,85,2025-06-24,Headache,Private
+1194,PT1392,DOC008,81,2025-12-19,Anxiety,Private
+1195,PT2482,DOC011,53,2025-09-15,Hypertension follow-up,Private
+1196,PT1238,DOC012,2,2025-11-12,Fatigue,Insurance
+1197,PT0128,DOC003,23,2025-01-26,Back pain,Private
+1198,PT1554,DOC007,43,2025-08-30,Fatigue,Private
+1199,PT1779,DOC008,59,2025-02-25,Stomach issues,Insurance
+1200,PT0313,DOC007,14,2025-11-18,Skin rash,Private
+1201,PT2657,DOC007,68,2025-11-01,Routine check-up,Private
+1202,PT0374,DOC002,39,2025-10-19,Diabetes monitoring,Private
+1203,PT1152,DOC006,65,2025-06-16,Prescription renewal,Private
+1204,PT2363,DOC004,83,2025-06-18,Skin rash,Insurance
+1205,PT2576,DOC005,72,2025-01-02,Headache,Private
+1206,PT0227,DOC001,44,2025-05-29,Hypertension follow-up,Private
+1207,PT2559,DOC005,11,2025-07-03,Stomach issues,Insurance
+1208,PT2955,DOC004,1,2025-03-24,Vaccination,Private
+1209,PT1689,DOC003,54,2025-09-14,Headache,Private
+1210,PT0537,DOC009,10,2025-10-11,Allergy symptoms,Insurance
+1211,PT1249,DOC011,54,2025-05-14,Vaccination,Private
+1212,PT2381,DOC004,42,2025-11-04,Diabetes monitoring,Private
+1213,PT0297,DOC009,65,2025-11-06,Fatigue,Insurance
+1214,PT2514,DOC011,25,2025-12-09,Fever,Private
+1215,PT0441,DOC011,68,2025-03-24,Fever,Insurance
+1216,PT0810,DOC002,82,2025-06-19,Anxiety,Private
+1217,PT2802,DOC005,22,2025-04-18,Routine check-up,Private
+1218,PT2059,DOC008,83,2025-08-28,Hypertension follow-up,Insurance
+1219,PT1200,DOC001,8,2025-01-24,Vaccination,Private
+1220,PT2846,DOC008,7,2025-04-24,Skin rash,Insurance
+1221,PT1455,DOC002,34,2025-04-09,Diabetes monitoring,Private
+1222,PT2316,DOC008,66,2025-12-28,Back pain,Insurance
+1223,PT0431,DOC010,55,2025-05-24,Allergy symptoms,Private
+1224,PT0792,DOC005,12,2025-03-19,Skin rash,Private
+1225,PT2083,DOC003,67,2025-08-09,Diabetes monitoring,Insurance
+1226,PT0263,DOC011,80,2025-01-28,Anxiety,Insurance
+1227,PT0540,DOC004,90,2025-07-05,Stomach issues,Insurance
+1228,PT1838,DOC007,8,2025-09-07,Stomach issues,Insurance
+1229,PT0729,DOC007,88,2025-08-18,Allergy symptoms,Insurance
+1230,PT0821,DOC003,13,2025-07-15,Abdominal pain,Insurance
+1231,PT0675,DOC008,59,2025-01-25,Hypertension follow-up,Private
+1232,PT0200,DOC006,71,2025-02-12,Abdominal pain,Private
+1233,PT1199,DOC011,80,2025-01-26,Fatigue,Private
+1234,PT0660,DOC010,50,2025-09-25,Anxiety,Private
+1235,PT1248,DOC005,89,2025-06-29,Diabetes monitoring,Insurance
+1236,PT2105,DOC012,78,2025-11-27,Anxiety,Private
+1237,PT2944,DOC004,66,2025-11-07,Prescription renewal,Insurance
+1238,PT1535,DOC004,62,2025-05-29,Injury,Insurance
+1239,PT2858,DOC009,77,2025-01-21,Fever,Insurance
+1240,PT2998,DOC012,87,2025-10-02,Headache,Insurance
+1241,PT1843,DOC011,85,2025-04-01,Diabetes monitoring,Insurance
+1242,PT2081,DOC005,49,2025-07-30,Routine check-up,Private
+1243,PT0745,DOC004,3,2025-05-07,Anxiety,Insurance
+1244,PT2371,DOC011,61,2025-01-10,Injury,Insurance
+1245,PT2370,DOC009,7,2025-02-12,Routine check-up,Insurance
+1246,PT0147,DOC005,65,2025-08-18,Back pain,Private
+1247,PT1269,DOC007,21,2025-07-27,Cough,Insurance
+1248,PT2930,DOC005,36,2025-03-10,Stomach issues,Private
+1249,PT0112,DOC001,2,2025-06-30,Abdominal pain,Insurance
+1250,PT0579,DOC002,16,2025-05-08,Anxiety,Insurance
+1251,PT2830,DOC001,8,2025-05-02,Stomach issues,Private
+1252,PT2133,DOC002,8,2025-05-19,Abdominal pain,Insurance
+1253,PT1928,DOC009,23,2025-03-08,Vaccination,Private
+1254,PT1506,DOC008,41,2025-10-30,Cough,Private
+1255,PT2818,DOC003,85,2025-11-24,Headache,Insurance
+1256,PT1953,DOC005,88,2025-04-26,Fever,Insurance
+1257,PT1698,DOC009,73,2025-04-24,Skin rash,Insurance
+1258,PT1898,DOC011,15,2025-12-11,Fever,Private
+1259,PT1172,DOC009,55,2025-06-13,Fatigue,Private
+1260,PT1705,DOC009,1,2025-10-14,Prescription renewal,Insurance
+1261,PT0256,DOC012,40,2025-11-12,Abdominal pain,Private
+1262,PT1576,DOC004,77,2025-11-01,Fever,Private
+1263,PT1734,DOC005,1,2025-07-10,Injury,Private
+1264,PT1645,DOC010,35,2025-07-22,Anxiety,Insurance
+1265,PT1809,DOC002,76,2025-07-20,Hypertension follow-up,Insurance
+1266,PT2042,DOC007,87,2025-10-15,Headache,Insurance
+1267,PT2612,DOC008,1,2025-05-27,Fatigue,Insurance
+1268,PT2075,DOC006,40,2025-10-24,Hypertension follow-up,Private
+1269,PT1042,DOC001,7,2025-12-16,Injury,Private
+1270,PT1043,DOC011,51,2025-10-08,Fatigue,Private
+1271,PT0743,DOC008,90,2025-09-06,Back pain,Private
+1272,PT1737,DOC002,89,2025-06-08,Hypertension follow-up,Private
+1273,PT1402,DOC003,13,2025-03-24,Hypertension follow-up,Private
+1274,PT0520,DOC010,68,2025-05-04,Headache,Private
+1275,PT2097,DOC008,77,2025-02-26,Allergy symptoms,Insurance
+1276,PT0730,DOC010,59,2025-10-01,Fatigue,Insurance
+1277,PT0673,DOC003,85,2025-02-06,Stomach issues,Insurance
+1278,PT1209,DOC002,51,2025-09-16,Hypertension follow-up,Insurance
+1279,PT1971,DOC010,44,2025-02-27,Skin rash,Insurance
+1280,PT2627,DOC009,1,2025-06-22,Fatigue,Private
+1281,PT1223,DOC012,44,2025-03-02,Fever,Private
+1282,PT1704,DOC010,28,2025-09-04,Prescription renewal,Insurance
+1283,PT2637,DOC006,25,2025-01-26,Back pain,Insurance
+1284,PT0605,DOC010,14,2025-01-27,Cough,Insurance
+1285,PT0295,DOC001,83,2025-08-14,Anxiety,Insurance
+1286,PT2319,DOC002,17,2025-05-11,Anxiety,Private
+1287,PT1635,DOC011,69,2025-11-10,Allergy symptoms,Private
+1288,PT1444,DOC012,11,2025-01-05,Prescription renewal,Insurance
+1289,PT2288,DOC010,16,2025-01-08,Routine check-up,Insurance
+1290,PT2257,DOC012,17,2025-05-17,Back pain,Insurance
+1291,PT0049,DOC007,75,2025-06-29,Diabetes monitoring,Insurance
+1292,PT0775,DOC002,56,2025-07-08,Routine check-up,Insurance
+1293,PT0908,DOC005,66,2025-11-12,Fever,Insurance
+1294,PT1191,DOC004,87,2025-11-18,Fatigue,Insurance
+1295,PT1367,DOC001,12,2025-01-10,Back pain,Private
+1296,PT1495,DOC002,4,2025-12-23,Hypertension follow-up,Private
+1297,PT2313,DOC008,4,2025-06-11,Headache,Private
+1298,PT2030,DOC009,10,2025-12-10,Allergy symptoms,Private
+1299,PT1489,DOC005,40,2025-01-29,Routine check-up,Private
+1300,PT2279,DOC001,40,2025-02-03,Allergy symptoms,Insurance
+1301,PT0427,DOC003,51,2025-01-15,Headache,Private
+1302,PT2070,DOC004,61,2025-09-23,Injury,Private
+1303,PT0025,DOC009,79,2025-01-22,Headache,Insurance
+1304,PT0976,DOC005,11,2025-08-26,Anxiety,Private
+1305,PT2928,DOC010,73,2025-01-01,Back pain,Private
+1306,PT2777,DOC010,8,2025-05-08,Skin rash,Private
+1307,PT1463,DOC011,6,2025-07-06,Anxiety,Insurance
+1308,PT1602,DOC011,22,2025-08-11,Abdominal pain,Insurance
+1309,PT1608,DOC004,38,2025-09-21,Prescription renewal,Private
+1310,PT2109,DOC011,24,2025-11-11,Skin rash,Private
+1311,PT0944,DOC007,77,2025-04-29,Hypertension follow-up,Private
+1312,PT0566,DOC004,63,2025-06-11,Vaccination,Private
+1313,PT1566,DOC008,47,2025-07-01,Abdominal pain,Insurance
+1314,PT2878,DOC007,29,2025-12-14,Hypertension follow-up,Private
+1315,PT0083,DOC001,25,2025-12-03,Allergy symptoms,Insurance
+1316,PT2198,DOC005,15,2025-07-16,Cough,Private
+1317,PT0978,DOC005,69,2025-01-19,Injury,Private
+1318,PT2172,DOC010,80,2025-09-06,Fever,Insurance
+1319,PT0242,DOC010,7,2025-03-13,Headache,Insurance
+1320,PT2920,DOC012,62,2025-08-17,Skin rash,Insurance
+1321,PT0783,DOC002,63,2025-12-17,Cough,Private
+1322,PT1738,DOC009,88,2025-07-21,Cough,Insurance
+1323,PT1093,DOC009,73,2025-06-18,Vaccination,Insurance
+1324,PT2819,DOC004,40,2025-03-28,Back pain,Private
+1325,PT0808,DOC011,85,2025-04-09,Prescription renewal,Insurance
+1326,PT2194,DOC011,2,2025-02-26,Fever,Insurance
+1327,PT1611,DOC008,71,2025-01-16,Allergy symptoms,Private
+1328,PT0408,DOC001,64,2025-09-17,Injury,Insurance
+1329,PT1419,DOC008,87,2025-11-07,Vaccination,Insurance
+1330,PT2346,DOC005,70,2025-06-26,Cough,Private
+1331,PT1104,DOC007,62,2025-09-04,Vaccination,Private
+1332,PT2685,DOC004,61,2025-11-17,Abdominal pain,Private
+1333,PT0221,DOC010,90,2025-06-28,Skin rash,Insurance
+1334,PT1081,DOC008,48,2025-03-02,Prescription renewal,Private
+1335,PT1804,DOC004,38,2025-05-31,Allergy symptoms,Insurance
+1336,PT1771,DOC003,89,2025-01-28,Fever,Private
+1337,PT2931,DOC005,64,2025-09-07,Fever,Private
+1338,PT2403,DOC001,34,2025-05-08,Headache,Insurance
+1339,PT0234,DOC009,74,2025-11-11,Stomach issues,Private
+1340,PT0500,DOC001,79,2025-08-04,Prescription renewal,Private
+1341,PT0649,DOC008,56,2025-09-25,Fatigue,Insurance
+1342,PT1876,DOC009,28,2025-03-12,Diabetes monitoring,Private
+1343,PT1619,DOC011,74,2025-04-07,Vaccination,Private
+1344,PT0109,DOC005,78,2025-11-25,Vaccination,Insurance
+1345,PT2940,DOC009,75,2025-10-13,Vaccination,Private
+1346,PT0886,DOC005,2,2025-05-23,Skin rash,Insurance
+1347,PT1864,DOC002,51,2025-06-14,Stomach issues,Private
+1348,PT2511,DOC011,29,2025-08-06,Abdominal pain,Private
+1349,PT2684,DOC012,67,2025-06-06,Hypertension follow-up,Private
+1350,PT2934,DOC010,81,2025-10-12,Anxiety,Private
+1351,PT0825,DOC010,88,2025-08-16,Cough,Private
+1352,PT2407,DOC008,53,2025-09-15,Cough,Insurance
+1353,PT2134,DOC011,16,2025-01-29,Allergy symptoms,Private
+1354,PT2424,DOC003,22,2025-10-25,Fever,Insurance
+1355,PT2076,DOC005,76,2025-06-27,Routine check-up,Insurance
+1356,PT2002,DOC012,31,2025-08-06,Fever,Private
+1357,PT1477,DOC012,7,2025-08-17,Stomach issues,Private
+1358,PT1691,DOC011,29,2025-10-11,Allergy symptoms,Insurance
+1359,PT1787,DOC007,89,2025-10-18,Fatigue,Private
+1360,PT0585,DOC001,79,2025-02-21,Diabetes monitoring,Private
+1361,PT2180,DOC003,66,2025-02-16,Diabetes monitoring,Private
+1362,PT2181,DOC005,14,2025-07-12,Anxiety,Private
+1363,PT1995,DOC012,22,2025-09-16,Abdominal pain,Private
+1364,PT2836,DOC004,75,2025-08-06,Fatigue,Insurance
+1365,PT1626,DOC006,19,2025-04-15,Abdominal pain,Insurance
+1366,PT1176,DOC002,21,2025-05-24,Prescription renewal,Private
+1367,PT0809,DOC006,84,2025-05-25,Diabetes monitoring,Private
+1368,PT2369,DOC008,81,2025-06-24,Headache,Private
+1369,PT2475,DOC006,22,2025-04-17,Hypertension follow-up,Insurance
+1370,PT1110,DOC011,26,2025-05-31,Prescription renewal,Private
+1371,PT1430,DOC012,83,2025-03-29,Routine check-up,Private
+1372,PT1740,DOC005,41,2025-12-28,Headache,Private
+1373,PT0822,DOC002,6,2025-06-28,Stomach issues,Insurance
+1374,PT1351,DOC010,39,2025-04-24,Injury,Insurance
+1375,PT2310,DOC001,72,2025-09-12,Skin rash,Private
+1376,PT1386,DOC008,33,2025-03-08,Anxiety,Private
+1377,PT2982,DOC008,15,2025-11-02,Allergy symptoms,Insurance
+1378,PT1636,DOC011,22,2025-12-15,Fever,Private
+1379,PT0819,DOC008,19,2025-04-13,Injury,Private
+1380,PT2392,DOC007,46,2025-07-01,Fatigue,Private
+1381,PT2494,DOC007,68,2025-02-25,Abdominal pain,Insurance
+1382,PT1243,DOC005,30,2025-03-07,Injury,Insurance
+1383,PT1007,DOC005,8,2025-10-25,Allergy symptoms,Private
+1384,PT2590,DOC002,68,2025-09-25,Stomach issues,Private
+1385,PT2163,DOC009,14,2025-03-22,Anxiety,Insurance
+1386,PT2701,DOC004,3,2025-05-19,Headache,Private
+1387,PT2406,DOC001,7,2025-12-17,Cough,Insurance
+1388,PT1222,DOC011,75,2025-01-27,Allergy symptoms,Insurance
+1389,PT2553,DOC010,36,2025-11-06,Headache,Insurance
+1390,PT2820,DOC002,67,2025-10-29,Fever,Private
+1391,PT0412,DOC001,14,2025-04-12,Abdominal pain,Private
+1392,PT2500,DOC005,49,2025-11-12,Cough,Private
+1393,PT1887,DOC006,79,2025-02-23,Fatigue,Insurance
+1394,PT0336,DOC008,61,2025-06-11,Stomach issues,Private
+1395,PT1066,DOC011,69,2025-01-18,Fatigue,Insurance
+1396,PT2656,DOC004,69,2025-10-23,Skin rash,Private
+1397,PT1297,DOC003,13,2025-07-01,Allergy symptoms,Insurance
+1398,PT2869,DOC009,75,2025-01-07,Anxiety,Private
+1399,PT1338,DOC009,71,2025-06-22,Vaccination,Private
+1400,PT1757,DOC001,89,2025-06-16,Skin rash,Insurance
+1401,PT1973,DOC005,18,2025-08-27,Headache,Private
+1402,PT2922,DOC006,22,2025-06-03,Skin rash,Private
+1403,PT2297,DOC011,69,2025-01-09,Abdominal pain,Insurance
+1404,PT1496,DOC004,79,2025-08-12,Back pain,Private
+1405,PT0315,DOC005,15,2025-11-13,Stomach issues,Private
+1406,PT2361,DOC004,54,2025-12-15,Vaccination,Insurance
+1407,PT1959,DOC002,89,2025-09-03,Hypertension follow-up,Insurance
+1408,PT0284,DOC002,66,2025-06-20,Prescription renewal,Insurance
+1409,PT0659,DOC005,66,2025-09-04,Anxiety,Private
+1410,PT2597,DOC009,84,2025-09-22,Stomach issues,Insurance
+1411,PT2924,DOC003,63,2025-06-05,Abdominal pain,Private
+1412,PT2775,DOC007,3,2025-12-22,Abdominal pain,Insurance
+1413,PT1310,DOC006,41,2025-05-28,Fever,Private
+1414,PT2429,DOC007,69,2025-06-30,Abdominal pain,Private
+1415,PT0975,DOC001,89,2025-11-11,Cough,Private
+1416,PT1268,DOC001,48,2025-05-25,Hypertension follow-up,Private
+1417,PT2859,DOC009,31,2025-09-14,Prescription renewal,Insurance
+1418,PT1281,DOC004,63,2025-06-26,Stomach issues,Insurance
+1419,PT1729,DOC010,24,2025-04-27,Prescription renewal,Private
+1420,PT1718,DOC007,19,2025-12-28,Headache,Private
+1421,PT0869,DOC011,14,2025-02-26,Routine check-up,Private
+1422,PT2877,DOC003,67,2025-03-18,Anxiety,Private
+1423,PT2752,DOC005,68,2025-01-07,Fatigue,Private
+1424,PT0600,DOC003,23,2025-02-08,Fatigue,Insurance
+1425,PT0506,DOC010,63,2025-10-28,Injury,Insurance
+1426,PT0070,DOC004,63,2025-05-03,Vaccination,Insurance
+1427,PT1421,DOC001,43,2025-08-04,Headache,Private
+1428,PT0647,DOC007,63,2025-02-23,Stomach issues,Insurance
+1429,PT1542,DOC009,69,2025-04-17,Fever,Insurance
+1430,PT0526,DOC007,15,2025-11-25,Fatigue,Private
+1431,PT0035,DOC007,5,2025-05-29,Diabetes monitoring,Insurance
+1432,PT0465,DOC001,46,2025-05-17,Hypertension follow-up,Private
+1433,PT1011,DOC001,31,2025-08-24,Skin rash,Insurance
+1434,PT2726,DOC011,53,2025-05-04,Fatigue,Private
+1435,PT0818,DOC004,15,2025-03-11,Prescription renewal,Insurance
+1436,PT1076,DOC007,74,2025-01-21,Vaccination,Insurance
+1437,PT1165,DOC007,67,2025-03-31,Headache,Private
+1438,PT1390,DOC003,69,2025-02-03,Cough,Private
+1439,PT1673,DOC010,77,2025-01-08,Skin rash,Private
+1440,PT1846,DOC007,90,2025-09-03,Headache,Private
+1441,PT0277,DOC009,60,2025-06-26,Fatigue,Insurance
+1442,PT2412,DOC006,38,2025-03-09,Prescription renewal,Private
+1443,PT2023,DOC001,89,2025-10-23,Diabetes monitoring,Insurance
+1444,PT2158,DOC009,37,2025-12-25,Skin rash,Insurance
+1445,PT0262,DOC011,88,2025-11-10,Skin rash,Private
+1446,PT2088,DOC001,6,2025-07-22,Diabetes monitoring,Private
+1447,PT1706,DOC011,57,2025-02-09,Allergy symptoms,Insurance
+1448,PT2222,DOC005,86,2025-07-04,Headache,Private
+1449,PT2289,DOC005,63,2025-03-17,Skin rash,Private
+1450,PT2636,DOC004,21,2025-12-25,Anxiety,Insurance
+1451,PT2380,DOC007,6,2025-11-23,Fatigue,Insurance
+1452,PT0425,DOC006,49,2025-02-27,Routine check-up,Private
+1453,PT0811,DOC001,23,2025-12-11,Stomach issues,Insurance
+1454,PT2293,DOC003,83,2025-09-05,Anxiety,Insurance
+1455,PT1532,DOC006,13,2025-06-27,Fever,Insurance
+1456,PT0591,DOC004,34,2025-05-16,Fever,Insurance
+1457,PT2712,DOC011,75,2025-07-24,Allergy symptoms,Insurance
+1458,PT1125,DOC003,33,2025-01-25,Anxiety,Private
+1459,PT1897,DOC011,10,2025-04-28,Cough,Private
+1460,PT0265,DOC011,15,2025-06-17,Routine check-up,Insurance
+1461,PT0136,DOC007,14,2025-05-03,Stomach issues,Insurance
+1462,PT1564,DOC001,16,2025-09-18,Cough,Private
+1463,PT0322,DOC002,4,2025-11-28,Injury,Private
+1464,PT2337,DOC009,32,2025-12-14,Back pain,Insurance
+1465,PT1478,DOC006,90,2025-01-16,Anxiety,Private
+1466,PT0542,DOC012,48,2025-05-14,Skin rash,Insurance
+1467,PT0598,DOC008,47,2025-03-10,Abdominal pain,Insurance
+1468,PT2286,DOC008,90,2025-10-17,Skin rash,Insurance
+1469,PT1120,DOC001,50,2025-06-03,Back pain,Insurance
+1470,PT2192,DOC012,21,2025-05-03,Anxiety,Insurance
+1471,PT1687,DOC009,30,2025-11-22,Skin rash,Private
+1472,PT0308,DOC009,82,2025-06-20,Anxiety,Insurance
+1473,PT1832,DOC010,40,2025-01-02,Skin rash,Private
+1474,PT0720,DOC003,30,2025-02-20,Fatigue,Insurance
+1475,PT2159,DOC004,49,2025-08-27,Skin rash,Private
+1476,PT2393,DOC002,30,2025-12-01,Fatigue,Insurance
+1477,PT2527,DOC005,4,2025-01-26,Cough,Insurance
+1478,PT1762,DOC001,66,2025-11-25,Fever,Insurance
+1479,PT2476,DOC007,66,2025-07-26,Stomach issues,Insurance
+1480,PT0782,DOC006,80,2025-03-14,Injury,Insurance
+1481,PT2185,DOC012,15,2025-02-23,Anxiety,Private
+1482,PT0458,DOC005,88,2025-09-12,Allergy symptoms,Private
+1483,PT0882,DOC002,39,2025-02-22,Prescription renewal,Private
+1484,PT1198,DOC008,12,2025-02-24,Routine check-up,Private
+1485,PT0401,DOC007,81,2025-09-28,Anxiety,Private
+1486,PT1926,DOC006,25,2025-07-09,Prescription renewal,Insurance
+1487,PT1724,DOC011,83,2025-11-28,Fever,Insurance
+1488,PT2489,DOC011,78,2025-05-14,Headache,Private
+1489,PT2008,DOC009,51,2025-05-03,Back pain,Private
+1490,PT0213,DOC007,66,2025-12-15,Abdominal pain,Insurance
+1491,PT2112,DOC006,44,2025-02-23,Allergy symptoms,Insurance
+1492,PT1526,DOC009,33,2025-04-28,Allergy symptoms,Private
+1493,PT0615,DOC001,62,2025-09-14,Vaccination,Private
+1494,PT2581,DOC009,79,2025-06-20,Routine check-up,Private
+1495,PT1842,DOC012,30,2025-04-08,Anxiety,Insurance
+1496,PT0578,DOC007,77,2025-09-18,Allergy symptoms,Private
+1497,PT0528,DOC007,55,2025-06-21,Abdominal pain,Private
+1498,PT0358,DOC002,81,2025-03-28,Hypertension follow-up,Insurance
+1499,PT0973,DOC005,68,2025-09-20,Injury,Private
+1500,PT1492,DOC002,76,2025-02-14,Injury,Private
+1501,PT1958,DOC002,74,2025-03-16,Injury,Insurance
+1502,PT2510,DOC006,90,2025-05-03,Diabetes monitoring,Insurance
+1503,PT1307,DOC002,25,2025-06-24,Injury,Private
+1504,PT1078,DOC009,83,2025-01-04,Fever,Private
+1505,PT2484,DOC003,81,2025-04-06,Headache,Private
+1506,PT0367,DOC001,19,2025-12-26,Cough,Private
+1507,PT0738,DOC005,52,2025-03-20,Cough,Private
+1508,PT1067,DOC011,15,2025-06-16,Vaccination,Private
+1509,PT1147,DOC009,72,2025-05-12,Anxiety,Private
+1510,PT0453,DOC003,68,2025-06-07,Diabetes monitoring,Private
+1511,PT1352,DOC002,13,2025-08-18,Cough,Private
+1512,PT0979,DOC005,70,2025-02-02,Vaccination,Private
+1513,PT2566,DOC003,88,2025-12-18,Stomach issues,Private
+1514,PT0093,DOC010,18,2025-12-22,Cough,Private
+1515,PT0381,DOC005,6,2025-11-25,Prescription renewal,Private
+1516,PT1518,DOC011,18,2025-09-17,Diabetes monitoring,Insurance
+1517,PT2534,DOC003,79,2025-11-08,Stomach issues,Insurance
+1518,PT0499,DOC012,33,2025-02-20,Skin rash,Private
+1519,PT2338,DOC002,14,2025-06-18,Cough,Private
+1520,PT0485,DOC007,25,2025-08-02,Abdominal pain,Private
+1521,PT2237,DOC009,25,2025-06-01,Abdominal pain,Insurance
+1522,PT2682,DOC009,26,2025-07-06,Abdominal pain,Private
+1523,PT0832,DOC004,28,2025-12-10,Routine check-up,Private
+1524,PT0342,DOC003,46,2025-07-26,Cough,Insurance
+1525,PT1540,DOC001,1,2025-10-18,Hypertension follow-up,Private
+1526,PT0149,DOC010,43,2025-11-29,Headache,Private
+1527,PT2990,DOC012,72,2025-08-23,Back pain,Private
+1528,PT1320,DOC004,83,2025-11-10,Injury,Insurance
+1529,PT2945,DOC010,71,2025-09-06,Diabetes monitoring,Insurance
+1530,PT1257,DOC007,80,2025-11-06,Injury,Private
+1531,PT0031,DOC007,73,2025-10-14,Cough,Private
+1532,PT1068,DOC010,81,2025-03-19,Fatigue,Insurance
+1533,PT0124,DOC008,17,2025-01-25,Abdominal pain,Insurance
+1534,PT0376,DOC010,87,2025-10-13,Headache,Private
+1535,PT0162,DOC007,22,2025-03-24,Injury,Insurance
+1536,PT1873,DOC001,21,2025-04-14,Headache,Private
+1537,PT0658,DOC010,58,2025-10-30,Fatigue,Insurance
+1538,PT0958,DOC007,58,2025-04-24,Abdominal pain,Insurance
+1539,PT0495,DOC012,35,2025-03-28,Hypertension follow-up,Insurance
+1540,PT1229,DOC004,83,2025-02-23,Cough,Insurance
+1541,PT0595,DOC005,51,2025-12-21,Headache,Private
+1542,PT1934,DOC003,45,2025-03-13,Allergy symptoms,Private
+1543,PT0360,DOC010,43,2025-12-22,Allergy symptoms,Insurance
+1544,PT2523,DOC009,37,2025-05-16,Back pain,Private
+1545,PT2452,DOC012,62,2025-04-03,Vaccination,Private
+1546,PT2320,DOC002,51,2025-05-03,Stomach issues,Insurance
+1547,PT0535,DOC005,68,2025-06-09,Skin rash,Insurance
+1548,PT2661,DOC012,7,2025-08-26,Hypertension follow-up,Private
+1549,PT1914,DOC007,88,2025-02-26,Anxiety,Insurance
+1550,PT2631,DOC004,9,2025-02-12,Stomach issues,Insurance
+1551,PT2754,DOC003,13,2025-11-03,Allergy symptoms,Insurance
+1552,PT1472,DOC010,11,2025-12-21,Abdominal pain,Insurance
+1553,PT0361,DOC012,84,2025-04-15,Vaccination,Insurance
+1554,PT2746,DOC010,10,2025-04-18,Abdominal pain,Insurance
+1555,PT0319,DOC005,26,2025-03-14,Vaccination,Private
+1556,PT2703,DOC001,62,2025-09-22,Prescription renewal,Insurance
+1557,PT1753,DOC004,35,2025-03-08,Fever,Insurance
+1558,PT2299,DOC012,44,2025-01-06,Prescription renewal,Insurance
+1559,PT2202,DOC005,69,2025-08-22,Fatigue,Private
+1560,PT1048,DOC009,81,2025-05-08,Anxiety,Insurance
+1561,PT0229,DOC001,90,2025-09-21,Diabetes monitoring,Private
+1562,PT2572,DOC002,59,2025-01-11,Back pain,Insurance
+1563,PT1441,DOC005,60,2025-06-30,Abdominal pain,Insurance
+1564,PT1830,DOC010,28,2025-01-05,Skin rash,Insurance
+1565,PT2422,DOC010,85,2025-08-31,Abdominal pain,Private
+1566,PT0787,DOC003,61,2025-07-08,Cough,Private
+1567,PT2705,DOC004,86,2025-09-09,Fever,Insurance
+1568,PT1247,DOC005,25,2025-10-16,Back pain,Insurance
+1569,PT2800,DOC001,41,2025-03-27,Hypertension follow-up,Private
+1570,PT2557,DOC012,39,2025-07-31,Headache,Insurance
+1571,PT2462,DOC005,72,2025-09-28,Headache,Insurance
+1572,PT0522,DOC002,14,2025-12-02,Headache,Insurance
+1573,PT0469,DOC001,70,2025-09-22,Cough,Insurance
+1574,PT2647,DOC003,68,2025-06-17,Abdominal pain,Insurance
+1575,PT0393,DOC008,74,2025-11-27,Back pain,Private
+1576,PT1038,DOC006,62,2025-10-22,Back pain,Private
+1577,PT0056,DOC005,63,2025-09-25,Cough,Private
+1578,PT1106,DOC012,75,2025-08-09,Diabetes monitoring,Insurance
+1579,PT2651,DOC007,46,2025-09-16,Hypertension follow-up,Private
+1580,PT2095,DOC004,79,2025-02-14,Vaccination,Private
+1581,PT0139,DOC006,41,2025-08-12,Cough,Private
+1582,PT1952,DOC006,49,2025-01-16,Vaccination,Private
+1583,PT2517,DOC007,3,2025-07-26,Hypertension follow-up,Insurance
+1584,PT1412,DOC004,81,2025-11-04,Fever,Insurance
+1585,PT1311,DOC008,63,2025-09-22,Injury,Private
+1586,PT1866,DOC004,79,2025-05-04,Diabetes monitoring,Private
+1587,PT2235,DOC004,17,2025-02-23,Routine check-up,Private
+1588,PT2304,DOC011,57,2025-03-08,Routine check-up,Insurance
+1589,PT1456,DOC011,19,2025-02-15,Abdominal pain,Insurance
+1590,PT0840,DOC012,19,2025-03-16,Allergy symptoms,Private
+1591,PT1340,DOC008,64,2025-02-11,Prescription renewal,Insurance
+1592,PT1375,DOC010,85,2025-03-27,Hypertension follow-up,Private
+1593,PT0274,DOC008,18,2025-05-14,Skin rash,Private
+1594,PT1250,DOC007,27,2025-02-24,Diabetes monitoring,Private
+1595,PT0772,DOC006,8,2025-01-01,Injury,Insurance
+1596,PT2018,DOC010,69,2025-06-03,Stomach issues,Private
+1597,PT0784,DOC008,40,2025-07-24,Injury,Private
+1598,PT1334,DOC001,81,2025-06-26,Routine check-up,Insurance
+1599,PT1156,DOC002,13,2025-02-18,Skin rash,Insurance
+1600,PT0930,DOC009,25,2025-06-26,Stomach issues,Insurance
+1601,PT0923,DOC004,6,2025-10-25,Fatigue,Insurance
+1602,PT0505,DOC004,13,2025-07-16,Fatigue,Private
+1603,PT2107,DOC002,57,2025-10-26,Fatigue,Private
+1604,PT2592,DOC004,80,2025-03-29,Routine check-up,Private
+1605,PT1509,DOC005,90,2025-12-17,Anxiety,Insurance
+1606,PT0829,DOC010,83,2025-11-09,Injury,Insurance
+1607,PT0683,DOC006,62,2025-07-02,Prescription renewal,Insurance
+1608,PT0101,DOC001,86,2025-12-20,Vaccination,Private
+1609,PT0230,DOC004,67,2025-12-21,Injury,Insurance
+1610,PT0159,DOC010,38,2025-07-15,Vaccination,Insurance
+1611,PT0166,DOC002,78,2025-01-17,Stomach issues,Insurance
+1612,PT1405,DOC009,80,2025-07-12,Back pain,Private
+1613,PT1896,DOC004,63,2025-11-03,Routine check-up,Private
+1614,PT1610,DOC006,12,2025-11-27,Vaccination,Private
+1615,PT1370,DOC005,81,2025-07-07,Hypertension follow-up,Private
+1616,PT1789,DOC008,39,2025-07-18,Stomach issues,Private
+1617,PT2809,DOC012,74,2025-02-13,Cough,Insurance
+1618,PT0356,DOC004,78,2025-11-12,Skin rash,Insurance
+1619,PT0627,DOC001,79,2025-05-10,Vaccination,Insurance
+1620,PT1582,DOC008,44,2025-08-21,Skin rash,Insurance
+1621,PT0155,DOC003,1,2025-03-26,Stomach issues,Insurance
+1622,PT2658,DOC001,75,2025-07-19,Cough,Private
+1623,PT2595,DOC010,21,2025-04-15,Fatigue,Private
+1624,PT0404,DOC009,81,2025-11-22,Diabetes monitoring,Insurance
+1625,PT1139,DOC001,68,2025-03-12,Fatigue,Private
+1626,PT2474,DOC009,2,2025-05-08,Cough,Insurance
+1627,PT1115,DOC001,67,2025-05-05,Back pain,Private
+1628,PT1929,DOC001,81,2025-03-06,Skin rash,Private
+1629,PT0385,DOC002,7,2025-11-10,Vaccination,Private
+1630,PT0691,DOC003,83,2025-05-23,Fatigue,Private
+1631,PT1020,DOC010,76,2025-02-15,Prescription renewal,Private
+1632,PT2762,DOC005,71,2025-07-08,Prescription renewal,Private
+1633,PT0340,DOC003,37,2025-11-18,Stomach issues,Insurance
+1634,PT1847,DOC012,42,2025-12-20,Fatigue,Private
+1635,PT0521,DOC012,90,2025-02-28,Injury,Insurance
+1636,PT2082,DOC002,47,2025-04-11,Abdominal pain,Private
+1637,PT2114,DOC012,45,2025-02-22,Abdominal pain,Insurance
+1638,PT1357,DOC007,14,2025-08-24,Stomach issues,Private
+1639,PT2736,DOC012,76,2025-03-27,Vaccination,Insurance
+1640,PT0898,DOC011,26,2025-09-09,Diabetes monitoring,Private
+1641,PT2481,DOC006,80,2025-07-25,Diabetes monitoring,Insurance
+1642,PT2501,DOC001,54,2025-10-24,Allergy symptoms,Insurance
+1643,PT2583,DOC004,43,2025-03-26,Abdominal pain,Private
+1644,PT2629,DOC012,42,2025-06-16,Prescription renewal,Insurance
+1645,PT2201,DOC009,53,2025-08-05,Allergy symptoms,Insurance
+1646,PT2385,DOC010,70,2025-10-14,Fever,Private
+1647,PT0968,DOC004,69,2025-06-25,Abdominal pain,Insurance
+1648,PT0110,DOC004,58,2025-07-23,Anxiety,Insurance
+1649,PT2492,DOC012,87,2025-02-09,Cough,Private
+1650,PT1621,DOC002,6,2025-07-22,Stomach issues,Insurance
+1651,PT2532,DOC007,77,2025-09-05,Anxiety,Insurance
+1652,PT0296,DOC001,13,2025-08-30,Allergy symptoms,Insurance
+1653,PT2900,DOC007,84,2025-07-04,Skin rash,Private
+1654,PT1047,DOC007,74,2025-09-02,Fatigue,Private
+1655,PT0838,DOC001,57,2025-03-12,Hypertension follow-up,Private
+1656,PT2937,DOC010,80,2025-04-01,Fatigue,Private
+1657,PT1964,DOC003,86,2025-03-30,Prescription renewal,Insurance
+1658,PT1397,DOC005,84,2025-03-05,Fatigue,Private
+1659,PT2509,DOC003,36,2025-07-26,Fatigue,Private
+1660,PT0178,DOC001,54,2025-03-18,Injury,Private
+1661,PT1835,DOC005,53,2025-06-30,Headache,Private
+1662,PT0323,DOC003,75,2025-12-11,Allergy symptoms,Private
+1663,PT0997,DOC007,7,2025-09-10,Vaccination,Private
+1664,PT2768,DOC002,13,2025-07-01,Injury,Insurance
+1665,PT0061,DOC005,89,2025-09-03,Diabetes monitoring,Insurance
+1666,PT0582,DOC012,45,2025-09-09,Headache,Insurance
+1667,PT0679,DOC003,82,2025-03-03,Headache,Insurance
+1668,PT1178,DOC008,72,2025-12-04,Fever,Insurance
+1669,PT1697,DOC010,64,2025-07-22,Vaccination,Insurance
+1670,PT0318,DOC002,68,2025-04-11,Skin rash,Private
+1671,PT2057,DOC006,6,2025-11-16,Routine check-up,Private
+1672,PT1849,DOC008,67,2025-07-12,Injury,Private
+1673,PT2953,DOC005,52,2025-11-12,Diabetes monitoring,Private
+1674,PT2587,DOC006,39,2025-12-18,Allergy symptoms,Insurance
+1675,PT3000,DOC007,65,2025-08-03,Skin rash,Private
+1676,PT0643,DOC004,46,2025-10-12,Abdominal pain,Private
+1677,PT1493,DOC008,70,2025-11-02,Stomach issues,Insurance
+1678,PT0245,DOC009,67,2025-04-07,Routine check-up,Private
+1679,PT0281,DOC001,19,2025-05-10,Skin rash,Insurance
+1680,PT1855,DOC003,20,2025-10-23,Fatigue,Private
+1681,PT1594,DOC011,69,2025-08-03,Diabetes monitoring,Insurance
+1682,PT2989,DOC002,44,2025-02-07,Abdominal pain,Private
+1683,PT1658,DOC012,80,2025-03-29,Anxiety,Insurance
+1684,PT0804,DOC002,65,2025-02-26,Fatigue,Private
+1685,PT0965,DOC004,9,2025-11-13,Fatigue,Insurance
+1686,PT2780,DOC003,51,2025-12-17,Skin rash,Insurance
+1687,PT2538,DOC001,84,2025-07-07,Hypertension follow-up,Insurance
+1688,PT2585,DOC008,86,2025-01-12,Fatigue,Insurance
+1689,PT2604,DOC012,15,2025-11-28,Prescription renewal,Private
+1690,PT0901,DOC006,1,2025-08-28,Injury,Private
+1691,PT2196,DOC003,38,2025-02-12,Skin rash,Insurance
+1692,PT2744,DOC003,2,2025-06-20,Cough,Insurance
+1693,PT2217,DOC011,3,2025-12-25,Fatigue,Private
+1694,PT1070,DOC008,62,2025-06-20,Allergy symptoms,Private
+1695,PT1597,DOC007,41,2025-09-22,Allergy symptoms,Private
+1696,PT0432,DOC011,67,2025-10-24,Headache,Private
+1697,PT0503,DOC001,81,2025-05-12,Vaccination,Insurance
+1698,PT1169,DOC010,80,2025-12-13,Anxiety,Insurance
+1699,PT2686,DOC009,5,2025-06-18,Fever,Private
+1700,PT2872,DOC012,38,2025-04-30,Routine check-up,Private
+1701,PT2804,DOC009,76,2025-04-06,Vaccination,Private
+1702,PT1134,DOC010,90,2025-06-28,Injury,Private
+1703,PT2165,DOC011,53,2025-07-07,Prescription renewal,Private
+1704,PT1819,DOC011,85,2025-07-02,Prescription renewal,Private
+1705,PT1686,DOC011,11,2025-05-04,Abdominal pain,Insurance
+1706,PT1776,DOC012,18,2025-03-08,Anxiety,Private
+1707,PT2885,DOC002,88,2025-01-26,Prescription renewal,Private
+1708,PT1376,DOC008,15,2025-01-06,Routine check-up,Insurance
+1709,PT0450,DOC011,59,2025-10-31,Headache,Private
+1710,PT1948,DOC002,33,2025-12-07,Abdominal pain,Insurance
+1711,PT2571,DOC010,17,2025-10-08,Abdominal pain,Private
+1712,PT0036,DOC001,56,2025-04-15,Abdominal pain,Private
+1713,PT2962,DOC001,54,2025-11-09,Fever,Private
+1714,PT2001,DOC010,86,2025-09-28,Injury,Private
+1715,PT0111,DOC001,90,2025-09-23,Vaccination,Insurance
+1716,PT0670,DOC003,63,2025-06-19,Skin rash,Private
+1717,PT0013,DOC009,67,2025-11-10,Prescription renewal,Insurance
+1718,PT1600,DOC005,19,2025-11-14,Routine check-up,Private
+1719,PT0421,DOC004,58,2025-07-30,Diabetes monitoring,Private
+1720,PT1252,DOC004,28,2025-02-10,Anxiety,Private
+1721,PT1144,DOC012,77,2025-03-26,Back pain,Insurance
+1722,PT2773,DOC004,19,2025-11-26,Allergy symptoms,Private
+1723,PT2029,DOC008,86,2025-10-28,Headache,Private
+1724,PT2417,DOC003,41,2025-08-18,Prescription renewal,Insurance
+1725,PT1665,DOC012,65,2025-07-08,Routine check-up,Insurance
+1726,PT0176,DOC008,67,2025-06-01,Vaccination,Private
+1727,PT0384,DOC010,66,2025-11-13,Prescription renewal,Insurance
+1728,PT0824,DOC011,86,2025-08-20,Injury,Insurance
+1729,PT1782,DOC007,70,2025-10-05,Back pain,Private
+1730,PT2355,DOC012,19,2025-05-22,Fatigue,Private
+1731,PT2676,DOC004,62,2025-09-07,Fatigue,Private
+1732,PT1586,DOC004,80,2025-11-28,Abdominal pain,Insurance
+1733,PT0998,DOC003,78,2025-02-03,Headache,Insurance
+1734,PT2345,DOC004,89,2025-05-11,Skin rash,Insurance
+1735,PT0470,DOC005,79,2025-04-05,Abdominal pain,Private
+1736,PT1210,DOC003,62,2025-03-29,Skin rash,Insurance
+1737,PT2215,DOC003,60,2025-06-28,Vaccination,Insurance
+1738,PT2161,DOC001,9,2025-06-15,Allergy symptoms,Insurance
+1739,PT0259,DOC006,66,2025-12-23,Anxiety,Insurance
+1740,PT0462,DOC012,75,2025-09-16,Prescription renewal,Private
+1741,PT0562,DOC002,78,2025-06-09,Allergy symptoms,Private
+1742,PT1237,DOC011,70,2025-02-15,Headache,Insurance
+1743,PT1171,DOC001,19,2025-11-12,Injury,Insurance
+1744,PT2871,DOC012,36,2025-01-01,Cough,Private
+1745,PT2805,DOC008,27,2025-06-26,Fatigue,Private
+1746,PT2131,DOC002,72,2025-05-23,Vaccination,Private
+1747,PT1069,DOC012,38,2025-07-22,Skin rash,Private
+1748,PT2341,DOC004,17,2025-07-24,Vaccination,Private
+1749,PT2584,DOC002,42,2025-12-28,Injury,Insurance
+1750,PT0544,DOC006,17,2025-10-20,Skin rash,Insurance
+1751,PT2852,DOC001,9,2025-04-08,Stomach issues,Private
+1752,PT2449,DOC001,75,2025-04-18,Stomach issues,Insurance
+1753,PT0831,DOC006,60,2025-06-02,Allergy symptoms,Insurance
+1754,PT1003,DOC002,69,2025-12-01,Fever,Insurance
+1755,PT1978,DOC007,47,2025-12-12,Allergy symptoms,Insurance
+1756,PT2721,DOC008,16,2025-04-18,Stomach issues,Private
+1757,PT1075,DOC010,41,2025-04-08,Injury,Private
+1758,PT2204,DOC012,3,2025-02-27,Headache,Private
+1759,PT1563,DOC008,37,2025-12-02,Routine check-up,Private
+1760,PT0983,DOC011,78,2025-09-28,Hypertension follow-up,Insurance
+1761,PT0677,DOC002,23,2025-01-01,Skin rash,Private
+1762,PT0533,DOC009,13,2025-02-16,Routine check-up,Private
+1763,PT1005,DOC005,72,2025-03-24,Injury,Insurance
+1764,PT0002,DOC006,31,2025-10-06,Prescription renewal,Private
+1765,PT0761,DOC002,74,2025-08-02,Headache,Private
+1766,PT0580,DOC005,8,2025-08-05,Headache,Private
+1767,PT0120,DOC007,81,2025-11-24,Fever,Private
+1768,PT0045,DOC010,5,2025-09-05,Fever,Private
+1769,PT1955,DOC006,35,2025-01-26,Fatigue,Insurance
+1770,PT1021,DOC011,9,2025-02-21,Vaccination,Private
+1771,PT1944,DOC001,38,2025-05-09,Vaccination,Private
+1772,PT2614,DOC005,76,2025-08-30,Vaccination,Insurance
+1773,PT0910,DOC001,70,2025-05-22,Headache,Insurance
+1774,PT0733,DOC005,88,2025-07-08,Hypertension follow-up,Insurance
+1775,PT2374,DOC005,61,2025-12-20,Allergy symptoms,Insurance
+1776,PT2825,DOC010,3,2025-05-04,Cough,Private
+1777,PT0167,DOC011,56,2025-02-13,Skin rash,Insurance
+1778,PT2957,DOC011,75,2025-02-19,Hypertension follow-up,Insurance
+1779,PT1589,DOC009,56,2025-04-23,Injury,Private
+1780,PT2545,DOC012,83,2025-06-19,Abdominal pain,Private
+1781,PT1309,DOC012,85,2025-12-31,Abdominal pain,Private
+1782,PT0644,DOC004,1,2025-04-28,Cough,Insurance
+1783,PT1562,DOC004,54,2025-07-11,Prescription renewal,Insurance
+1784,PT1415,DOC012,69,2025-05-29,Anxiety,Insurance
+1785,PT1009,DOC003,44,2025-08-18,Stomach issues,Private
+1786,PT2470,DOC003,71,2025-08-09,Allergy symptoms,Private
+1787,PT2620,DOC004,74,2025-04-04,Allergy symptoms,Insurance
+1788,PT2145,DOC002,17,2025-09-14,Back pain,Insurance
+1789,PT2778,DOC002,28,2025-07-09,Abdominal pain,Private
+1790,PT0041,DOC010,34,2025-03-20,Allergy symptoms,Private
+1791,PT1692,DOC001,30,2025-04-15,Fever,Insurance
+1792,PT0474,DOC004,63,2025-05-04,Vaccination,Insurance
+1793,PT0534,DOC003,11,2025-01-15,Injury,Insurance
+1794,PT2397,DOC002,67,2025-06-29,Hypertension follow-up,Insurance
+1795,PT1727,DOC004,33,2025-02-15,Vaccination,Private
+1796,PT0189,DOC010,36,2025-04-23,Back pain,Private
+1797,PT2896,DOC007,90,2025-08-19,Injury,Private
+1798,PT2626,DOC001,30,2025-01-07,Anxiety,Private
+1799,PT1196,DOC012,81,2025-08-19,Skin rash,Private
+1800,PT1488,DOC005,74,2025-07-13,Fever,Private
+1801,PT2771,DOC007,52,2025-11-07,Injury,Private
+1802,PT1684,DOC001,66,2025-01-24,Prescription renewal,Private
+1803,PT0633,DOC012,83,2025-09-24,Anxiety,Private
+1804,PT0740,DOC011,60,2025-03-31,Anxiety,Private
+1805,PT0054,DOC002,37,2025-04-13,Prescription renewal,Private
+1806,PT2782,DOC006,43,2025-04-23,Anxiety,Insurance
+1807,PT1667,DOC001,8,2025-06-23,Stomach issues,Insurance
+1808,PT0152,DOC006,61,2025-09-28,Allergy symptoms,Insurance
+1809,PT2515,DOC005,66,2025-07-19,Headache,Insurance
+1810,PT1474,DOC011,81,2025-10-25,Back pain,Insurance
+1811,PT1824,DOC001,75,2025-07-05,Routine check-up,Private
+1812,PT1218,DOC005,45,2025-02-03,Hypertension follow-up,Insurance
+1813,PT0652,DOC011,51,2025-08-26,Fever,Insurance
+1814,PT2100,DOC012,57,2025-07-10,Routine check-up,Insurance
+1815,PT2677,DOC012,50,2025-10-09,Abdominal pain,Private
+1816,PT0414,DOC004,48,2025-03-09,Fever,Private
+1817,PT1555,DOC007,78,2025-11-17,Stomach issues,Insurance
+1818,PT1578,DOC007,63,2025-03-28,Stomach issues,Private
+1819,PT0150,DOC012,42,2025-01-21,Abdominal pain,Private
+1820,PT1467,DOC004,63,2025-11-11,Prescription renewal,Private
+1821,PT2625,DOC004,73,2025-05-20,Vaccination,Insurance
+1822,PT2968,DOC007,73,2025-11-05,Skin rash,Insurance
+1823,PT0173,DOC002,69,2025-11-14,Hypertension follow-up,Private
+1824,PT0509,DOC012,61,2025-12-22,Injury,Insurance
+1825,PT0980,DOC011,20,2025-12-20,Hypertension follow-up,Insurance
+1826,PT0007,DOC012,57,2025-11-20,Diabetes monitoring,Private
+1827,PT2936,DOC011,71,2025-04-07,Hypertension follow-up,Insurance
+1828,PT2472,DOC005,66,2025-05-23,Prescription renewal,Private
+1829,PT0350,DOC001,90,2025-06-15,Abdominal pain,Private
+1830,PT2555,DOC011,9,2025-02-18,Allergy symptoms,Insurance
+1831,PT0705,DOC008,75,2025-01-16,Vaccination,Private
+1832,PT1571,DOC002,84,2025-06-26,Stomach issues,Insurance
+1833,PT1462,DOC002,88,2025-11-11,Cough,Insurance
+1834,PT1036,DOC012,57,2025-08-02,Hypertension follow-up,Private
+1835,PT1429,DOC004,85,2025-06-09,Injury,Private
+1836,PT1052,DOC003,36,2025-11-07,Back pain,Private
+1837,PT2525,DOC002,65,2025-01-10,Hypertension follow-up,Insurance
+1838,PT0126,DOC002,38,2025-03-28,Skin rash,Private
+1839,PT2695,DOC012,83,2025-11-13,Anxiety,Private
+1840,PT1792,DOC010,56,2025-02-07,Stomach issues,Private
+1841,PT2540,DOC002,28,2025-05-20,Routine check-up,Private
+1842,PT2713,DOC010,42,2025-09-12,Headache,Private
+1843,PT1919,DOC002,7,2025-03-21,Prescription renewal,Private
+1844,PT2849,DOC008,37,2025-04-05,Diabetes monitoring,Private
+1845,PT0087,DOC005,6,2025-04-30,Diabetes monitoring,Private
+1846,PT0451,DOC003,79,2025-08-13,Cough,Insurance
+1847,PT2565,DOC001,59,2025-02-13,Vaccination,Insurance
+1848,PT0347,DOC010,77,2025-03-10,Hypertension follow-up,Private
+1849,PT0082,DOC001,49,2025-12-12,Fatigue,Private
+1850,PT2040,DOC002,70,2025-02-28,Headache,Insurance
+1851,PT0442,DOC001,8,2025-08-08,Anxiety,Private
+1852,PT0207,DOC008,79,2025-01-12,Skin rash,Insurance
+1853,PT0569,DOC001,64,2025-07-07,Stomach issues,Private
+1854,PT0764,DOC001,17,2025-03-31,Vaccination,Private
+1855,PT1880,DOC007,79,2025-12-16,Allergy symptoms,Private
+1856,PT1194,DOC009,13,2025-06-30,Skin rash,Private
+1857,PT1181,DOC010,68,2025-10-15,Vaccination,Private
+1858,PT2767,DOC003,48,2025-12-07,Cough,Private
+1859,PT1950,DOC009,47,2025-01-30,Fatigue,Private
+1860,PT2918,DOC003,90,2025-10-24,Fatigue,Private
+1861,PT2440,DOC012,30,2025-11-12,Hypertension follow-up,Insurance
+1862,PT1354,DOC009,21,2025-04-26,Abdominal pain,Private
+1863,PT1879,DOC003,49,2025-11-16,Routine check-up,Insurance
+1864,PT0918,DOC007,44,2025-03-06,Hypertension follow-up,Insurance
+1865,PT0306,DOC007,3,2025-10-20,Diabetes monitoring,Insurance
+1866,PT2228,DOC010,34,2025-06-09,Injury,Insurance
+1867,PT2593,DOC012,82,2025-07-25,Cough,Insurance
+1868,PT1476,DOC012,9,2025-07-09,Prescription renewal,Insurance
+1869,PT2973,DOC008,60,2025-11-28,Injury,Insurance
+1870,PT1303,DOC002,3,2025-11-10,Anxiety,Private
+1871,PT1722,DOC012,13,2025-02-09,Hypertension follow-up,Insurance
+1872,PT1966,DOC003,54,2025-10-09,Prescription renewal,Private
+1873,PT1443,DOC007,73,2025-02-05,Diabetes monitoring,Private
+1874,PT1114,DOC005,88,2025-03-27,Back pain,Private
+1875,PT2797,DOC001,5,2025-07-28,Allergy symptoms,Insurance
+1876,PT2102,DOC007,62,2025-11-04,Anxiety,Private
+1877,PT1763,DOC010,47,2025-12-10,Allergy symptoms,Private
+1878,PT1396,DOC002,40,2025-03-23,Cough,Private
+1879,PT0140,DOC012,27,2025-09-07,Skin rash,Private
+1880,PT2603,DOC010,28,2025-06-12,Back pain,Private
+1881,PT2810,DOC007,88,2025-08-06,Vaccination,Private
+1882,PT2932,DOC002,85,2025-02-28,Headache,Private
+1883,PT0942,DOC011,39,2025-06-21,Prescription renewal,Private
+1884,PT0906,DOC002,75,2025-02-19,Stomach issues,Insurance
+1885,PT0519,DOC009,8,2025-10-29,Prescription renewal,Insurance
+1886,PT0873,DOC001,54,2025-10-27,Anxiety,Private
+1887,PT1767,DOC012,73,2025-05-06,Fever,Insurance
+1888,PT2521,DOC009,37,2025-08-21,Anxiety,Insurance
+1889,PT1865,DOC006,76,2025-05-01,Fatigue,Insurance
+1890,PT2568,DOC006,78,2025-05-29,Anxiety,Private
+1891,PT1531,DOC010,32,2025-07-31,Routine check-up,Insurance
+1892,PT1095,DOC008,36,2025-12-03,Headache,Insurance
+1893,PT0550,DOC001,15,2025-10-02,Stomach issues,Private
+1894,PT1179,DOC003,89,2025-07-11,Diabetes monitoring,Insurance
+1895,PT0573,DOC012,16,2025-11-03,Hypertension follow-up,Insurance
+1896,PT1457,DOC006,55,2025-02-16,Vaccination,Private
+1897,PT0524,DOC002,82,2025-04-20,Injury,Private
+1898,PT2829,DOC006,82,2025-09-17,Cough,Insurance
+1899,PT2306,DOC010,5,2025-03-10,Cough,Private
+1900,PT2056,DOC001,85,2025-12-03,Routine check-up,Insurance
+1901,PT1841,DOC006,80,2025-07-30,Routine check-up,Insurance
+1902,PT2996,DOC001,70,2025-07-10,Anxiety,Private
+1903,PT1379,DOC008,83,2025-09-23,Skin rash,Private
+1904,PT2624,DOC011,58,2025-01-25,Fatigue,Private
+1905,PT1652,DOC006,27,2025-11-02,Fever,Insurance
+1906,PT2884,DOC001,63,2025-07-23,Anxiety,Insurance
+1907,PT1826,DOC008,15,2025-07-06,Back pain,Insurance
+1908,PT0055,DOC004,1,2025-03-09,Fatigue,Insurance
+1909,PT0874,DOC009,42,2025-06-03,Anxiety,Private
+1910,PT0694,DOC005,1,2025-12-05,Vaccination,Insurance
+1911,PT0751,DOC003,8,2025-03-05,Abdominal pain,Private
+1912,PT0029,DOC006,43,2025-10-10,Cough,Insurance
+1913,PT2662,DOC005,87,2025-05-05,Diabetes monitoring,Private
+1914,PT0994,DOC010,89,2025-08-21,Anxiety,Private
+1915,PT0902,DOC008,6,2025-08-13,Headache,Private
+1916,PT0755,DOC005,12,2025-10-30,Fatigue,Insurance
+1917,PT2821,DOC007,13,2025-02-20,Fever,Private
+1918,PT0996,DOC001,7,2025-06-03,Diabetes monitoring,Private
+1919,PT2898,DOC011,40,2025-11-30,Hypertension follow-up,Insurance
+1920,PT1593,DOC008,77,2025-02-19,Fatigue,Private
+1921,PT1294,DOC010,77,2025-09-22,Skin rash,Private
+1922,PT2384,DOC011,87,2025-09-02,Anxiety,Insurance
+1923,PT1236,DOC001,22,2025-10-20,Stomach issues,Private
+1924,PT0987,DOC002,64,2025-09-17,Skin rash,Private
+1925,PT2093,DOC009,64,2025-02-08,Back pain,Private
+1926,PT2214,DOC012,71,2025-06-26,Prescription renewal,Private
+1927,PT2240,DOC007,60,2025-07-01,Routine check-up,Private
+1928,PT1834,DOC003,77,2025-07-13,Allergy symptoms,Private
+1929,PT0860,DOC006,73,2025-05-29,Anxiety,Insurance
+1930,PT2274,DOC007,84,2025-01-01,Anxiety,Insurance
+1931,PT1710,DOC012,81,2025-09-15,Skin rash,Insurance
+1932,PT0789,DOC010,39,2025-01-12,Diabetes monitoring,Private
+1933,PT2336,DOC007,23,2025-04-12,Fever,Insurance
+1934,PT2037,DOC009,70,2025-12-05,Diabetes monitoring,Insurance
+1935,PT2977,DOC007,8,2025-02-21,Allergy symptoms,Insurance
+1936,PT0939,DOC010,65,2025-09-27,Back pain,Private
+1937,PT1520,DOC004,50,2025-09-04,Fatigue,Private
+1938,PT0563,DOC008,56,2025-08-24,Allergy symptoms,Private
+1939,PT1277,DOC005,14,2025-09-03,Diabetes monitoring,Private
+1940,PT2774,DOC003,47,2025-07-16,Stomach issues,Insurance
+1941,PT0614,DOC007,89,2025-01-23,Abdominal pain,Insurance
+1942,PT2273,DOC005,25,2025-06-24,Stomach issues,Insurance
+1943,PT2399,DOC003,10,2025-05-12,Skin rash,Private
+1944,PT2574,DOC005,68,2025-10-05,Abdominal pain,Insurance
+1945,PT2062,DOC011,90,2025-11-25,Hypertension follow-up,Private
+1946,PT1018,DOC001,34,2025-09-13,Prescription renewal,Private
+1947,PT0851,DOC009,16,2025-03-16,Anxiety,Private
+1948,PT1703,DOC002,87,2025-04-26,Fatigue,Private
+1949,PT2446,DOC002,9,2025-12-09,Fever,Private
+1950,PT0084,DOC010,11,2025-03-14,Allergy symptoms,Private
+1951,PT2434,DOC003,35,2025-06-26,Hypertension follow-up,Insurance
+1952,PT1774,DOC010,55,2025-10-12,Anxiety,Insurance
+1953,PT2921,DOC002,11,2025-10-28,Abdominal pain,Insurance
+1954,PT0795,DOC010,32,2025-06-28,Abdominal pain,Insurance
+1955,PT2439,DOC003,12,2025-02-15,Hypertension follow-up,Insurance
+1956,PT1793,DOC004,65,2025-07-16,Injury,Private
+1957,PT1109,DOC003,27,2025-02-14,Vaccination,Private
+1958,PT2309,DOC010,5,2025-06-27,Allergy symptoms,Insurance
+1959,PT0370,DOC007,75,2025-05-08,Fatigue,Insurance
+1960,PT0092,DOC010,35,2025-04-16,Allergy symptoms,Private
+1961,PT1413,DOC008,45,2025-03-31,Skin rash,Private
+1962,PT0661,DOC009,78,2025-04-04,Cough,Private
+1963,PT0907,DOC011,11,2025-12-29,Skin rash,Insurance
+1964,PT1232,DOC003,18,2025-05-28,Hypertension follow-up,Private
+1965,PT1347,DOC009,13,2025-12-30,Anxiety,Private
+1966,PT2606,DOC005,44,2025-02-06,Routine check-up,Insurance
+1967,PT0459,DOC001,45,2025-06-02,Hypertension follow-up,Private
+1968,PT0463,DOC010,69,2025-05-11,Cough,Insurance
+1969,PT0216,DOC002,84,2025-03-18,Headache,Private
+1970,PT1000,DOC009,27,2025-08-12,Hypertension follow-up,Private
+1971,PT0043,DOC012,66,2025-10-31,Prescription renewal,Private
+1972,PT1224,DOC004,36,2025-06-11,Anxiety,Private
+1973,PT2398,DOC004,45,2025-03-18,Diabetes monitoring,Insurance
+1974,PT1680,DOC003,56,2025-10-28,Cough,Private
+1975,PT0871,DOC010,62,2025-03-18,Cough,Private
+1976,PT1408,DOC006,51,2025-07-09,Vaccination,Private
+1977,PT2238,DOC002,29,2025-06-23,Vaccination,Insurance
+1978,PT0895,DOC007,7,2025-05-22,Diabetes monitoring,Private
+1979,PT2298,DOC006,76,2025-07-21,Prescription renewal,Private
+1980,PT2418,DOC001,13,2025-10-18,Vaccination,Private
+1981,PT2362,DOC010,9,2025-10-01,Stomach issues,Insurance
+1982,PT0383,DOC001,38,2025-06-11,Hypertension follow-up,Private
+1983,PT1271,DOC003,11,2025-11-25,Fatigue,Private
+1984,PT0251,DOC003,61,2025-09-16,Vaccination,Private
+1985,PT0193,DOC004,24,2025-03-30,Fatigue,Private
+1986,PT0448,DOC003,41,2025-10-25,Hypertension follow-up,Private
+1987,PT1345,DOC011,51,2025-04-13,Routine check-up,Private
+1988,PT1648,DOC012,86,2025-06-24,Hypertension follow-up,Insurance
+1989,PT1649,DOC002,30,2025-03-05,Back pain,Private
+1990,PT1346,DOC004,70,2025-06-12,Routine check-up,Private
+1991,PT2227,DOC002,64,2025-10-22,Anxiety,Insurance
+1992,PT2915,DOC005,72,2025-06-03,Skin rash,Insurance
+1993,PT2984,DOC004,74,2025-08-09,Stomach issues,Private
+1994,PT2897,DOC006,53,2025-12-10,Stomach issues,Insurance
+1995,PT0099,DOC005,52,2025-09-07,Fever,Private
+1996,PT0508,DOC011,36,2025-07-17,Fever,Insurance
+1997,PT1813,DOC004,63,2025-06-18,Routine check-up,Private
+1998,PT1410,DOC003,63,2025-11-22,Fatigue,Private
+1999,PT2739,DOC011,74,2025-12-18,Headache,Private
+2000,PT1666,DOC009,78,2025-04-10,Skin rash,Insurance
+2001,PT1126,DOC003,42,2025-06-02,Fatigue,Private
+2002,PT2250,DOC003,86,2025-11-09,Vaccination,Private
+2003,PT1256,DOC010,8,2025-01-13,Fever,Insurance
+2004,PT1127,DOC012,78,2025-01-21,Skin rash,Insurance
+2005,PT2789,DOC005,62,2025-08-21,Stomach issues,Insurance
+2006,PT2432,DOC006,66,2025-05-04,Headache,Insurance
+2007,PT0252,DOC006,52,2025-02-04,Diabetes monitoring,Insurance
+2008,PT2420,DOC004,36,2025-07-28,Routine check-up,Private
+2009,PT1073,DOC005,73,2025-07-11,Abdominal pain,Private
+2010,PT0283,DOC012,69,2025-12-07,Fatigue,Insurance
+2011,PT2290,DOC003,86,2025-12-28,Skin rash,Private
+2012,PT2507,DOC012,20,2025-06-25,Prescription renewal,Insurance
+2013,PT2078,DOC007,88,2025-07-26,Injury,Insurance
+2014,PT1972,DOC010,67,2025-02-12,Prescription renewal,Private
+2015,PT2261,DOC009,89,2025-09-23,Abdominal pain,Insurance
+2016,PT1295,DOC002,78,2025-01-13,Anxiety,Insurance
+2017,PT0698,DOC012,34,2025-08-27,Headache,Insurance
+2018,PT2267,DOC009,48,2025-08-25,Fatigue,Insurance
+2019,PT2182,DOC005,83,2025-01-15,Back pain,Private
+2020,PT1280,DOC005,40,2025-09-24,Back pain,Insurance
+2021,PT1985,DOC010,84,2025-01-02,Vaccination,Private
+2022,PT2442,DOC001,17,2025-03-17,Abdominal pain,Insurance
+2023,PT0422,DOC008,87,2025-11-07,Stomach issues,Insurance
+2024,PT2633,DOC002,64,2025-04-01,Allergy symptoms,Insurance
+2025,PT0515,DOC011,72,2025-06-03,Fatigue,Private
+2026,PT1891,DOC005,87,2025-09-30,Stomach issues,Private
+2027,PT2960,DOC001,87,2025-06-04,Diabetes monitoring,Insurance
+2028,PT0611,DOC003,71,2025-06-03,Stomach issues,Insurance
+2029,PT1454,DOC010,23,2025-02-27,Vaccination,Private
+2030,PT0736,DOC007,54,2025-02-08,Stomach issues,Insurance
+2031,PT2913,DOC003,53,2025-04-03,Skin rash,Insurance
+2032,PT2179,DOC002,49,2025-02-17,Fatigue,Private
+2033,PT2445,DOC009,26,2025-08-13,Routine check-up,Private
+2034,PT0616,DOC011,10,2025-09-04,Diabetes monitoring,Private
+2035,PT0410,DOC001,71,2025-03-12,Skin rash,Insurance
+2036,PT0378,DOC002,89,2025-02-27,Hypertension follow-up,Insurance
+2037,PT0695,DOC002,87,2025-12-29,Fever,Insurance
+2038,PT0914,DOC003,39,2025-01-16,Abdominal pain,Insurance
+2039,PT1276,DOC004,19,2025-03-21,Skin rash,Insurance
+2040,PT0300,DOC007,83,2025-08-30,Skin rash,Insurance
+2041,PT2929,DOC002,25,2025-08-13,Skin rash,Insurance
+2042,PT0163,DOC003,11,2025-10-27,Diabetes monitoring,Insurance
+2043,PT1773,DOC004,77,2025-04-25,Fever,Insurance
+2044,PT1264,DOC004,13,2025-06-10,Fever,Insurance
+2045,PT1166,DOC006,7,2025-08-27,Fatigue,Insurance
+2046,PT1399,DOC005,59,2025-03-06,Allergy symptoms,Private
+2047,PT2926,DOC007,13,2025-03-27,Anxiety,Insurance
+2048,PT1814,DOC012,63,2025-09-05,Injury,Insurance
+2049,PT0714,DOC011,47,2025-09-24,Fever,Insurance
+2050,PT0088,DOC001,84,2025-10-22,Headache,Insurance
+2051,PT1426,DOC001,73,2025-10-06,Skin rash,Insurance
+2052,PT0071,DOC011,14,2025-05-27,Hypertension follow-up,Insurance
+2053,PT1366,DOC005,19,2025-06-08,Hypertension follow-up,Insurance
+2054,PT0921,DOC004,37,2025-01-05,Anxiety,Private
+2055,PT0966,DOC002,2,2025-11-18,Prescription renewal,Private
+2056,PT1500,DOC001,87,2025-06-02,Abdominal pain,Private
+2057,PT0190,DOC007,5,2025-09-30,Back pain,Private
+2058,PT0771,DOC011,58,2025-12-24,Back pain,Insurance
+2059,PT2905,DOC003,57,2025-12-17,Injury,Insurance
+2060,PT2543,DOC007,40,2025-09-08,Fatigue,Insurance
+2061,PT0607,DOC011,55,2025-10-12,Routine check-up,Private
+2062,PT0409,DOC007,37,2025-07-18,Injury,Insurance
+2063,PT1733,DOC009,68,2025-06-12,Abdominal pain,Insurance
+2064,PT0406,DOC007,72,2025-01-16,Allergy symptoms,Private
+2065,PT2277,DOC003,80,2025-05-24,Injury,Private
+2066,PT2154,DOC012,61,2025-07-19,Vaccination,Private
+2067,PT1603,DOC009,86,2025-11-12,Allergy symptoms,Insurance
+2068,PT1867,DOC010,16,2025-03-12,Diabetes monitoring,Private
+2069,PT0430,DOC004,24,2025-10-09,Vaccination,Insurance
+2070,PT1255,DOC004,4,2025-01-23,Stomach issues,Insurance
+2071,PT1529,DOC003,75,2025-10-13,Back pain,Private
+2072,PT2004,DOC010,80,2025-10-29,Anxiety,Private
+2073,PT0525,DOC011,65,2025-09-29,Allergy symptoms,Private
+2074,PT1521,DOC011,78,2025-03-10,Headache,Insurance
+2075,PT0989,DOC002,84,2025-09-01,Routine check-up,Insurance
+2076,PT2760,DOC012,61,2025-05-16,Routine check-up,Insurance
+2077,PT0583,DOC012,36,2025-01-09,Diabetes monitoring,Private
+2078,PT0010,DOC009,9,2025-02-18,Vaccination,Insurance
+2079,PT2591,DOC010,30,2025-06-23,Fever,Insurance
+2080,PT0020,DOC010,85,2025-06-22,Stomach issues,Insurance
+2081,PT0433,DOC006,76,2025-12-07,Vaccination,Insurance
+2082,PT0702,DOC008,54,2025-12-13,Hypertension follow-up,Insurance
+2083,PT0191,DOC004,68,2025-08-23,Diabetes monitoring,Insurance
+2084,PT0510,DOC002,80,2025-06-03,Stomach issues,Insurance
+2085,PT0195,DOC003,82,2025-09-05,Stomach issues,Insurance
+2086,PT2378,DOC001,8,2025-12-28,Diabetes monitoring,Private
+2087,PT2125,DOC010,74,2025-12-27,Diabetes monitoring,Private
+2088,PT2054,DOC006,7,2025-06-09,Back pain,Private
+2089,PT0209,DOC004,60,2025-11-13,Fever,Private
+2090,PT0690,DOC010,28,2025-05-23,Hypertension follow-up,Insurance
+2091,PT1623,DOC004,5,2025-12-18,Anxiety,Insurance
+2092,PT1369,DOC008,43,2025-07-11,Abdominal pain,Private
+2093,PT1708,DOC007,71,2025-07-05,Back pain,Insurance
+2094,PT1991,DOC001,17,2025-12-30,Hypertension follow-up,Private
+2095,PT0887,DOC002,87,2025-09-22,Fatigue,Private
+2096,PT1761,DOC007,70,2025-12-30,Fever,Insurance
+2097,PT2854,DOC002,15,2025-10-29,Back pain,Insurance
+2098,PT1267,DOC006,81,2025-12-04,Headache,Private
+2099,PT0402,DOC009,29,2025-05-08,Headache,Private
+2100,PT0891,DOC002,31,2025-05-07,Headache,Private
+2101,PT2140,DOC004,61,2025-09-30,Hypertension follow-up,Insurance
+2102,PT1272,DOC007,27,2025-10-14,Diabetes monitoring,Insurance
+2103,PT1130,DOC002,12,2025-02-13,Diabetes monitoring,Insurance
+2104,PT0704,DOC001,57,2025-09-23,Back pain,Private
+2105,PT1682,DOC002,77,2025-02-14,Prescription renewal,Private
+2106,PT1968,DOC009,1,2025-09-06,Skin rash,Private
+2107,PT1490,DOC001,70,2025-03-02,Hypertension follow-up,Insurance
+2108,PT0807,DOC010,38,2025-02-20,Abdominal pain,Private
+2109,PT1625,DOC001,28,2025-01-12,Hypertension follow-up,Insurance
+2110,PT0030,DOC005,69,2025-07-06,Routine check-up,Private
+2111,PT2349,DOC011,79,2025-09-14,Vaccination,Private
+2112,PT2838,DOC008,4,2025-04-22,Headache,Private
+2113,PT0602,DOC006,9,2025-03-16,Diabetes monitoring,Insurance
+2114,PT0244,DOC001,87,2025-05-10,Prescription renewal,Private
+2115,PT2339,DOC012,16,2025-08-22,Vaccination,Insurance
+2116,PT2302,DOC007,42,2025-04-23,Headache,Private
+2117,PT2255,DOC003,52,2025-10-09,Injury,Insurance
+2118,PT1092,DOC010,53,2025-06-23,Stomach issues,Private
+2119,PT2901,DOC010,32,2025-12-12,Fever,Insurance
+2120,PT0461,DOC004,67,2025-03-16,Vaccination,Private
+2121,PT1676,DOC012,77,2025-01-04,Anxiety,Private
+2122,PT1980,DOC004,90,2025-05-01,Hypertension follow-up,Private
+2123,PT1615,DOC004,68,2025-01-03,Prescription renewal,Insurance
+2124,PT0498,DOC003,59,2025-10-10,Routine check-up,Private
+2125,PT2769,DOC009,5,2025-09-05,Fatigue,Private
+2126,PT2457,DOC002,84,2025-12-24,Injury,Private
+2127,PT0512,DOC008,50,2025-03-26,Anxiety,Insurance
+2128,PT2135,DOC003,73,2025-02-12,Injury,Private
+2129,PT1671,DOC004,87,2025-12-26,Stomach issues,Private
+2130,PT1149,DOC007,80,2025-02-14,Headache,Insurance
+2131,PT1479,DOC001,78,2025-07-02,Injury,Insurance
+2132,PT1215,DOC009,88,2025-03-21,Prescription renewal,Private
+2133,PT0001,DOC003,75,2025-09-22,Back pain,Insurance
+2134,PT2749,DOC001,31,2025-11-06,Anxiety,Private
+2135,PT1427,DOC006,2,2025-05-09,Hypertension follow-up,Insurance
+2136,PT0127,DOC007,72,2025-02-20,Back pain,Insurance
+2137,PT2094,DOC008,42,2025-09-30,Anxiety,Private
+2138,PT0250,DOC003,43,2025-03-15,Back pain,Private
+2139,PT0144,DOC009,65,2025-01-19,Stomach issues,Insurance
+2140,PT0411,DOC008,84,2025-04-19,Hypertension follow-up,Private
+2141,PT0390,DOC007,71,2025-07-28,Hypertension follow-up,Private
+2142,PT1034,DOC011,42,2025-06-03,Fever,Private
+2143,PT1221,DOC006,35,2025-10-13,Cough,Private
+2144,PT1624,DOC008,29,2025-04-13,Allergy symptoms,Private
+2145,PT1840,DOC007,10,2025-02-17,Fever,Insurance
+2146,PT0779,DOC012,69,2025-11-19,Abdominal pain,Insurance
+2147,PT0571,DOC011,6,2025-12-26,Fever,Insurance
+2148,PT0852,DOC005,68,2025-01-15,Back pain,Private
+2149,PT2126,DOC007,40,2025-01-09,Fever,Insurance
+2150,PT1683,DOC006,27,2025-11-17,Cough,Private
+2151,PT2639,DOC005,69,2025-04-04,Back pain,Insurance
+2152,PT2305,DOC001,48,2025-06-09,Skin rash,Private
+2153,PT2652,DOC004,76,2025-11-06,Prescription renewal,Insurance
+2154,PT0086,DOC011,78,2025-10-07,Routine check-up,Private
+2155,PT2694,DOC006,87,2025-09-17,Routine check-up,Private
+2156,PT2881,DOC011,64,2025-03-11,Anxiety,Insurance
+2157,PT1285,DOC009,71,2025-09-18,Fatigue,Private
+2158,PT0484,DOC002,69,2025-05-20,Stomach issues,Insurance
+2159,PT2433,DOC011,6,2025-01-09,Allergy symptoms,Private
+2160,PT1770,DOC001,52,2025-09-04,Anxiety,Private
+2161,PT1015,DOC009,77,2025-05-17,Back pain,Insurance
+2162,PT2176,DOC003,55,2025-02-05,Anxiety,Insurance
+2163,PT2895,DOC011,41,2025-11-04,Prescription renewal,Insurance
+2164,PT0719,DOC006,77,2025-07-25,Headache,Insurance
+2165,PT2241,DOC003,64,2025-02-05,Cough,Insurance
+2166,PT2790,DOC005,83,2025-10-15,Abdominal pain,Private
+2167,PT1481,DOC011,42,2025-04-30,Skin rash,Private
+2168,PT0758,DOC002,89,2025-08-22,Fatigue,Insurance
+2169,PT0268,DOC006,68,2025-09-12,Hypertension follow-up,Insurance
+2170,PT2843,DOC006,21,2025-10-17,Prescription renewal,Private
+2171,PT0172,DOC011,53,2025-01-04,Back pain,Insurance
+2172,PT1341,DOC006,4,2025-03-07,Diabetes monitoring,Insurance
+2173,PT0501,DOC004,1,2025-03-11,Fever,Insurance
+2174,PT1909,DOC004,26,2025-08-15,Injury,Private
+2175,PT2632,DOC004,89,2025-07-07,Skin rash,Insurance
+2176,PT2855,DOC009,40,2025-04-16,Back pain,Insurance
+2177,PT1592,DOC008,82,2025-01-15,Back pain,Insurance
+2178,PT0240,DOC006,79,2025-07-27,Fever,Insurance
+2179,PT2467,DOC001,65,2025-09-18,Routine check-up,Insurance
+2180,PT0836,DOC006,72,2025-03-06,Fever,Private
+2181,PT2284,DOC006,88,2025-09-30,Stomach issues,Insurance
+2182,PT1527,DOC006,44,2025-06-11,Anxiety,Private
+2183,PT2060,DOC006,4,2025-09-12,Anxiety,Private
+2184,PT2697,DOC006,61,2025-04-04,Diabetes monitoring,Insurance
+2185,PT0264,DOC008,14,2025-08-18,Stomach issues,Insurance
+2186,PT0486,DOC001,76,2025-10-23,Back pain,Insurance
+2187,PT0536,DOC001,43,2025-12-31,Cough,Insurance
+2188,PT2673,DOC005,19,2025-06-14,Back pain,Private
+2189,PT2551,DOC007,76,2025-02-08,Fever,Insurance
+2190,PT0009,DOC002,63,2025-06-18,Vaccination,Insurance
+2191,PT0894,DOC001,79,2025-08-31,Hypertension follow-up,Private
+2192,PT1329,DOC006,87,2025-12-03,Cough,Insurance
+2193,PT1501,DOC011,83,2025-09-29,Headache,Private
+2194,PT0416,DOC004,76,2025-03-29,Hypertension follow-up,Private
+2195,PT0876,DOC011,77,2025-03-08,Cough,Private
+2196,PT1145,DOC006,64,2025-03-28,Back pain,Insurance
+2197,PT1121,DOC011,12,2025-11-09,Headache,Insurance
+2198,PT1725,DOC012,9,2025-03-22,Cough,Insurance
+2199,PT0855,DOC005,89,2025-12-09,Cough,Private
+2200,PT2687,DOC009,59,2025-10-18,Prescription renewal,Insurance
+2201,PT2978,DOC006,24,2025-09-07,Abdominal pain,Insurance
+2202,PT0650,DOC003,85,2025-10-19,Hypertension follow-up,Private
+2203,PT1543,DOC012,66,2025-03-29,Routine check-up,Insurance
+2204,PT0133,DOC008,66,2025-09-06,Injury,Private
+2205,PT0878,DOC001,22,2025-03-09,Headache,Insurance
+2206,PT0134,DOC010,61,2025-11-09,Hypertension follow-up,Insurance
+2207,PT0105,DOC005,11,2025-09-11,Cough,Private
+2208,PT1627,DOC002,89,2025-01-14,Injury,Private
+2209,PT2210,DOC005,29,2025-02-19,Cough,Insurance
+2210,PT0137,DOC006,69,2025-05-16,Allergy symptoms,Insurance
+2211,PT0333,DOC008,89,2025-05-12,Skin rash,Insurance
+2212,PT2912,DOC010,62,2025-04-10,Hypertension follow-up,Insurance
+2213,PT0960,DOC002,85,2025-02-17,Routine check-up,Insurance
+2214,PT1368,DOC004,49,2025-04-15,Allergy symptoms,Private
+2215,PT2719,DOC012,78,2025-07-25,Prescription renewal,Private
+2216,PT1466,DOC002,88,2025-12-24,Allergy symptoms,Private
+2217,PT0228,DOC004,63,2025-07-07,Back pain,Private
+2218,PT1713,DOC002,85,2025-04-28,Headache,Private
+2219,PT2866,DOC008,67,2025-08-09,Headache,Insurance
+2220,PT0359,DOC002,51,2025-04-09,Stomach issues,Private
+2221,PT0732,DOC007,6,2025-11-20,Allergy symptoms,Private
+2222,PT1800,DOC008,53,2025-09-03,Vaccination,Private
+2223,PT0657,DOC009,70,2025-09-28,Vaccination,Insurance
+2224,PT0532,DOC007,73,2025-12-01,Cough,Insurance
+2225,PT2019,DOC002,66,2025-12-05,Anxiety,Insurance
+2226,PT1974,DOC007,60,2025-09-03,Vaccination,Insurance
+2227,PT1356,DOC011,25,2025-10-25,Stomach issues,Private
+2228,PT1807,DOC009,79,2025-03-06,Hypertension follow-up,Private
+2229,PT1661,DOC005,68,2025-06-11,Stomach issues,Insurance
+2230,PT1099,DOC003,1,2025-09-04,Fatigue,Private
+2231,PT1044,DOC007,37,2025-08-17,Prescription renewal,Insurance
+2232,PT2458,DOC002,69,2025-08-30,Prescription renewal,Private
+2233,PT0635,DOC012,80,2025-09-16,Abdominal pain,Insurance
+2234,PT0961,DOC003,56,2025-08-17,Skin rash,Insurance
+2235,PT2589,DOC011,8,2025-06-18,Prescription renewal,Private
+2236,PT0757,DOC002,4,2025-12-22,Hypertension follow-up,Insurance
+2237,PT1251,DOC006,85,2025-01-30,Allergy symptoms,Insurance
+2238,PT1662,DOC012,72,2025-11-23,Vaccination,Private
+2239,PT1373,DOC007,7,2025-04-27,Anxiety,Private
+2240,PT2372,DOC009,7,2025-03-03,Diabetes monitoring,Private
+2241,PT1049,DOC005,32,2025-05-14,Stomach issues,Insurance
+2242,PT0188,DOC009,67,2025-03-26,Cough,Insurance
+2243,PT2234,DOC012,31,2025-07-27,Headache,Insurance
+2244,PT1289,DOC007,46,2025-02-13,Hypertension follow-up,Private
+2245,PT0174,DOC012,78,2025-12-02,Fatigue,Insurance
+2246,PT0637,DOC012,13,2025-10-17,Routine check-up,Private
+2247,PT2058,DOC010,57,2025-09-29,Allergy symptoms,Insurance
+2248,PT0742,DOC006,48,2025-01-24,Fever,Insurance
+2249,PT2461,DOC004,45,2025-03-15,Cough,Private
+2250,PT1579,DOC004,34,2025-01-15,Skin rash,Private
+2251,PT0805,DOC005,76,2025-12-24,Back pain,Private
+2252,PT2155,DOC012,27,2025-04-18,Headache,Insurance
+2253,PT1741,DOC001,63,2025-08-09,Vaccination,Insurance
+2254,PT1935,DOC007,46,2025-10-15,Anxiety,Private
+2255,PT0604,DOC003,36,2025-04-06,Skin rash,Private
+2256,PT1234,DOC008,18,2025-09-20,Vaccination,Private
+2257,PT0546,DOC003,50,2025-03-16,Cough,Insurance
+2258,PT1583,DOC001,34,2025-01-10,Allergy symptoms,Insurance
+2259,PT2178,DOC006,8,2025-04-13,Abdominal pain,Private
+2260,PT1701,DOC007,2,2025-11-20,Cough,Insurance
+2261,PT0075,DOC005,89,2025-12-26,Abdominal pain,Insurance
+2262,PT2453,DOC002,89,2025-03-20,Hypertension follow-up,Private
+2263,PT2794,DOC002,47,2025-11-03,Fatigue,Private
+2264,PT1317,DOC003,63,2025-05-02,Cough,Private
+2265,PT1882,DOC009,71,2025-05-16,Abdominal pain,Insurance
+2266,PT2356,DOC005,24,2025-10-15,Headache,Insurance
+2267,PT2550,DOC011,3,2025-04-09,Diabetes monitoring,Insurance
+2268,PT1723,DOC006,80,2025-08-14,Skin rash,Insurance
+2269,PT2709,DOC009,78,2025-10-17,Cough,Private
+2270,PT1997,DOC004,87,2025-06-14,Back pain,Private
+2271,PT2601,DOC009,27,2025-07-04,Fever,Insurance
+2272,PT1019,DOC004,64,2025-01-12,Diabetes monitoring,Insurance
+2273,PT0271,DOC006,18,2025-06-14,Fatigue,Insurance
+2274,PT2471,DOC009,82,2025-12-23,Allergy symptoms,Insurance
+2275,PT0443,DOC003,36,2025-03-22,Diabetes monitoring,Insurance
+2276,PT0392,DOC002,84,2025-07-07,Abdominal pain,Insurance
+2277,PT1177,DOC010,67,2025-01-08,Allergy symptoms,Insurance
+2278,PT1685,DOC006,58,2025-05-07,Back pain,Private
+2279,PT2147,DOC001,79,2025-04-04,Hypertension follow-up,Insurance
+2280,PT0239,DOC007,72,2025-06-10,Injury,Insurance
+2281,PT1949,DOC010,52,2025-09-22,Fever,Private
+2282,PT1656,DOC003,88,2025-07-24,Routine check-up,Insurance
+2283,PT0389,DOC008,48,2025-10-26,Stomach issues,Private
+2284,PT2975,DOC002,2,2025-07-16,Fever,Private
+2285,PT1802,DOC009,68,2025-09-22,Anxiety,Private
+2286,PT1587,DOC005,11,2025-09-06,Prescription renewal,Private
+2287,PT1452,DOC005,71,2025-03-21,Back pain,Private
+2288,PT2205,DOC005,72,2025-03-20,Injury,Insurance
+2289,PT0665,DOC005,33,2025-04-08,Cough,Insurance
+2290,PT1050,DOC004,43,2025-05-23,Skin rash,Insurance
+2291,PT2638,DOC005,58,2025-07-04,Injury,Private
+2292,PT1637,DOC002,68,2025-09-05,Prescription renewal,Private
+2293,PT2248,DOC003,68,2025-01-11,Allergy symptoms,Private
+2294,PT1288,DOC001,13,2025-02-05,Diabetes monitoring,Insurance
+2295,PT0875,DOC001,31,2025-01-18,Vaccination,Private
+2296,PT0932,DOC007,85,2025-07-11,Fever,Private
+2297,PT0154,DOC004,53,2025-07-01,Fatigue,Insurance
+2298,PT2301,DOC007,52,2025-01-05,Allergy symptoms,Insurance
+2299,PT2668,DOC003,71,2025-11-21,Prescription renewal,Insurance
+2300,PT0963,DOC006,88,2025-04-18,Fatigue,Private
+2301,PT0270,DOC002,72,2025-06-27,Stomach issues,Insurance
+2302,PT2264,DOC003,40,2025-03-29,Headache,Insurance
+2303,PT1428,DOC007,10,2025-11-21,Prescription renewal,Insurance
+2304,PT0330,DOC007,26,2025-07-02,Hypertension follow-up,Private
+2305,PT0348,DOC011,79,2025-10-06,Anxiety,Insurance
+2306,PT2618,DOC001,18,2025-06-27,Back pain,Insurance
+2307,PT1246,DOC005,83,2025-03-29,Headache,Private
+2308,PT0663,DOC007,84,2025-05-19,Routine check-up,Insurance
+2309,PT2848,DOC012,71,2025-01-04,Diabetes monitoring,Private
+2310,PT0039,DOC001,63,2025-06-23,Headache,Private
+2311,PT0936,DOC004,27,2025-01-12,Anxiety,Private
+2312,PT2115,DOC008,31,2025-08-30,Back pain,Private
+2313,PT2731,DOC010,84,2025-02-17,Diabetes monitoring,Private
+2314,PT0765,DOC008,23,2025-02-13,Vaccination,Private
+2315,PT2828,DOC011,85,2025-11-24,Routine check-up,Private
+2316,PT0076,DOC007,8,2025-01-31,Abdominal pain,Insurance
+2317,PT0325,DOC012,88,2025-01-03,Prescription renewal,Private
+2318,PT2325,DOC010,78,2025-06-06,Stomach issues,Insurance
+2319,PT0893,DOC006,65,2025-02-06,Headache,Insurance
+2320,PT1117,DOC006,68,2025-07-12,Prescription renewal,Insurance
+2321,PT0612,DOC005,83,2025-11-15,Injury,Insurance
+2322,PT2173,DOC009,11,2025-10-25,Skin rash,Private
+2323,PT1766,DOC003,32,2025-03-06,Injury,Insurance
+2324,PT2195,DOC008,72,2025-05-21,Anxiety,Insurance
+2325,PT0957,DOC008,13,2025-05-26,Allergy symptoms,Insurance
+2326,PT0684,DOC010,19,2025-05-31,Vaccination,Insurance
+2327,PT2763,DOC001,81,2025-11-08,Anxiety,Insurance
+2328,PT1225,DOC011,61,2025-02-28,Vaccination,Insurance
+2329,PT0701,DOC003,17,2025-02-04,Injury,Private
+2330,PT0945,DOC008,87,2025-01-30,Diabetes monitoring,Private
+2331,PT0545,DOC003,14,2025-04-25,Prescription renewal,Private
+2332,PT2759,DOC007,79,2025-11-06,Vaccination,Insurance
+2333,PT2699,DOC002,9,2025-04-22,Vaccination,Private
+2334,PT1618,DOC009,10,2025-06-09,Routine check-up,Private
+2335,PT1157,DOC008,20,2025-06-23,Prescription renewal,Private
+2336,PT1129,DOC003,72,2025-08-14,Anxiety,Insurance
+2337,PT1033,DOC011,14,2025-07-26,Back pain,Private
+2338,PT2014,DOC012,78,2025-06-04,Injury,Insurance
+2339,PT2005,DOC006,65,2025-05-28,Fatigue,Insurance
+2340,PT2925,DOC004,54,2025-01-07,Headache,Private
+2341,PT1559,DOC008,52,2025-08-28,Skin rash,Insurance
+2342,PT0596,DOC009,64,2025-03-06,Fatigue,Private
+2343,PT1936,DOC012,62,2025-08-01,Hypertension follow-up,Private
+2344,PT1448,DOC012,84,2025-05-10,Routine check-up,Insurance
+2345,PT0823,DOC002,11,2025-11-21,Vaccination,Insurance
+2346,PT0922,DOC008,58,2025-10-21,Back pain,Private
+2347,PT0586,DOC009,1,2025-10-15,Vaccination,Insurance
+2348,PT0113,DOC010,85,2025-04-28,Fever,Private
+2349,PT2715,DOC008,1,2025-12-09,Headache,Private
+2350,PT1100,DOC010,81,2025-11-23,Allergy symptoms,Insurance
+2351,PT2485,DOC009,81,2025-06-02,Headache,Private
+2352,PT2167,DOC003,24,2025-08-03,Allergy symptoms,Insurance
+2353,PT1465,DOC003,23,2025-07-04,Skin rash,Insurance
+2354,PT1422,DOC002,40,2025-04-22,Routine check-up,Insurance
+2355,PT0970,DOC008,11,2025-11-19,Back pain,Insurance
+2356,PT0549,DOC001,66,2025-03-11,Back pain,Private
+2357,PT1459,DOC011,72,2025-12-17,Fatigue,Private
+2358,PT0064,DOC001,70,2025-05-26,Fever,Insurance
+2359,PT1004,DOC009,46,2025-04-08,Injury,Insurance
+2360,PT0078,DOC011,11,2025-10-10,Vaccination,Insurance
+2361,PT1146,DOC006,62,2025-04-30,Fever,Insurance
+2362,PT0826,DOC001,60,2025-09-01,Back pain,Insurance
+2363,PT1372,DOC007,10,2025-08-10,Hypertension follow-up,Insurance
+2364,PT1884,DOC009,83,2025-05-17,Anxiety,Insurance
+2365,PT2899,DOC001,4,2025-04-27,Fever,Insurance
+2366,PT0357,DOC004,14,2025-05-15,Stomach issues,Insurance
+2367,PT2321,DOC002,70,2025-07-11,Vaccination,Private
+2368,PT1921,DOC011,62,2025-01-01,Cough,Private
+2369,PT2151,DOC009,71,2025-08-06,Hypertension follow-up,Private
+2370,PT2616,DOC011,4,2025-06-19,Back pain,Private
+2371,PT0108,DOC009,87,2025-03-06,Cough,Insurance
+2372,PT2539,DOC001,73,2025-04-19,Abdominal pain,Private
+2373,PT2230,DOC007,54,2025-08-23,Back pain,Private
+2374,PT0617,DOC009,66,2025-04-16,Allergy symptoms,Private
+2375,PT1242,DOC004,80,2025-05-05,Fever,Private
+2376,PT0197,DOC009,62,2025-11-15,Headache,Private
+2377,PT1235,DOC005,30,2025-09-26,Abdominal pain,Insurance
+2378,PT1783,DOC003,73,2025-01-03,Vaccination,Private
+2379,PT2090,DOC012,87,2025-06-10,Stomach issues,Insurance
+2380,PT2747,DOC002,9,2025-05-02,Headache,Private
+2381,PT1633,DOC012,25,2025-10-24,Allergy symptoms,Insurance
+2382,PT2811,DOC002,8,2025-05-01,Prescription renewal,Private
+2383,PT0890,DOC008,16,2025-04-29,Hypertension follow-up,Insurance
+2384,PT0599,DOC007,14,2025-01-07,Vaccination,Private
+2385,PT0345,DOC009,69,2025-04-10,Injury,Insurance
+2386,PT1801,DOC003,68,2025-05-30,Vaccination,Private
+2387,PT0243,DOC001,23,2025-04-15,Abdominal pain,Private
+2388,PT2841,DOC010,30,2025-02-04,Back pain,Insurance
+2389,PT0854,DOC007,4,2025-11-05,Stomach issues,Private
+2390,PT0581,DOC001,5,2025-12-17,Cough,Private
+2391,PT2502,DOC006,19,2025-04-25,Skin rash,Insurance
+2392,PT2860,DOC008,74,2025-05-30,Anxiety,Insurance
+2393,PT2247,DOC010,39,2025-12-09,Hypertension follow-up,Insurance
+2394,PT1382,DOC007,84,2025-01-25,Stomach issues,Insurance
+2395,PT0081,DOC010,45,2025-03-06,Allergy symptoms,Private
+2396,PT0507,DOC007,60,2025-11-03,Stomach issues,Private
+2397,PT0999,DOC005,63,2025-01-05,Skin rash,Private
+2398,PT0788,DOC005,45,2025-03-22,Hypertension follow-up,Insurance
+2399,PT2741,DOC010,14,2025-04-26,Stomach issues,Private
+2400,PT2619,DOC003,43,2025-03-14,Allergy symptoms,Insurance
+2401,PT0386,DOC005,60,2025-05-01,Cough,Insurance
+2402,PT1060,DOC005,4,2025-04-20,Anxiety,Insurance
+2403,PT0420,DOC009,70,2025-08-11,Anxiety,Insurance
+2404,PT2753,DOC003,5,2025-12-27,Stomach issues,Private
+2405,PT0778,DOC002,68,2025-07-07,Stomach issues,Private
+2406,PT0587,DOC001,73,2025-12-19,Fever,Private
+2407,PT1143,DOC002,80,2025-09-21,Prescription renewal,Private
+2408,PT0439,DOC001,8,2025-09-19,Abdominal pain,Private
+2409,PT2792,DOC001,62,2025-11-16,Hypertension follow-up,Private
+2410,PT1326,DOC005,71,2025-05-17,Routine check-up,Insurance
+2411,PT1433,DOC011,52,2025-07-18,Fatigue,Private
+2412,PT0161,DOC006,84,2025-03-04,Stomach issues,Insurance
+2413,PT2017,DOC012,60,2025-03-16,Cough,Private
+2414,PT1342,DOC007,70,2025-05-27,Injury,Insurance
+2415,PT2987,DOC006,10,2025-04-26,Vaccination,Insurance
+2416,PT2513,DOC003,87,2025-10-04,Anxiety,Insurance
+2417,PT2716,DOC012,68,2025-01-06,Stomach issues,Private
+2418,PT2815,DOC009,4,2025-12-28,Vaccination,Insurance
+2419,PT0993,DOC004,79,2025-09-06,Routine check-up,Insurance
+2420,PT2367,DOC003,56,2025-10-06,Injury,Private
+2421,PT1086,DOC006,63,2025-09-12,Back pain,Private
+2422,PT1182,DOC008,80,2025-11-10,Anxiety,Private
+2423,PT1510,DOC011,18,2025-03-19,Anxiety,Private
+2424,PT2493,DOC007,73,2025-03-07,Hypertension follow-up,Insurance
+2425,PT2951,DOC003,78,2025-07-13,Cough,Private
+2426,PT2776,DOC004,87,2025-11-18,Routine check-up,Private
+2427,PT0236,DOC010,78,2025-04-20,Diabetes monitoring,Private
+2428,PT2423,DOC009,85,2025-07-01,Fatigue,Insurance
+2429,PT1505,DOC007,89,2025-10-19,Stomach issues,Private
+2430,PT2479,DOC010,18,2025-05-03,Fatigue,Private
+2431,PT0303,DOC007,29,2025-08-01,Fever,Insurance
+2432,PT0926,DOC010,57,2025-02-11,Vaccination,Private
+2433,PT2663,DOC008,1,2025-05-07,Anxiety,Private
+2434,PT0314,DOC012,84,2025-11-11,Injury,Insurance
+2435,PT2578,DOC003,16,2025-07-05,Allergy symptoms,Private
+2436,PT2175,DOC007,67,2025-03-24,Anxiety,Insurance
+2437,PT2891,DOC007,77,2025-07-01,Prescription renewal,Private
+2438,PT1286,DOC006,31,2025-10-25,Stomach issues,Insurance
+2439,PT0539,DOC003,4,2025-03-11,Skin rash,Private
+2440,PT1098,DOC009,11,2025-12-10,Diabetes monitoring,Insurance
+2441,PT0848,DOC005,32,2025-12-09,Diabetes monitoring,Private
+2442,PT0368,DOC010,28,2025-12-25,Prescription renewal,Private
+2443,PT1829,DOC007,45,2025-07-27,Prescription renewal,Private
+2444,PT0446,DOC006,57,2025-03-09,Abdominal pain,Insurance
+2445,PT0059,DOC009,12,2025-05-11,Headache,Private
+2446,PT1990,DOC011,84,2025-07-30,Skin rash,Private
+2447,PT0837,DOC007,63,2025-06-28,Headache,Private
+2448,PT0255,DOC007,12,2025-06-24,Abdominal pain,Private
+2449,PT0460,DOC011,66,2025-10-09,Allergy symptoms,Insurance
+2450,PT1378,DOC011,60,2025-08-23,Fever,Insurance
+2451,PT0623,DOC002,39,2025-11-27,Prescription renewal,Insurance
+2452,PT2745,DOC005,62,2025-07-28,Vaccination,Insurance
+2453,PT1962,DOC009,65,2025-12-17,Skin rash,Insurance
+2454,PT1772,DOC001,86,2025-11-21,Headache,Insurance
+2455,PT1353,DOC011,45,2025-11-10,Vaccination,Insurance
+2456,PT1439,DOC008,3,2025-11-01,Hypertension follow-up,Private
+2457,PT0947,DOC011,6,2025-09-25,Back pain,Private
+2458,PT2085,DOC007,2,2025-12-01,Injury,Private
+2459,PT2268,DOC003,84,2025-05-31,Routine check-up,Private
+2460,PT0072,DOC007,18,2025-08-10,Prescription renewal,Insurance
+2461,PT2570,DOC004,89,2025-01-10,Cough,Private
+2462,PT0377,DOC009,15,2025-05-04,Prescription renewal,Private
+2463,PT0556,DOC011,4,2025-01-11,Skin rash,Insurance
+2464,PT2291,DOC005,81,2025-10-02,Diabetes monitoring,Insurance
+2465,PT2486,DOC003,76,2025-08-13,Stomach issues,Private
+2466,PT1769,DOC002,17,2025-04-07,Headache,Private
+2467,PT0483,DOC008,72,2025-05-27,Fatigue,Private
+2468,PT0971,DOC001,7,2025-12-13,Allergy symptoms,Private
+2469,PT2947,DOC006,82,2025-11-09,Hypertension follow-up,Insurance
+2470,PT0468,DOC007,84,2025-02-06,Stomach issues,Private
+2471,PT1831,DOC002,26,2025-07-26,Skin rash,Private
+2472,PT1823,DOC004,50,2025-01-13,Vaccination,Private
+2473,PT1514,DOC002,41,2025-12-23,Skin rash,Private
+2474,PT2332,DOC004,18,2025-11-18,Allergy symptoms,Private
+2475,PT0609,DOC002,6,2025-05-13,Injury,Private
+2476,PT2803,DOC004,62,2025-08-28,Back pain,Private
+2477,PT0407,DOC005,86,2025-07-07,Hypertension follow-up,Insurance
+2478,PT1581,DOC001,81,2025-09-19,Diabetes monitoring,Private
+2479,PT2970,DOC001,90,2025-04-20,Injury,Insurance
+2480,PT1558,DOC001,62,2025-11-29,Skin rash,Private
+2481,PT0517,DOC005,56,2025-06-05,Fatigue,Private
+2482,PT0466,DOC003,62,2025-09-30,Fatigue,Insurance
+2483,PT2999,DOC004,69,2025-06-04,Hypertension follow-up,Private
+2484,PT2720,DOC002,46,2025-04-14,Fever,Insurance
+2485,PT0769,DOC012,42,2025-11-28,Prescription renewal,Insurance
+2486,PT2285,DOC001,58,2025-05-25,Skin rash,Insurance
+2487,PT0418,DOC008,9,2025-08-15,Routine check-up,Private
+2488,PT1002,DOC002,57,2025-06-11,Allergy symptoms,Private
+2489,PT0897,DOC012,10,2025-10-15,Hypertension follow-up,Private
+2490,PT0859,DOC001,10,2025-03-01,Prescription renewal,Insurance
+2491,PT2861,DOC010,48,2025-06-23,Stomach issues,Insurance
+2492,PT0478,DOC002,71,2025-11-17,Stomach issues,Insurance
+2493,PT1628,DOC007,4,2025-04-25,Headache,Private
+2494,PT0253,DOC007,68,2025-06-12,Back pain,Private
+2495,PT0833,DOC005,66,2025-01-11,Diabetes monitoring,Insurance
+2496,PT2283,DOC005,17,2025-04-20,Abdominal pain,Private
+2497,PT1845,DOC011,85,2025-05-14,Vaccination,Private
+2498,PT0454,DOC011,88,2025-09-22,Diabetes monitoring,Private
+2499,PT2688,DOC010,73,2025-10-20,Fever,Insurance
+2500,PT2312,DOC002,41,2025-02-11,Allergy symptoms,Insurance
+2501,PT0861,DOC001,61,2025-07-30,Cough,Private
+2502,PT1174,DOC011,56,2025-06-22,Prescription renewal,Insurance
+2503,PT0388,DOC006,86,2025-04-12,Skin rash,Insurance
+2504,PT2679,DOC002,67,2025-08-04,Anxiety,Insurance
+2505,PT1954,DOC010,31,2025-11-25,Abdominal pain,Insurance
+2506,PT2307,DOC006,62,2025-06-19,Injury,Insurance
+2507,PT1905,DOC007,18,2025-04-05,Vaccination,Private
+2508,PT0967,DOC007,3,2025-11-13,Headache,Private
+2509,PT2783,DOC011,43,2025-04-09,Fever,Private
+2510,PT0812,DOC006,20,2025-09-10,Fever,Private
+2511,PT2303,DOC006,75,2025-06-27,Routine check-up,Insurance
+2512,PT0557,DOC011,71,2025-07-23,Allergy symptoms,Private
+2513,PT2416,DOC007,89,2025-08-02,Abdominal pain,Private
+2514,PT2049,DOC005,57,2025-12-07,Routine check-up,Private
+2515,PT1254,DOC011,83,2025-01-31,Anxiety,Private
+2516,PT2666,DOC012,1,2025-05-07,Vaccination,Private
+2517,PT1818,DOC011,66,2025-05-11,Stomach issues,Insurance
+2518,PT2497,DOC012,64,2025-12-07,Injury,Private
+2519,PT1291,DOC007,28,2025-09-17,Routine check-up,Private
+2520,PT0793,DOC003,17,2025-11-25,Hypertension follow-up,Insurance
+2521,PT2245,DOC012,10,2025-07-08,Vaccination,Insurance
+2522,PT0114,DOC011,39,2025-11-21,Vaccination,Private
+2523,PT0298,DOC009,62,2025-02-02,Routine check-up,Private
+2524,PT1961,DOC002,71,2025-06-13,Stomach issues,Private
+2525,PT1499,DOC007,20,2025-07-16,Anxiety,Insurance
+2526,PT2635,DOC004,79,2025-08-05,Headache,Insurance
+2527,PT2041,DOC004,51,2025-05-01,Skin rash,Private
+2528,PT2233,DOC004,52,2025-03-06,Cough,Private
+2529,PT0776,DOC011,58,2025-03-09,Abdominal pain,Insurance
+2530,PT2072,DOC012,63,2025-04-03,Hypertension follow-up,Insurance
+2531,PT1903,DOC003,1,2025-09-09,Diabetes monitoring,Private
+2532,PT2914,DOC005,54,2025-12-10,Prescription renewal,Insurance
+2533,PT2882,DOC002,52,2025-09-09,Allergy symptoms,Insurance
+2534,PT1981,DOC009,62,2025-01-12,Skin rash,Insurance
+2535,PT0107,DOC009,87,2025-12-13,Prescription renewal,Private
+2536,PT0713,DOC010,87,2025-03-19,Vaccination,Insurance
+2537,PT0561,DOC012,85,2025-04-20,Back pain,Insurance
+2538,PT0639,DOC002,54,2025-03-20,Prescription renewal,Private
+2539,PT1924,DOC003,59,2025-03-06,Hypertension follow-up,Private
+2540,PT2764,DOC003,28,2025-11-01,Back pain,Insurance
+2541,PT2988,DOC006,84,2025-05-11,Stomach issues,Private
+2542,PT0872,DOC004,87,2025-12-20,Injury,Private
+2543,PT0662,DOC001,71,2025-03-06,Skin rash,Private
+2544,PT1483,DOC008,3,2025-10-22,Prescription renewal,Insurance
+2545,PT2770,DOC003,7,2025-10-10,Fatigue,Private
+2546,PT2168,DOC009,61,2025-01-28,Headache,Insurance
+2547,PT1142,DOC007,66,2025-04-28,Fatigue,Insurance
+2548,PT0492,DOC009,25,2025-07-21,Injury,Insurance
+2549,PT1312,DOC006,13,2025-12-16,Skin rash,Insurance
+2550,PT0516,DOC006,85,2025-11-01,Fever,Private
+2551,PT2098,DOC008,87,2025-03-12,Prescription renewal,Private
+2552,PT0179,DOC009,24,2025-06-18,Fatigue,Insurance
+2553,PT0688,DOC011,71,2025-09-29,Stomach issues,Private
+2554,PT0925,DOC012,33,2025-03-09,Allergy symptoms,Private
+2555,PT0317,DOC008,19,2025-05-08,Routine check-up,Private
+2556,PT2068,DOC004,34,2025-04-25,Prescription renewal,Private
+2557,PT2206,DOC007,88,2025-10-22,Headache,Private
+2558,PT2851,DOC002,34,2025-12-12,Fever,Insurance
+2559,PT1337,DOC003,11,2025-07-30,Diabetes monitoring,Private
+2560,PT0931,DOC011,31,2025-05-01,Hypertension follow-up,Insurance
+2561,PT2879,DOC005,74,2025-07-07,Fever,Private
+2562,PT1663,DOC006,18,2025-03-26,Anxiety,Insurance
+2563,PT2755,DOC001,86,2025-10-31,Routine check-up,Private
+2564,PT1932,DOC012,73,2025-01-14,Injury,Insurance
+2565,PT0601,DOC008,21,2025-08-15,Fatigue,Private
+2566,PT1363,DOC010,45,2025-07-13,Fever,Insurance
+2567,PT0791,DOC007,44,2025-09-06,Back pain,Private
+2568,PT2916,DOC003,16,2025-01-18,Headache,Private
+2569,PT1515,DOC004,74,2025-11-01,Back pain,Private
+2570,PT1046,DOC007,64,2025-10-18,Fatigue,Insurance
+2571,PT2827,DOC003,79,2025-05-20,Fatigue,Insurance
+2572,PT1497,DOC011,72,2025-08-25,Allergy symptoms,Insurance
+2573,PT2064,DOC012,1,2025-10-01,Allergy symptoms,Insurance
+2574,PT2046,DOC004,82,2025-01-25,Cough,Private
+2575,PT0953,DOC009,52,2025-10-07,Skin rash,Private
+2576,PT0400,DOC001,76,2025-02-08,Diabetes monitoring,Insurance
+2577,PT0726,DOC006,44,2025-02-23,Abdominal pain,Insurance
+2578,PT2664,DOC002,90,2025-12-11,Prescription renewal,Insurance
+2579,PT1282,DOC005,25,2025-07-07,Routine check-up,Insurance
+2580,PT2400,DOC012,34,2025-12-02,Headache,Private
+2581,PT1870,DOC002,23,2025-08-06,Fever,Private
+2582,PT1854,DOC003,53,2025-08-06,Abdominal pain,Insurance
+2583,PT0196,DOC001,82,2025-12-21,Allergy symptoms,Insurance
+2584,PT2183,DOC006,45,2025-09-04,Stomach issues,Insurance
+2585,PT0261,DOC004,65,2025-09-26,Fever,Private
+2586,PT0570,DOC011,34,2025-08-23,Fatigue,Insurance
+2587,PT0909,DOC012,24,2025-02-17,Injury,Private
+2588,PT0132,DOC006,64,2025-12-18,Routine check-up,Insurance
+2589,PT2351,DOC006,1,2025-04-13,Stomach issues,Insurance
+2590,PT1670,DOC006,61,2025-08-23,Headache,Private
+2591,PT2610,DOC003,23,2025-07-21,Stomach issues,Insurance
+2592,PT0731,DOC003,47,2025-03-27,Back pain,Private
+2593,PT2010,DOC004,10,2025-06-30,Prescription renewal,Private
+2594,PT2680,DOC012,1,2025-10-16,Cough,Insurance
+2595,PT1580,DOC006,74,2025-07-21,Anxiety,Private
+2596,PT2000,DOC009,82,2025-04-14,Allergy symptoms,Insurance
+2597,PT0192,DOC009,11,2025-10-13,Back pain,Private
+2598,PT0721,DOC008,75,2025-08-29,Hypertension follow-up,Insurance
+2599,PT0060,DOC009,67,2025-08-24,Injury,Insurance
+2600,PT2009,DOC008,13,2025-10-11,Headache,Private
+2601,PT2431,DOC007,84,2025-05-05,Prescription renewal,Private
+2602,PT1299,DOC010,82,2025-11-03,Vaccination,Insurance
+2603,PT2465,DOC010,80,2025-08-26,Hypertension follow-up,Insurance
+2604,PT0257,DOC002,51,2025-03-06,Routine check-up,Private
+2605,PT1148,DOC001,67,2025-02-22,Vaccination,Insurance
+2606,PT2119,DOC010,9,2025-12-14,Fever,Private
+2607,PT1700,DOC011,70,2025-04-25,Back pain,Private
+2608,PT1008,DOC009,70,2025-05-28,Stomach issues,Insurance
+2609,PT1750,DOC010,31,2025-01-17,Diabetes monitoring,Private
+2610,PT2430,DOC012,56,2025-02-28,Fatigue,Private
+2611,PT1536,DOC006,80,2025-06-30,Routine check-up,Private
+2612,PT2725,DOC006,40,2025-06-11,Anxiety,Insurance
+2613,PT0880,DOC005,79,2025-11-14,Cough,Private
+2614,PT1565,DOC001,73,2025-01-05,Allergy symptoms,Insurance
+2615,PT0709,DOC002,14,2025-10-14,Allergy symptoms,Insurance
+2616,PT2875,DOC007,26,2025-05-23,Injury,Insurance
+2617,PT2496,DOC012,69,2025-11-12,Hypertension follow-up,Insurance
+2618,PT2966,DOC001,77,2025-08-24,Routine check-up,Insurance
+2619,PT1640,DOC004,22,2025-01-06,Routine check-up,Private
+2620,PT1768,DOC004,41,2025-11-05,Stomach issues,Private
+2621,PT2675,DOC002,82,2025-12-17,Cough,Private
+2622,PT0728,DOC005,7,2025-05-18,Diabetes monitoring,Insurance
+2623,PT1304,DOC011,6,2025-08-09,Fatigue,Insurance
+2624,PT0749,DOC011,62,2025-06-15,Cough,Private
+2625,PT1584,DOC005,74,2025-04-21,Diabetes monitoring,Private
+2626,PT2907,DOC010,46,2025-05-15,Diabetes monitoring,Insurance
+2627,PT1984,DOC009,83,2025-09-24,Routine check-up,Private
+2628,PT1411,DOC009,81,2025-07-11,Diabetes monitoring,Private
+2629,PT0372,DOC008,2,2025-06-01,Back pain,Private
+2630,PT0312,DOC001,63,2025-08-17,Allergy symptoms,Private
+2631,PT0992,DOC005,74,2025-03-04,Injury,Private
+2632,PT0288,DOC008,37,2025-05-04,Diabetes monitoring,Insurance
+2633,PT2862,DOC012,72,2025-05-15,Stomach issues,Private
+2634,PT2965,DOC006,1,2025-06-04,Prescription renewal,Private
+2635,PT0678,DOC005,88,2025-03-20,Hypertension follow-up,Private
+2636,PT2498,DOC010,86,2025-09-11,Back pain,Private
+2637,PT2469,DOC002,3,2025-10-04,Diabetes monitoring,Private
+2638,PT0102,DOC005,45,2025-05-20,Prescription renewal,Insurance
+2639,PT0594,DOC009,49,2025-01-25,Allergy symptoms,Insurance
+2640,PT2314,DOC009,72,2025-07-03,Allergy symptoms,Insurance
+2641,PT0276,DOC001,14,2025-05-31,Prescription renewal,Private
+2642,PT1822,DOC007,78,2025-06-27,Fever,Private
+2643,PT2142,DOC010,70,2025-09-20,Fatigue,Private
+2644,PT2308,DOC005,63,2025-06-14,Fatigue,Insurance
+2645,PT2696,DOC010,65,2025-05-12,Cough,Private
+2646,PT0943,DOC007,90,2025-06-27,Abdominal pain,Private
+2647,PT0847,DOC007,66,2025-01-16,Cough,Private
+2648,PT2941,DOC005,65,2025-05-28,Prescription renewal,Private
+2649,PT2549,DOC010,76,2025-09-13,Diabetes monitoring,Private
+2650,PT0380,DOC002,64,2025-02-05,Fever,Insurance
+2651,PT0005,DOC007,21,2025-05-09,Skin rash,Insurance
+2652,PT1425,DOC011,60,2025-05-10,Fever,Private
+2653,PT2428,DOC009,27,2025-01-12,Headache,Private
+2654,PT0858,DOC003,33,2025-11-17,Prescription renewal,Private
+2655,PT0801,DOC002,71,2025-09-26,Injury,Insurance
+2656,PT2015,DOC009,14,2025-11-11,Vaccination,Insurance
+2657,PT2427,DOC011,25,2025-02-03,Fever,Private
+2658,PT1853,DOC002,30,2025-08-09,Injury,Insurance
+2659,PT1028,DOC007,55,2025-09-30,Back pain,Private
+2660,PT2326,DOC008,61,2025-02-11,Hypertension follow-up,Insurance
+2661,PT2437,DOC010,1,2025-07-28,Hypertension follow-up,Insurance
+2662,PT0628,DOC001,27,2025-12-22,Stomach issues,Insurance
+2663,PT2052,DOC008,18,2025-11-21,Fatigue,Insurance
+2664,PT1446,DOC009,78,2025-03-09,Cough,Private
+2665,PT2334,DOC011,20,2025-10-15,Diabetes monitoring,Insurance
+2666,PT0816,DOC008,28,2025-11-15,Allergy symptoms,Private
+2667,PT1524,DOC004,82,2025-04-02,Abdominal pain,Insurance
+2668,PT0588,DOC002,6,2025-08-03,Skin rash,Private
+2669,PT2174,DOC007,6,2025-03-17,Hypertension follow-up,Private
+2670,PT1437,DOC011,57,2025-09-02,Cough,Private
+2671,PT2518,DOC007,83,2025-06-06,Back pain,Insurance
+2672,PT1523,DOC008,83,2025-09-24,Routine check-up,Insurance
+2673,PT1821,DOC002,83,2025-10-13,Stomach issues,Private
+2674,PT2495,DOC007,76,2025-07-27,Hypertension follow-up,Private
+2675,PT0954,DOC009,65,2025-11-25,Skin rash,Insurance
+2676,PT0026,DOC012,68,2025-12-30,Skin rash,Private
+2677,PT1969,DOC009,64,2025-12-24,Vaccination,Insurance
+2678,PT0511,DOC005,52,2025-03-31,Vaccination,Insurance
+2679,PT1888,DOC010,68,2025-10-01,Routine check-up,Insurance
+2680,PT2221,DOC001,41,2025-07-15,Cough,Insurance
+2681,PT0671,DOC011,12,2025-08-21,Vaccination,Private
+2682,PT2813,DOC003,8,2025-07-17,Headache,Insurance
+2683,PT0703,DOC002,28,2025-04-08,Hypertension follow-up,Private
+2684,PT1187,DOC012,57,2025-06-06,Cough,Private
+2685,PT2106,DOC009,14,2025-06-21,Back pain,Private
+2686,PT1051,DOC009,52,2025-02-21,Prescription renewal,Private
+2687,PT1653,DOC006,76,2025-06-01,Fever,Private
+2688,PT0215,DOC011,75,2025-07-15,Fatigue,Private
+2689,PT0095,DOC003,10,2025-11-18,Fatigue,Private
+2690,PT2141,DOC004,60,2025-06-08,Fatigue,Private
+2691,PT1016,DOC011,75,2025-10-14,Headache,Insurance
+2692,PT0518,DOC009,33,2025-07-29,Anxiety,Insurance
+2693,PT1752,DOC003,37,2025-08-02,Headache,Insurance
+2694,PT1538,DOC003,71,2025-01-04,Abdominal pain,Private
+2695,PT0301,DOC009,66,2025-07-04,Fatigue,Private
+2696,PT2902,DOC004,51,2025-10-28,Headache,Insurance
+2697,PT2295,DOC006,15,2025-06-01,Abdominal pain,Insurance
+2698,PT1788,DOC008,79,2025-03-09,Cough,Private
+2699,PT2667,DOC010,82,2025-02-09,Skin rash,Private
+2700,PT2089,DOC008,18,2025-05-22,Abdominal pain,Private
+2701,PT1056,DOC003,18,2025-11-01,Stomach issues,Insurance
+2702,PT2390,DOC007,39,2025-11-29,Cough,Insurance
+2703,PT0606,DOC012,32,2025-08-16,Injury,Private
+2704,PT1039,DOC004,60,2025-03-09,Allergy symptoms,Private
+2705,PT1983,DOC005,65,2025-05-16,Cough,Private
+2706,PT1798,DOC007,85,2025-12-20,Skin rash,Insurance
+2707,PT0834,DOC010,67,2025-02-13,Back pain,Insurance
+2708,PT0632,DOC012,34,2025-05-26,Routine check-up,Insurance
+2709,PT1024,DOC003,45,2025-07-12,Anxiety,Insurance
+2710,PT0589,DOC003,59,2025-04-05,Diabetes monitoring,Private
+2711,PT1424,DOC001,21,2025-02-28,Allergy symptoms,Insurance
+2712,PT1836,DOC004,67,2025-03-07,Routine check-up,Private
+2713,PT0700,DOC011,88,2025-02-01,Vaccination,Insurance
+2714,PT0220,DOC005,7,2025-04-28,Allergy symptoms,Insurance
+2715,PT0104,DOC012,63,2025-09-17,Fatigue,Insurance
+2716,PT0672,DOC009,8,2025-11-24,Fatigue,Insurance
+2717,PT1694,DOC012,2,2025-03-18,Skin rash,Private
+2718,PT2156,DOC001,83,2025-10-26,Diabetes monitoring,Insurance
+2719,PT0651,DOC009,12,2025-08-14,Vaccination,Private
+2720,PT0452,DOC005,19,2025-03-22,Headache,Private
+2721,PT0870,DOC005,6,2025-01-30,Allergy symptoms,Private
+2722,PT0334,DOC009,69,2025-07-24,Diabetes monitoring,Insurance
+2723,PT0619,DOC011,13,2025-12-17,Skin rash,Insurance
+2724,PT0226,DOC005,84,2025-06-12,Fatigue,Insurance
+2725,PT0426,DOC008,68,2025-04-13,Anxiety,Insurance
+2726,PT1226,DOC011,88,2025-11-12,Injury,Private
+2727,PT1432,DOC005,64,2025-04-16,Allergy symptoms,Insurance
+2728,PT0962,DOC006,31,2025-05-23,Headache,Private
+2729,PT2329,DOC001,63,2025-01-02,Anxiety,Private
+2730,PT1031,DOC006,80,2025-11-05,Prescription renewal,Private
+2731,PT0338,DOC009,49,2025-09-11,Back pain,Private
+2732,PT1244,DOC009,65,2025-04-06,Cough,Private
+2733,PT2013,DOC002,46,2025-10-28,Fatigue,Private
+2734,PT1707,DOC005,62,2025-03-14,Abdominal pain,Private
+2735,PT1650,DOC006,15,2025-12-18,Headache,Private
+2736,PT2751,DOC009,14,2025-02-23,Abdominal pain,Private
+2737,PT0634,DOC003,76,2025-01-18,Routine check-up,Private
+2738,PT2456,DOC012,68,2025-11-04,Prescription renewal,Insurance
+2739,PT2144,DOC001,9,2025-02-06,Cough,Insurance
+2740,PT0326,DOC003,18,2025-11-18,Anxiety,Private
+2741,PT0618,DOC012,85,2025-06-06,Injury,Insurance
+2742,PT1938,DOC010,62,2025-05-12,Cough,Insurance
+2743,PT2671,DOC003,16,2025-02-12,Headache,Private
+2744,PT2863,DOC008,77,2025-02-06,Abdominal pain,Private
+2745,PT2742,DOC003,73,2025-11-04,Diabetes monitoring,Private
+2746,PT0885,DOC006,53,2025-10-12,Vaccination,Private
+2747,PT0494,DOC010,14,2025-04-24,Diabetes monitoring,Private
+2748,PT1391,DOC005,42,2025-02-09,Injury,Private
+2749,PT1941,DOC008,55,2025-02-11,Abdominal pain,Insurance
+2750,PT2711,DOC009,36,2025-03-25,Allergy symptoms,Insurance
+2751,PT2354,DOC005,88,2025-12-20,Allergy symptoms,Insurance
+2752,PT1857,DOC003,5,2025-05-20,Cough,Insurance
+2753,PT1212,DOC004,62,2025-01-02,Stomach issues,Private
+2754,PT2516,DOC004,7,2025-10-09,Prescription renewal,Private
+2755,PT1055,DOC012,25,2025-03-01,Skin rash,Insurance
+2756,PT0551,DOC005,70,2025-11-15,Fatigue,Private
+2757,PT1672,DOC006,76,2025-07-22,Prescription renewal,Insurance
+2758,PT2149,DOC012,67,2025-09-24,Injury,Insurance
+2759,PT1349,DOC011,48,2025-03-30,Back pain,Private
+2760,PT2117,DOC012,78,2025-08-09,Fatigue,Private
+2761,PT2242,DOC003,71,2025-04-20,Routine check-up,Private
+2762,PT2246,DOC005,82,2025-08-14,Hypertension follow-up,Private
+2763,PT2229,DOC009,86,2025-09-22,Headache,Private
+2764,PT1265,DOC003,66,2025-07-15,Anxiety,Private
+2765,PT0862,DOC002,83,2025-01-13,Allergy symptoms,Private
+2766,PT0165,DOC009,22,2025-04-12,Fatigue,Private
+2767,PT0621,DOC011,84,2025-04-05,Skin rash,Insurance
+2768,PT0574,DOC004,86,2025-01-07,Abdominal pain,Private
+2769,PT1313,DOC012,15,2025-11-26,Skin rash,Insurance
+2770,PT1622,DOC006,71,2025-06-10,Prescription renewal,Private
+2771,PT1630,DOC005,44,2025-04-04,Injury,Private
+2772,PT1785,DOC008,39,2025-07-10,Anxiety,Insurance
+2773,PT0853,DOC003,70,2025-11-13,Routine check-up,Insurance
+2774,PT2224,DOC006,62,2025-08-12,Routine check-up,Insurance
+2775,PT1715,DOC012,79,2025-09-13,Allergy symptoms,Insurance
+2776,PT0286,DOC006,68,2025-04-04,Abdominal pain,Insurance
+2777,PT0863,DOC007,25,2025-05-18,Allergy symptoms,Private
+2778,PT0125,DOC005,71,2025-03-25,Cough,Insurance
+2779,PT0028,DOC007,72,2025-08-14,Back pain,Insurance
+2780,PT2091,DOC008,77,2025-01-05,Injury,Private
+2781,PT2889,DOC005,3,2025-09-29,Prescription renewal,Insurance
+2782,PT1825,DOC001,70,2025-03-22,Skin rash,Private
+2783,PT2007,DOC008,84,2025-02-19,Vaccination,Private
+2784,PT0850,DOC004,81,2025-02-16,Fever,Private
+2785,PT2992,DOC009,66,2025-01-09,Abdominal pain,Private
+2786,PT1470,DOC012,73,2025-07-31,Cough,Private
+2787,PT0752,DOC001,66,2025-02-07,Back pain,Insurance
+2788,PT1461,DOC003,64,2025-04-05,Routine check-up,Insurance
+2789,PT2729,DOC008,75,2025-09-18,Anxiety,Private
+2790,PT2108,DOC012,1,2025-04-18,Fatigue,Private
+2791,PT0603,DOC002,8,2025-04-23,Fever,Private
+2792,PT1976,DOC010,63,2025-08-15,Stomach issues,Insurance
+2793,PT2670,DOC007,42,2025-10-25,Fatigue,Private
+2794,PT0219,DOC008,88,2025-05-30,Fatigue,Private
+2795,PT2252,DOC005,48,2025-01-15,Abdominal pain,Insurance
+2796,PT2038,DOC006,75,2025-01-23,Abdominal pain,Insurance
+2797,PT0896,DOC002,61,2025-02-24,Anxiety,Insurance
+2798,PT0222,DOC011,42,2025-06-20,Allergy symptoms,Private
+2799,PT1711,DOC005,48,2025-03-26,Skin rash,Insurance
+2800,PT0790,DOC004,61,2025-12-30,Prescription renewal,Insurance
+2801,PT1797,DOC009,16,2025-02-03,Headache,Private
+2802,PT1284,DOC009,28,2025-09-21,Diabetes monitoring,Insurance
+2803,PT2219,DOC004,78,2025-01-07,Abdominal pain,Insurance
+2804,PT2411,DOC012,68,2025-11-20,Cough,Insurance
+2805,PT2609,DOC007,64,2025-02-04,Allergy symptoms,Private
+2806,PT2847,DOC008,14,2025-09-24,Routine check-up,Private
+2807,PT1746,DOC002,31,2025-03-02,Abdominal pain,Private
+2808,PT1786,DOC005,63,2025-11-22,Routine check-up,Insurance
+2809,PT0467,DOC002,86,2025-10-07,Anxiety,Insurance
+2810,PT1468,DOC006,11,2025-06-20,Diabetes monitoring,Private
+2811,PT1537,DOC004,68,2025-09-20,Fatigue,Private
+2812,PT2737,DOC011,76,2025-05-12,Injury,Insurance
+2813,PT1811,DOC001,75,2025-06-24,Allergy symptoms,Private
+2814,PT1659,DOC004,64,2025-10-20,Prescription renewal,Insurance
+2815,PT0739,DOC002,13,2025-07-01,Diabetes monitoring,Private
+2816,PT0042,DOC011,5,2025-12-01,Injury,Insurance
+2817,PT1993,DOC002,13,2025-01-09,Vaccination,Insurance
+2818,PT2648,DOC011,73,2025-04-21,Vaccination,Private
+2819,PT2653,DOC002,79,2025-09-23,Injury,Private
+2820,PT0457,DOC010,7,2025-10-14,Diabetes monitoring,Insurance
+2821,PT1812,DOC004,76,2025-06-16,Allergy symptoms,Insurance
+2822,PT0899,DOC010,58,2025-05-31,Headache,Insurance
+2823,PT0748,DOC008,76,2025-12-13,Allergy symptoms,Insurance
+2824,PT0798,DOC009,89,2025-07-05,Diabetes monitoring,Private
+2825,PT0327,DOC006,1,2025-06-17,Injury,Insurance
+2826,PT1502,DOC003,45,2025-04-30,Allergy symptoms,Private
+2827,PT2027,DOC003,37,2025-06-20,Fever,Private
+2828,PT0180,DOC004,60,2025-07-14,Allergy symptoms,Insurance
+2829,PT1721,DOC003,82,2025-06-18,Headache,Insurance
+2830,PT1992,DOC009,46,2025-06-27,Hypertension follow-up,Private
+2831,PT2665,DOC009,62,2025-07-20,Vaccination,Private
+2832,PT1839,DOC012,7,2025-06-26,Back pain,Private
+2833,PT2441,DOC010,64,2025-07-31,Fever,Private
+2834,PT2630,DOC004,14,2025-12-01,Fatigue,Private
+2835,PT1677,DOC001,18,2025-01-26,Allergy symptoms,Private
+2836,PT0158,DOC005,80,2025-12-19,Injury,Private
+2837,PT2750,DOC012,85,2025-09-02,Allergy symptoms,Private
+2838,PT0799,DOC006,76,2025-09-14,Headache,Private
+2839,PT0674,DOC008,80,2025-12-29,Hypertension follow-up,Insurance
+2840,PT0324,DOC001,16,2025-03-20,Fever,Private
+2841,PT2323,DOC008,26,2025-08-13,Fever,Private
+2842,PT0693,DOC008,59,2025-02-08,Fever,Private
+2843,PT0273,DOC008,69,2025-10-08,Vaccination,Insurance
+2844,PT0311,DOC006,72,2025-03-13,Fever,Private
+2845,PT2732,DOC011,52,2025-01-15,Headache,Insurance
+2846,PT1716,DOC009,59,2025-01-20,Hypertension follow-up,Private
+2847,PT0741,DOC005,14,2025-01-15,Stomach issues,Private
+2848,PT2959,DOC010,18,2025-10-15,Stomach issues,Insurance
+2849,PT0122,DOC010,58,2025-02-04,Stomach issues,Private
+2850,PT0948,DOC001,75,2025-07-30,Back pain,Private
+2851,PT2258,DOC009,16,2025-12-28,Injury,Private
+2852,PT1803,DOC011,1,2025-01-11,Abdominal pain,Private
+2853,PT0911,DOC011,22,2025-09-20,Back pain,Insurance
+2854,PT0977,DOC006,68,2025-10-05,Headache,Insurance
+2855,PT2569,DOC010,6,2025-07-22,Fatigue,Insurance
+2856,PT0146,DOC005,59,2025-02-04,Allergy symptoms,Insurance
+2857,PT0211,DOC011,26,2025-02-04,Vaccination,Insurance
+2858,PT0913,DOC007,7,2025-06-28,Diabetes monitoring,Private
+2859,PT2644,DOC010,28,2025-12-02,Allergy symptoms,Private
+2860,PT0636,DOC003,49,2025-10-14,Allergy symptoms,Insurance
+2861,PT1609,DOC011,13,2025-09-04,Cough,Private
+2862,PT2552,DOC005,21,2025-06-18,Fatigue,Insurance
+2863,PT0027,DOC012,63,2025-08-15,Hypertension follow-up,Private
+2864,PT2963,DOC004,62,2025-05-15,Allergy symptoms,Insurance
+2865,PT0280,DOC007,79,2025-07-29,Diabetes monitoring,Insurance
+2866,PT2958,DOC008,51,2025-07-19,Stomach issues,Insurance
+2867,PT0725,DOC007,17,2025-10-13,Allergy symptoms,Insurance
+2868,PT2053,DOC005,62,2025-06-23,Cough,Private
+2869,PT0774,DOC010,83,2025-08-30,Fatigue,Insurance
+2870,PT1062,DOC005,38,2025-03-10,Anxiety,Insurance
+2871,PT0011,DOC004,88,2025-03-05,Vaccination,Private
+2872,PT1714,DOC009,34,2025-07-28,Headache,Private
+2873,PT2203,DOC010,11,2025-10-09,Diabetes monitoring,Private
+2874,PT1192,DOC002,30,2025-11-11,Stomach issues,Insurance
+2875,PT1107,DOC007,47,2025-07-06,Routine check-up,Insurance
+2876,PT1881,DOC005,36,2025-12-17,Abdominal pain,Private
+2877,PT0429,DOC001,56,2025-01-21,Injury,Private
+2878,PT1516,DOC002,67,2025-05-22,Headache,Private
+2879,PT2542,DOC010,89,2025-04-22,Cough,Private
+2880,PT1362,DOC011,81,2025-06-21,Cough,Insurance
+2881,PT1387,DOC011,26,2025-11-24,Routine check-up,Private
+2882,PT2681,DOC012,69,2025-05-28,Hypertension follow-up,Private
+2883,PT1491,DOC006,47,2025-03-21,Back pain,Private
+2884,PT2421,DOC008,9,2025-11-20,Skin rash,Insurance
+2885,PT1053,DOC002,35,2025-05-18,Prescription renewal,Insurance
+2886,PT1017,DOC007,14,2025-06-19,Injury,Private
+2887,PT1575,DOC007,79,2025-11-16,Routine check-up,Insurance
+2888,PT0753,DOC002,75,2025-01-20,Stomach issues,Insurance
+2889,PT0177,DOC003,86,2025-03-27,Fever,Private
+2890,PT1877,DOC012,27,2025-01-26,Diabetes monitoring,Private
+2891,PT2994,DOC012,28,2025-08-12,Allergy symptoms,Private
+2892,PT1245,DOC008,1,2025-07-19,Routine check-up,Private
+2893,PT0089,DOC005,80,2025-09-16,Back pain,Private
+2894,PT0622,DOC005,52,2025-07-05,Headache,Private
+2895,PT0919,DOC011,16,2025-01-25,Fatigue,Insurance
+2896,PT0937,DOC001,82,2025-04-15,Abdominal pain,Insurance
+2897,PT2845,DOC002,86,2025-05-05,Headache,Private
+2898,PT1105,DOC002,87,2025-12-16,Skin rash,Insurance
+2899,PT2120,DOC003,43,2025-11-26,Back pain,Private
+2900,PT2512,DOC002,49,2025-03-31,Prescription renewal,Insurance
+2901,PT1681,DOC002,32,2025-07-05,Anxiety,Private
+2902,PT2450,DOC004,36,2025-10-07,Cough,Private
+2903,PT1730,DOC002,87,2025-08-04,Skin rash,Private
+2904,PT2137,DOC010,44,2025-04-10,Hypertension follow-up,Private
+2905,PT2822,DOC006,89,2025-01-22,Hypertension follow-up,Insurance
+2906,PT1598,DOC009,53,2025-01-16,Vaccination,Insurance
+2907,PT0951,DOC001,56,2025-01-16,Allergy symptoms,Insurance
+2908,PT1089,DOC011,13,2025-04-04,Cough,Private
+2909,PT1545,DOC009,71,2025-10-08,Skin rash,Insurance
+2910,PT2938,DOC010,52,2025-11-28,Back pain,Private
+2911,PT0206,DOC005,87,2025-11-14,Back pain,Private
+2912,PT1316,DOC012,37,2025-11-20,Stomach issues,Private
+2913,PT0292,DOC010,53,2025-06-12,Routine check-up,Insurance
+2914,PT1184,DOC007,71,2025-08-24,Vaccination,Insurance
+2915,PT1923,DOC011,71,2025-01-17,Abdominal pain,Private
+2916,PT0279,DOC007,63,2025-06-08,Skin rash,Private
+2917,PT1253,DOC005,76,2025-06-18,Vaccination,Insurance
+2918,PT2548,DOC004,70,2025-11-27,Back pain,Private
+2919,PT2728,DOC004,11,2025-08-23,Injury,Insurance
+2920,PT2340,DOC002,37,2025-06-09,Fever,Private
+2921,PT0640,DOC009,68,2025-04-06,Anxiety,Insurance
+2922,PT0434,DOC002,19,2025-09-13,Diabetes monitoring,Insurance
+2923,PT0543,DOC006,79,2025-09-18,Cough,Insurance
+2924,PT1097,DOC009,79,2025-03-26,Abdominal pain,Private
+2925,PT1132,DOC002,29,2025-04-02,Stomach issues,Insurance
+2926,PT2832,DOC011,64,2025-06-25,Back pain,Private
+2927,PT0135,DOC003,16,2025-03-13,Routine check-up,Insurance
+2928,PT2524,DOC011,85,2025-08-01,Injury,Insurance
+2929,PT0655,DOC011,88,2025-05-26,Anxiety,Insurance
+2930,PT1806,DOC004,40,2025-02-03,Allergy symptoms,Private
+2931,PT0881,DOC011,18,2025-03-18,Routine check-up,Private
+2932,PT0008,DOC003,69,2025-06-30,Cough,Insurance
+2933,PT2894,DOC012,43,2025-03-07,Prescription renewal,Insurance
+2934,PT0201,DOC006,78,2025-08-21,Prescription renewal,Private
+2935,PT0696,DOC002,49,2025-06-27,Injury,Insurance
+2936,PT1922,DOC012,78,2025-11-18,Cough,Private
+2937,PT0554,DOC005,27,2025-12-17,Prescription renewal,Private
+2938,PT2409,DOC006,28,2025-01-11,Fever,Insurance
+2939,PT0051,DOC004,64,2025-09-27,Headache,Insurance
+2940,PT1795,DOC007,73,2025-12-04,Vaccination,Private
+2941,PT1214,DOC012,45,2025-07-12,Anxiety,Private
+2942,PT0762,DOC006,90,2025-03-22,Allergy symptoms,Insurance
+2943,PT1951,DOC004,21,2025-04-11,Anxiety,Insurance
+2944,PT2865,DOC008,75,2025-02-15,Fever,Insurance
+2945,PT0267,DOC006,55,2025-04-25,Fever,Insurance
+2946,PT1596,DOC009,67,2025-01-05,Allergy symptoms,Insurance
+2947,PT1904,DOC009,81,2025-07-06,Headache,Insurance
+2948,PT2253,DOC002,83,2025-07-27,Vaccination,Private
+2949,PT2272,DOC003,41,2025-12-11,Stomach issues,Private
+2950,PT2150,DOC002,66,2025-06-06,Diabetes monitoring,Private
+2951,PT1122,DOC012,71,2025-12-02,Injury,Insurance
+2952,PT0648,DOC003,23,2025-07-19,Diabetes monitoring,Private
+2953,PT2012,DOC010,67,2025-04-14,Prescription renewal,Insurance
+2954,PT0568,DOC011,40,2025-01-29,Allergy symptoms,Insurance
+2955,PT2358,DOC008,34,2025-04-24,Skin rash,Insurance
+2956,PT0558,DOC012,8,2025-11-29,Routine check-up,Insurance
+2957,PT1988,DOC009,17,2025-12-19,Diabetes monitoring,Private
+2958,PT0686,DOC011,9,2025-04-13,Cough,Insurance
+2959,PT1032,DOC011,3,2025-06-29,Stomach issues,Private
+2960,PT0237,DOC002,65,2025-05-27,Fever,Insurance
+2961,PT0502,DOC005,12,2025-09-26,Routine check-up,Private
+2962,PT0699,DOC008,81,2025-09-20,Cough,Insurance
+2963,PT1274,DOC006,74,2025-07-16,Headache,Private
+2964,PT1945,DOC001,22,2025-04-07,Headache,Private
+2965,PT2200,DOC003,77,2025-11-04,Cough,Insurance
+2966,PT2386,DOC008,13,2025-03-23,Stomach issues,Private
+2967,PT1669,DOC004,55,2025-03-01,Headache,Insurance
+2968,PT1442,DOC004,38,2025-01-11,Diabetes monitoring,Private
+2969,PT1216,DOC002,39,2025-10-27,Fever,Private
+2970,PT0488,DOC003,79,2025-09-16,Fever,Private
+2971,PT0529,DOC008,9,2025-12-12,Headache,Private
+2972,PT0727,DOC001,16,2025-08-15,Vaccination,Insurance
+2973,PT2483,DOC012,83,2025-10-30,Fatigue,Private
+2974,PT1101,DOC003,10,2025-09-24,Routine check-up,Insurance
+2975,PT1260,DOC006,44,2025-10-19,Anxiety,Insurance
+2976,PT2216,DOC007,82,2025-05-22,Stomach issues,Insurance
+2977,PT0316,DOC006,34,2025-04-12,Prescription renewal,Private
+2978,PT2077,DOC012,68,2025-03-06,Fatigue,Insurance
+2979,PT0845,DOC003,70,2025-12-18,Abdominal pain,Private
+2980,PT2460,DOC008,38,2025-03-08,Allergy symptoms,Private
+2981,PT1511,DOC011,64,2025-09-11,Hypertension follow-up,Private
+2982,PT0115,DOC012,74,2025-06-02,Allergy symptoms,Private
+2983,PT0299,DOC002,37,2025-09-07,Allergy symptoms,Insurance
+2984,PT1330,DOC004,40,2025-01-01,Back pain,Private
+2985,PT2722,DOC008,66,2025-12-03,Back pain,Private
+2986,PT1195,DOC007,35,2025-08-20,Cough,Private
+2987,PT0927,DOC002,52,2025-01-31,Diabetes monitoring,Private
+2988,PT0363,DOC006,67,2025-03-18,Fever,Private
+2989,PT1159,DOC004,14,2025-08-03,Prescription renewal,Private
+2990,PT0924,DOC001,13,2025-06-16,Headache,Insurance
+2991,PT0593,DOC007,70,2025-12-11,Headache,Private
+2992,PT2048,DOC006,19,2025-08-22,Injury,Private
+2993,PT0445,DOC005,77,2025-05-08,Fatigue,Insurance
+2994,PT0697,DOC008,37,2025-02-12,Headache,Insurance
+2995,PT2577,DOC002,8,2025-12-19,Headache,Private
+2996,PT1473,DOC006,73,2025-03-20,Routine check-up,Insurance
+2997,PT2723,DOC012,31,2025-05-23,Fatigue,Private
+2998,PT1217,DOC003,26,2025-02-17,Fatigue,Private
+2999,PT0260,DOC007,89,2025-11-29,Diabetes monitoring,Private
+3000,PT0868,DOC007,88,2025-09-30,Cough,Insurance
