@@ -4,24 +4,26 @@ from app.routes import interactions, ai_routes
 
 app = FastAPI(title="HCP CRM API", version="1.0.0")
 
+# ✅ CORS FIX (IMPORTANT)
+origins = [
+    "http://localhost:3000",
+    "https://crm-hcp-system.netlify.app"
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:3000",
-        "https://crm-hcp-system.netlify.app",
-        "https://crm-hcp-system.vercel.app",
-        "https://*.vercel.app",
-        "https://*.netlify.app",
-    ],
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
+# ✅ ROUTES
 app.include_router(interactions.router, prefix="/api", tags=["interactions"])
 app.include_router(ai_routes.router, prefix="/api", tags=["ai"])
 
 
+# ✅ STARTUP (SAFE VERSION)
 @app.on_event("startup")
 def startup():
     import sqlalchemy as sa
@@ -41,6 +43,7 @@ def startup():
         "ALTER TABLE interactions ADD COLUMN IF NOT EXISTS reminder_sent BOOLEAN DEFAULT FALSE",
         "ALTER TABLE interactions ADD COLUMN IF NOT EXISTS reminder_note TEXT DEFAULT ''",
     ]
+
     try:
         with engine.connect() as conn:
             for sql in new_columns:
@@ -54,11 +57,13 @@ def startup():
         print(f"⚠ Migration skipped: {e}")
 
 
+# ✅ ROOT
 @app.get("/")
 def root():
     return {"message": "HCP CRM API is running", "status": "ok"}
 
 
+# ✅ HEALTH CHECK
 @app.get("/health")
 def health():
     return {"status": "ok"}

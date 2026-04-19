@@ -3,33 +3,29 @@ from sqlalchemy.orm import sessionmaker, declarative_base
 import os
 from dotenv import load_dotenv
 
-# Load .env
 load_dotenv()
 
-# Get Supabase DB URL from .env
 DATABASE_URL = os.getenv("DATABASE_URL")
 
-# Safety check
 if not DATABASE_URL:
-    raise ValueError("DATABASE_URL not found in .env")
+    raise ValueError("DATABASE_URL not set in environment")
 
-# Create engine (important configs for Supabase)
+# Supabase SSL fix
+if "supabase" in DATABASE_URL and "sslmode" not in DATABASE_URL:
+    DATABASE_URL += "?sslmode=require"
+
 engine = create_engine(
     DATABASE_URL,
-    pool_pre_ping=True,   # avoids stale connections
+    pool_pre_ping=True,
     pool_size=5,
-    max_overflow=10
+    max_overflow=10,
+    pool_recycle=300,
+    connect_args={"connect_timeout": 10},
 )
 
-SessionLocal = sessionmaker(
-    autocommit=False,
-    autoflush=False,
-    bind=engine
-)
-
+SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
 
-# Dependency
 def get_db():
     db = SessionLocal()
     try:
