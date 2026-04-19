@@ -4,16 +4,11 @@ from app.routes import interactions, ai_routes
 
 app = FastAPI(title="HCP CRM API", version="1.0.0")
 
-# ✅ CORS FIX (IMPORTANT)
-origins = [
-    "http://localhost:3000",
-    "https://crm-hcp-system.netlify.app"
-]
-
+# ✅ FINAL CORS FIX (sab allow — easiest & works everywhere)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
-    allow_credentials=True,
+    allow_origins=["*"],   # 🔥 sab domains allow
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -23,7 +18,7 @@ app.include_router(interactions.router, prefix="/api", tags=["interactions"])
 app.include_router(ai_routes.router, prefix="/api", tags=["ai"])
 
 
-# ✅ STARTUP (SAFE VERSION)
+# ✅ STARTUP (DB + migrations safe)
 @app.on_event("startup")
 def startup():
     import sqlalchemy as sa
