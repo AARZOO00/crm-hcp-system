@@ -10,17 +10,18 @@ DATABASE_URL = os.getenv("DATABASE_URL")
 if not DATABASE_URL:
     raise ValueError("DATABASE_URL not set in environment")
 
-# Supabase SSL fix
+# ✅ Supabase SSL fix (important)
 if "supabase" in DATABASE_URL and "sslmode" not in DATABASE_URL:
     DATABASE_URL += "?sslmode=require"
 
+# ✅ FIXED ENGINE (Render friendly)
 engine = create_engine(
     DATABASE_URL,
     pool_pre_ping=True,
-    pool_size=5,
-    max_overflow=10,
     pool_recycle=300,
-    connect_args={"connect_timeout": 10},
+    connect_args={
+        "sslmode": "require",   # 🔥 IMPORTANT for Supabase
+    }
 )
 
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
