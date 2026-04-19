@@ -6,8 +6,14 @@ app = FastAPI(title="HCP CRM API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=False,
+    allow_origins=[
+        "http://localhost:3000",
+        "https://crm-hcp-system.netlify.app",
+        "https://crm-hcp-system.vercel.app",
+        "https://*.vercel.app",
+        "https://*.netlify.app",
+    ],
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -21,14 +27,12 @@ def startup():
     import sqlalchemy as sa
     from app.database import engine, Base
 
-    # Create tables
     try:
         Base.metadata.create_all(bind=engine)
-        print("✓ Tables created/verified")
+        print("✓ Tables ready")
     except Exception as e:
         print(f"⚠ create_all skipped: {e}")
 
-    # Add new columns safely (won't fail if already exist)
     new_columns = [
         "ALTER TABLE interactions ADD COLUMN IF NOT EXISTS sentiment_score FLOAT DEFAULT 0.0",
         "ALTER TABLE interactions ADD COLUMN IF NOT EXISTS key_points JSON DEFAULT '[]'::json",
@@ -43,7 +47,7 @@ def startup():
                 try:
                     conn.execute(sa.text(sql))
                 except Exception:
-                    pass  # column already exists
+                    pass
             conn.commit()
         print("✓ Migrations done")
     except Exception as e:
@@ -53,3 +57,8 @@ def startup():
 @app.get("/")
 def root():
     return {"message": "HCP CRM API is running", "status": "ok"}
+
+
+@app.get("/health")
+def health():
+    return {"status": "ok"}
